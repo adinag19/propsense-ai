@@ -3,7 +3,10 @@
 **DataExpert.io AI Engineering Bootcamp — Spring 2026 Capstone**  
 **Author:** Nag Aditya Gade  
 **Frontend (Live):** https://propsense-2ivzh2xe6-adinag19s-projects.vercel.app  
-**Backend API:** https://propsense-ai-x0ni.onrender.com
+**Backend API:** https://propsense-ai-x0ni.onrender.com  
+**GitHub:** https://github.com/adinag19/propsense-ai
+
+> **Note for evaluators:** Backend is on Render free tier — first request after inactivity takes ~30s to wake up. Subsequent requests are fast. To wake it up: open https://propsense-ai-x0ni.onrender.com/health in your browser first.
 
 ---
 
@@ -13,21 +16,17 @@
 
 ### Screenshots
 
-| Landing — Quick Start Presets + AI Advisor | AI Fills Form from Natural Language |
+| Landing — AI Advisor + Quick Start | AI Fills Form Automatically |
 |---|---|
 | ![Landing](docs/screenshots/01_landing.png) | ![AI Fill](docs/screenshots/02_ai_filled.png) |
 
-| Score Result with Area Suggestions | Area Scored — Lifestyle + Transactions |
+| Score Result + Area Suggestions | Area Scored — Full Breakdown |
 |---|---|
-| ![Score](docs/screenshots/03_score_with_suggestions.png) | ![Area Score](docs/screenshots/04_area_score.png) |
+| ![Score](docs/screenshots/03_score_with_suggestions.png) | ![Breakdown](docs/screenshots/05_score_breakdown.png) |
 
-| Score Breakdown — All 5 Dimensions | Lifestyle Fit + Recent 2026 Transactions |
+| Lifestyle Fit (MRT + Schools) + Transactions | Hot Areas Map — Zoomed with Projects |
 |---|---|
-| ![Breakdown](docs/screenshots/05_score_breakdown.png) | ![Lifestyle](docs/screenshots/06_lifestyle_transactions.png) |
-
-| Hot Areas Map — Zoomed to Tampines | Project-level Drill-down (individual condos) |
-|---|---|
-| ![Map Zoomed](docs/screenshots/07_map_zoomed.png) | ![Projects](docs/screenshots/08_map_projects.png) |
+| ![Lifestyle](docs/screenshots/06_lifestyle_transactions.png) | ![Map](docs/screenshots/07_map_zoomed.png) |
 
 ---
 
