@@ -596,7 +596,7 @@ export default function Home() {
         const updates: Partial<typeof prev> = {};
         if (ext.citizenship) updates.citizenship = String(ext.citizenship);
         if (ext.cash) updates.cash = Number(ext.cash);
-        if (ext.cpf_oa) updates.cpf_oa = Number(ext.cpf_oa);
+        if (ext.cpf_oa != null) updates.cpf_oa = Number(ext.cpf_oa);
         if (ext.monthly_income) updates.monthly_income = Number(ext.monthly_income);
         if (ext.age) updates.age = Number(ext.age);
         if (ext.loan_tenure) updates.loan_tenure = Number(ext.loan_tenure);
