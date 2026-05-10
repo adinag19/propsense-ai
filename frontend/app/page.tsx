@@ -544,11 +544,13 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<'score' | 'map'>('score');
   const [parseLoading, setParseLoading] = useState(false);
   const [parsedFields, setParsedFields] = useState<Record<string, unknown> | null>(null);
+  const [activePreset, setActivePreset] = useState<string | null>(null);
 
   const NUM_FIELDS = new Set(['num_existing_properties', 'age', 'loan_tenure', 'holding_years', 'lease_remaining']);
 
   const handlePreset = (key: keyof typeof PRESETS) => {
     setForm(prev => ({ ...prev, ...PRESETS[key].values }));
+    setActivePreset(key);
     setResult(null);
     setSuggestions(null);
     setError('');
@@ -771,11 +773,13 @@ export default function Home() {
                       onClick={() => handlePreset(key)}
                       style={{
                         flex: 1, padding: '8px 4px', borderRadius: 9,
-                        border: '1.5px solid #e2e8f0', background: '#f8fafc',
+                        border: `1.5px solid ${activePreset === key ? '#2563eb' : '#e2e8f0'}`,
+                        background: activePreset === key ? '#eff6ff' : '#f8fafc',
                         cursor: 'pointer', fontFamily: 'inherit', textAlign: 'center',
                         transition: 'border-color 0.15s, background 0.15s',
+                        boxShadow: activePreset === key ? '0 0 0 3px rgba(37,99,235,0.15)' : 'none',
                       }}
-                      onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = '#93c5fd'; (e.currentTarget as HTMLButtonElement).style.background = '#eff6ff'; }}
+                      onMouseEnter={e => { if (activePreset !== key) { (e.currentTarget as HTMLButtonElement).style.borderColor = '#93c5fd'; (e.currentTarget as HTMLButtonElement).style.background = '#eff6ff'; } }}
                       onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = '#e2e8f0'; (e.currentTarget as HTMLButtonElement).style.background = '#f8fafc'; }}
                     >
                       <div style={{ fontSize: 18, marginBottom: 2 }}>{p.icon}</div>

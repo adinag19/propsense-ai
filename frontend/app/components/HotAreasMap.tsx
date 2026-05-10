@@ -278,8 +278,13 @@ export default function HotAreasMap({ autoZoomArea }: { autoZoomArea?: string })
 
       {/* Legend / status */}
       {!selectedArea && (
-        <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 10, fontSize: 12, color: '#6b7280' }}>
-          <span>Click any bubble to see individual projects</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 10, fontSize: 12, color: '#6b7280', flexWrap: 'wrap' }}>
+          <span>Click any bubble to drill into individual projects</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#374151', display: 'inline-block', opacity: 0.4 }} />
+            <span style={{ width: 18, height: 18, borderRadius: '50%', background: '#374151', display: 'inline-block', opacity: 0.8 }} />
+            <span>Bubble size = {mode === 'cagr' ? 'price growth rate' : 'relative price level'}</span>
+          </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
             <div style={{ width: 40, height: 8, borderRadius: 4, background: 'linear-gradient(to right, rgb(220,38,38), rgb(22,163,74))' }} />
             <span>Low → High</span>
