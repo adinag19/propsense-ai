@@ -1,0 +1,230 @@
+chunk_id,source,policy,effective_date,policy_source,chunk_index,total_chunks,text
+policy_absd_000,policy,ABSD,2023-04-27,IRAS / Ministry of Finance,0,4,"# Additional Buyer's Stamp Duty (ABSD)ABSD is a stamp duty payable on top of Buyer's Stamp Duty (BSD) when purchasing residential property in Singapore. It applies to Singapore Citizens buying a second or subsequent property, all Permanent Residents, all Foreigners, and all entities.## Current ABSD Rates (effective 27 April 2023)### Singapore Citizens (SC)
+- 1st residential property: 0%
+- 2nd residential property: 20%
+- 3rd and subsequent residential property: 30%### Singapore Permanent Residents (PR)
+- 1st residential property: 5%
+- 2nd residential property: 30%
+- 3rd and subsequent residential property: 35%### Foreigners (non-SC, non-PR)
+- Any residential property: 60%### Entities (companies, trusts)
+- Any residential property: 65%
+- Housing developers: 35% (remittable on application subject to conditions)## Key Rules"
+policy_absd_001,policy,ABSD,2023-04-27,IRAS / Ministry of Finance,1,4,"companies, trusts)
+- Any residential property: 65%
+- Housing developers: 35% (remittable on application subject to conditions)## Key Rules### ABSD is Not Loan-Financeable
+ABSD must be paid in full within 14 days of the date of the Option to Purchase (OTP) or Sale and Purchase Agreement (S&P). It cannot be paid from a bank loan. It must come from cash or CPF Ordinary Account funds.### Counting Properties
+The number of residential properties owned is counted at the time of purchase, including properties held jointly. Partial interests count as ownership.### Joint Purchases (Mixed Citizenship)
+For joint purchases between a SC and a foreigner, the higher ABSD rate (foreigner rate) applies to the entire purchase price.
+For joint purchases between a SC and a PR, the PR rate applies.### Married Couples — SC Couples Buying First Home Together
+A SC married to a SC buying their first residential property together: 0% ABSD, provided neither has previously owned residential property.
+A SC married to a PR buying their first home: PR rate (5%) applies on the entire transaction."
+policy_absd_002,policy,ABSD,2023-04-27,IRAS / Ministry of Finance,2,4,"SD, provided neither has previously owned residential property.
+A SC married to a PR buying their first home: PR rate (5%) applies on the entire transaction.### Remission for SC Married Couples Decoupling
+A SC couple may apply for ABSD remission when selling one existing property and buying a replacement property, if both own only one property and the first property is sold within 6 months of purchasing the replacement.## ABSD and HDB Flats
+HDB flats are residential properties for ABSD counting purposes.
+A SC who owns one HDB flat buying a private condo pays 20% ABSD (2nd property rate).
+A PR who owns one HDB flat buying any property pays 30% ABSD (2nd property rate).## ABSD Payment Mechanics
+- Due: within 14 days of OTP exercise or S&P signing (whichever is earlier)
+- Payable to: IRAS
+- Payment methods: cash or CPF OA (CPF portion subject to CPF withdrawal limits)
+- Late payment: 6% penalty per annum on unpaid ABSD"
+policy_absd_003,policy,ABSD,2023-04-27,IRAS / Ministry of Finance,3,4,"
+- Payment methods: cash or CPF OA (CPF portion subject to CPF withdrawal limits)
+- Late payment: 6% penalty per annum on unpaid ABSD## Historical Context
+ABSD was first introduced in December 2011. Rates have been revised multiple times:
+- Dec 2011: first introduction
+- Jan 2013: rates increased
+- Jul 2018: significant increase (foreigners moved from 15% to 20%)
+- Dec 2021: further increases
+- Apr 2023: current rates (foreigners: 60%, entities: 65%)Always verify effective_date before transacting. Policy rates are subject to government review."
+policy_bsd_000,policy,BSD,2023-02-15,IRAS,0,5,"# Buyer's Stamp Duty (BSD)BSD is a stamp duty payable by the buyer on all property purchases in Singapore. It applies to all buyers regardless of citizenship, residency, or number of properties owned. BSD is paid before ABSD is computed, but both are due at the same time.## Current BSD Rates for Residential Properties (effective 15 February 2023)BSD is computed on the purchase price or market value of the property, whichever is higher.| Purchase Price Band | BSD Rate |
+|---|---|
+| First SGD 180,000 | 1% |
+| Next SGD 180,000 | 2% |
+| Next SGD 640,000 | 3% |
+| Next SGD 500,000 | 4% |
+| Next SGD 1,500,000 | 5% |
+| Amount exceeding SGD 3,000,000 | 6% |## BSD Calculation Examples"
+policy_bsd_001,policy,BSD,2023-02-15,IRAS,1,5," Next SGD 1,500,000 | 5% |
+| Amount exceeding SGD 3,000,000 | 6% |## BSD Calculation Examples### Example 1: HDB resale flat at SGD 550,000
+- First SGD 180,000 @ 1%: SGD 1,800
+- Next SGD 180,000 @ 2%: SGD 3,600
+- Remaining SGD 190,000 @ 3%: SGD 5,700
+- Total BSD: SGD 11,100 (effective rate: 2.02%)### Example 2: Private condo at SGD 1,500,000
+- First SGD 180,000 @ 1%: SGD 1,800
+- Next SGD 180,000 @ 2%: SGD 3,600
+- Next SGD 640,000 @ 3%: SGD 19,200
+- Remaining SGD 500,000 @ 4%: SGD 20,000
+- Total BSD: SGD 44,600 (effective rate: 2.97%)"
+policy_bsd_002,policy,BSD,2023-02-15,IRAS,2,5,"500,000 @ 4%: SGD 20,000
+- Total BSD: SGD 44,600 (effective rate: 2.97%)### Example 3: Luxury condo at SGD 5,000,000
+- First SGD 180,000 @ 1%: SGD 1,800
+- Next SGD 180,000 @ 2%: SGD 3,600
+- Next SGD 640,000 @ 3%: SGD 19,200
+- Next SGD 500,000 @ 4%: SGD 20,000
+- Next SGD 1,500,000 @ 5%: SGD 75,000
+- Remaining SGD 2,000,000 @ 6%: SGD 120,000
+- Total BSD: SGD 239,600 (effective rate: 4.79%)## BSD for Non-Residential PropertiesDifferent rates apply to commercial, industrial, and other non-residential properties:
+- First SGD 180,000: 1%
+- Next SGD 180,000: 2%
+- Remaining amount: 3%
+(No additional higher bands for non-residential)## BSD Payment"
+policy_bsd_003,policy,BSD,2023-02-15,IRAS,3,5,"%
+- Next SGD 180,000: 2%
+- Remaining amount: 3%
+(No additional higher bands for non-residential)## BSD Payment- BSD is due within 14 days of signing the OTP or S&P agreement
+- Payable to IRAS
+- Can be paid from CPF OA (subject to CPF withdrawal limits) or cash
+- BSD is payable even if the deal subsequently falls through (partial refund may apply)## BSD and ABSD Combined ExampleSC buying a SGD 1,500,000 private condo as their 2nd property:
+- BSD: SGD 44,600
+- ABSD (20% of SGD 1,500,000): SGD 300,000
+- Total stamp duty: SGD 344,600 (paid in cash/CPF, not from loan)## Historical ChangesBefore 15 February 2023, the top BSD rate was 4% (for amounts above SGD 1,000,000). The February 2023 revision added the 5% and 6% bands, significantly increasing BSD for high-value properties."
+policy_bsd_004,policy,BSD,2023-02-15,IRAS,4,5," 1,000,000). The February 2023 revision added the 5% and 6% bands, significantly increasing BSD for high-value properties.Prior rates (before Feb 2023):
+- First SGD 180,000: 1%
+- Next SGD 180,000: 2%
+- Next SGD 640,000: 3%
+- Remaining amount: 4%Always verify rates against IRAS website before transacting."
+policy_cpf_000,policy,CPF,2021-10-01,CPF Board,0,6,"# CPF Usage Rules for Property PurchaseCPF Ordinary Account (OA) funds can be used to purchase residential property in Singapore. Usage is subject to several limits and eligibility conditions.## CPF Accounts Overview- **Ordinary Account (OA)**: 2.5% per annum interest. Usable for property, investment, education.
+- **Special Account (SA)**: 4.0% per annum interest. Locked for retirement — cannot be used for property.
+- **MediSave**: Locked for healthcare — cannot be used for property.All property-related CPF usage comes from the OA only.## Properties Where CPF OA Can Be Used### HDB Flats
+- Fully eligible for HDB concessionary loan repayments
+- Eligible for bank loan down payment and monthly instalments
+- Subject to Valuation Limit (VL) and remaining lease conditions### Private Residential Properties (Condos, Landed)
+- Eligible for down payment and monthly mortgage instalments
+- Subject to Valuation Limit and Withdrawal Limit
+- Subject to remaining lease conditions### Properties NOT Eligible for CPF Usage
+- Commercial properties
+- Industrial properties
+- Properties with remaining lease below 20 years## Key CPF Usage Limits"
+policy_cpf_001,policy,CPF,2021-10-01,CPF Board,1,6," conditions### Properties NOT Eligible for CPF Usage
+- Commercial properties
+- Industrial properties
+- Properties with remaining lease below 20 years## Key CPF Usage Limits### Valuation Limit (VL)
+Total CPF withdrawn for a property (by all owners) cannot exceed the lower of:
+- Purchase price of the property
+- Valuation at time of purchaseOnce VL is reached, no more CPF OA can be withdrawn for that property.### Withdrawal Limit (WL)
+Total CPF withdrawn can exceed VL up to 120% of VL, but only if:
+- The property's remaining lease covers the youngest owner to at least age 95If remaining lease does NOT cover youngest owner to age 95:
+- CPF usage is capped at the VL (no excess above VL)
+- Further, if remaining lease is less than 30 years, CPF usage is prorated based on the ratio of (remaining lease / (95 - youngest owner's age))## Remaining Lease and CPF — Detailed Rules### Remaining Lease >= 30 Years AND Covers Youngest Owner to Age 95
+- Full CPF usage up to Valuation Limit
+- Withdrawal Limit (120% of VL) also available"
+policy_cpf_002,policy,CPF,2021-10-01,CPF Board,2,6," AND Covers Youngest Owner to Age 95
+- Full CPF usage up to Valuation Limit
+- Withdrawal Limit (120% of VL) also available### Remaining Lease >= 20 Years but Does NOT Cover Youngest Owner to Age 95
+- CPF usage capped at prorated VL
+- Prorated VL = VL × (remaining lease) / (95 - youngest owner's age)
+- No access to Withdrawal Limit### Remaining Lease < 20 Years
+- CPF CANNOT be used at all for this property## CPF Usage and Buyer Age — ExampleScenario: SC buyer, age 45, buying HDB flat with 55 years remaining lease
+- Coverage check: 55 years remaining → buyer would be 45 + 55 = 100 at end of lease → covers to age 95 ✓
+- Full CPF usage up to VL and WL"
+policy_cpf_003,policy,CPF,2021-10-01,CPF Board,3,6," buyer would be 45 + 55 = 100 at end of lease → covers to age 95 ✓
+- Full CPF usage up to VL and WLScenario: SC buyer, age 50, buying HDB flat with 40 years remaining lease
+- Coverage check: 40 years → buyer would be 50 + 40 = 90 at end of lease → does NOT cover to age 95
+- CPF usage prorated: VL × 40 / (95 - 50) = VL × 40/45 = 88.9% of VLScenario: SC buyer, age 55, buying HDB flat with 15 years remaining lease
+- Remaining lease < 20 years → NO CPF usage at all## CPF OA as Opportunity CostMoney in CPF OA earns a guaranteed 2.5% per annum (first SGD 20,000 earns 3.5% — Medisave top-up floor). Using CPF OA for property means:
+- Forgoing the 2.5% guaranteed return
+- Property must appreciate or yield rentally above 2.5% to justify CPF usage"
+policy_cpf_004,policy,CPF,2021-10-01,CPF Board,4,6," means:
+- Forgoing the 2.5% guaranteed return
+- Property must appreciate or yield rentally above 2.5% to justify CPF usageCPF also accrues notional interest when withdrawn for property: when the property is sold, the CPF used plus accrued interest must be refunded to CPF OA before any cash profit is realised.## CPF OA Accrued Interest on SaleWhen property is sold:
+- All CPF principal withdrawn must be refunded to OA
+- Accrued interest at 2.5% per annum on the withdrawn amount must also be refunded
+- Only the proceeds above (principal + accrued interest) represent cash profit
+- This can significantly reduce apparent cash profit on sale## CPF for ABSD and BSDCPF OA can also be used to pay:
+- Buyer's Stamp Duty (BSD)
+- Additional Buyer's Stamp Duty (ABSD)
+Subject to CPF withdrawal limits for the property.## Foreign Buyers and CPFOnly Singapore Citizens and Permanent Residents have CPF accounts. Foreigners cannot use CPF for property purchases — all payments must be in cash.## CPF and HDB Loans"
+policy_cpf_005,policy,CPF,2021-10-01,CPF Board,5,6,"Only Singapore Citizens and Permanent Residents have CPF accounts. Foreigners cannot use CPF for property purchases — all payments must be in cash.## CPF and HDB LoansFor HDB concessionary loans:
+- No minimum cash down payment required (entire 20% down payment can be from CPF OA)
+- Monthly instalments can be fully serviced from CPF OA
+- CPF balance in OA must be sufficient; otherwise cash top-up is required"
+policy_ltv_000,policy,LTV,2022-09-30,Monetary Authority of Singapore (MAS),0,5,"# Loan-to-Value (LTV) LimitThe LTV limit caps the maximum loan a financial institution may grant relative to the property's value (or purchase price, whichever is lower). It determines the minimum down payment required.## Current LTV Limits for Bank Loans (Private Property and HDB)### First Housing Loan
+- LTV limit: 75%
+- Minimum down payment: 25%
+  - At least 5% must be paid in cash
+  - The remaining 20% may be from CPF OA or cash### Second Housing Loan (Outstanding Loan Exists)
+- LTV limit: 45%
+- Minimum down payment: 55%
+  - At least 25% must be paid in cash
+  - Remaining 30% may be from CPF OA or cash### Third and Subsequent Housing Loans
+- LTV limit: 35%
+- Minimum down payment: 65%
+  - At least 25% must be paid in cash## Age and Tenure Conditions"
+policy_ltv_001,policy,LTV,2022-09-30,Monetary Authority of Singapore (MAS),1,5,"TV limit: 35%
+- Minimum down payment: 65%
+  - At least 25% must be paid in cash## Age and Tenure ConditionsIf the loan tenure extends beyond the borrower's age of 65, or if the tenure exceeds 30 years, the LTV is reduced:
+- First loan: reduced from 75% to 55% (minimum cash down payment: 10%)
+- Second loan: reduced from 45% to 25%Loan tenure is capped at 30 years for HDB loans (25 years for HDB concessionary loans) and 35 years for bank loans on private property.## HDB Concessionary Loan LTVHDB's own concessionary loan (2.6% interest) offers:
+- LTV: up to 80% of purchase price or value, whichever is lower
+- Minimum down payment: 20% (can be entirely from CPF OA — no mandatory cash component)
+- Eligibility: Singapore Citizens only, income ceiling applies, no outstanding private property## Counting Loans"
+policy_ltv_002,policy,LTV,2022-09-30,Monetary Authority of Singapore (MAS),2,5,"can be entirely from CPF OA — no mandatory cash component)
+- Eligibility: Singapore Citizens only, income ceiling applies, no outstanding private property## Counting LoansA loan is ""outstanding"" if any borrower or co-borrower on the new application has an existing property loan, regardless of whether the property is in Singapore or overseas. The outstanding loan count includes:
+- HDB flat loans
+- Private property bank loans
+- Mortgages on overseas properties## Cash vs CPF for Down Payment### First Property (LTV 75%)
+- Mandatory cash: 5% of purchase price
+- Optional CPF: up to 20% of purchase price
+- Example (SGD 1,000,000 property): SGD 50,000 cash + SGD 200,000 CPF + SGD 750,000 loan"
+policy_ltv_003,policy,LTV,2022-09-30,Monetary Authority of Singapore (MAS),3,5," Example (SGD 1,000,000 property): SGD 50,000 cash + SGD 200,000 CPF + SGD 750,000 loan### Second Property (LTV 45%)
+- Mandatory cash: 25% of purchase price
+- Optional CPF: up to 30% of purchase price
+- ABSD (SC 2nd property: 20%) must also be paid in cash/CPF, not from loan
+- Example (SGD 1,500,000 condo): SGD 375,000 cash + SGD 450,000 CPF + SGD 675,000 loan + SGD 300,000 ABSD## Valuation and LTVLTV is applied on the lower of:
+- Purchase price agreed in OTP/S&P
+- Bank's independent valuation of the propertyIf valuation is below purchase price (known as ""cash over valuation"" or COV):
+- The difference must be paid fully in cash
+- LTV loan is computed on the lower valuation, not the purchase price## LTV for ForeignersLTV limits apply equally to foreigners, PRs, and citizens. The same first/second/third loan tiers apply. However, foreigners face 60% ABSD on top of the down payment requirement."
+policy_ltv_004,policy,LTV,2022-09-30,Monetary Authority of Singapore (MAS),4,5,", and citizens. The same first/second/third loan tiers apply. However, foreigners face 60% ABSD on top of the down payment requirement.## Historical Changes
+- Sep 2022: second loan LTV tightened from 45% to 45% (no change to LTV, but ABSD raised)
+- Dec 2021: LTV remained at current levels; ABSD rates increased
+- Jul 2018: no change to LTV frameworkAlways verify current LTV rules with MAS or your bank before transacting."
+policy_msr_000,policy,MSR,2013-08-27,Monetary Authority of Singapore (MAS) / HDB,0,4,"# Mortgage Servicing Ratio (MSR)MSR limits the portion of a borrower's gross monthly income that can be used for mortgage repayments on HDB flats and Executive Condominiums (ECs). It applies on top of TDSR.## Current MSR Threshold: 30%Monthly mortgage repayments for the HDB flat or EC being purchased must not exceed 30% of the borrower's gross monthly income.## Properties MSR Applies ToMSR applies when buying:
+1. HDB flats (new BTO, resale, DBSS) — financed by HDB loan or bank loan
+2. Executive Condominiums (ECs) — only for bank loans (not HDB loans, since ECs are private)MSR does NOT apply to private condominiums or landed properties.## MSR vs TDSRFor HDB and EC purchases, BOTH MSR and TDSR must be satisfied:
+- MSR: monthly HDB/EC mortgage repayment ≤ 30% of gross monthly income
+- TDSR: total monthly debt repayments ≤ 55% of gross monthly incomeMSR is typically the binding constraint because 30% < 55%.## MSR Calculation Example"
+policy_msr_001,policy,MSR,2013-08-27,Monetary Authority of Singapore (MAS) / HDB,1,4," total monthly debt repayments ≤ 55% of gross monthly incomeMSR is typically the binding constraint because 30% < 55%.## MSR Calculation ExampleGross monthly income: SGD 8,000
+MSR limit: 30% × 8,000 = SGD 2,400/month maximum mortgage repaymentAt a 3.5% interest rate over 25 years:
+Maximum loan ≈ SGD 2,400 × 151 (annuity factor) ≈ SGD 430,000## Income Definition for MSRSame rules as TDSR:
+- Fixed salary: 100% of gross monthly salary
+- Variable/commission income: 70% of 12-month average
+- Rental income: 70% of gross rental
+- Self-employment: 70% of 2-year average NOA## MSR and Joint BorrowersFor joint applications, the combined gross monthly income of all borrowers is used, subject to lender assessment.## HDB Loan vs Bank Loan — MSR Interaction"
+policy_msr_002,policy,MSR,2013-08-27,Monetary Authority of Singapore (MAS) / HDB,2,4," BorrowersFor joint applications, the combined gross monthly income of all borrowers is used, subject to lender assessment.## HDB Loan vs Bank Loan — MSR Interaction### HDB Concessionary Loan
+- Interest rate: 0.1% above CPF OA rate (currently ~2.6%)
+- MSR applies: monthly repayment must not exceed 30% of gross monthly income
+- HDB uses the actual loan interest rate for MSR assessment (no stress-test rate)### Bank Loan for HDB Flat
+- MSR applies at 30%
+- Bank uses stress-test rate of 4.0% for MSR/TDSR assessment
+- LTV limit is 75% (lower than HDB loan's 80%)## Practical Impact of MSRMSR significantly constrains the loan quantum for HDB flat buyers, particularly in high-price towns like Bishan, Queenstown, or Toa Payoh."
+policy_msr_003,policy,MSR,2013-08-27,Monetary Authority of Singapore (MAS) / HDB,3,4,"R significantly constrains the loan quantum for HDB flat buyers, particularly in high-price towns like Bishan, Queenstown, or Toa Payoh.Example: 5-room resale flat in Queenstown priced at SGD 1,100,000
+- 25% down payment: SGD 275,000
+- Loan required: SGD 825,000
+- Monthly repayment at 3.5% over 25 years: ~SGD 4,100
+- Income needed to satisfy 30% MSR: SGD 4,100 / 0.30 = SGD 13,700/month minimum## Historical Context
+MSR was introduced in August 2013 at 30% for HDB flat purchases, extended to ECs in December 2013. The 30% threshold has remained unchanged since introduction."
+policy_tdsr_000,policy,TDSR,2023-07-01,Monetary Authority of Singapore (MAS),0,3,"# Total Debt Servicing Ratio (TDSR)TDSR limits the proportion of a borrower's gross monthly income that can go towards servicing all debt obligations. It applies to all property loans granted by financial institutions in Singapore.## Current TDSR Threshold: 55%A borrower's total monthly debt repayments — including the new property loan being applied for — must not exceed 55% of their gross monthly income.## What Counts as DebtAll outstanding loan obligations are included in the TDSR calculation:
+- Property loans (existing and the new loan being applied for)
+- Car loans
+- Personal loans and credit lines
+- Student loans
+- Credit card outstanding balances (counted at 5% of the outstanding balance as a monthly obligation)
+- Any other credit facilities## Income Definition for TDSR### Employment Income
+- Fixed salary: 100% of gross monthly salary
+- Variable income (bonuses, commission): 70% of the average over 12 months### Rental Income
+- 70% of gross rental income (after deducting property tax and maintenance)### Self-Employment / Business Income
+- 70% of average monthly income (assessed over 2 years of NOA)"
+policy_tdsr_001,policy,TDSR,2023-07-01,Monetary Authority of Singapore (MAS),1,3," tax and maintenance)### Self-Employment / Business Income
+- 70% of average monthly income (assessed over 2 years of NOA)### Investment Income
+- Dividends, interest: assessed case by case by lender## TDSR Calculation ExampleGross monthly salary: SGD 10,000
+Existing car loan repayment: SGD 1,000/month
+Proposed property loan repayment: SGD 3,500/month
+Total debt: SGD 4,500/month
+TDSR: 4,500 / 10,000 = 45% → passes TDSR (below 55%)If property loan were SGD 5,000/month:
+TDSR: 6,000 / 10,000 = 60% → fails TDSR (above 55%)## Stress-Test Rate for TDSRFinancial institutions must apply a minimum stress-test interest rate of 4.0% per annum when computing the monthly repayment for TDSR assessment, even if the actual loan rate is lower. This ensures borrowers can withstand rate increases.## TDSR and Investment PropertiesFor investment properties (properties not for owner-occupation), lenders may apply stricter income haircuts at their discretion."
+policy_tdsr_002,policy,TDSR,2023-07-01,Monetary Authority of Singapore (MAS),2,3," rate increases.## TDSR and Investment PropertiesFor investment properties (properties not for owner-occupation), lenders may apply stricter income haircuts at their discretion.## TDSR ExemptionsOwner-occupiers refinancing existing property loans with no cash-out are exempt from TDSR assessment under certain conditions (MAS Notice 645/1121).## Relationship with MSRFor HDB flats, the Mortgage Servicing Ratio (MSR) of 30% applies in addition to TDSR. MSR is the binding constraint for HDB purchases since 30% < 55%.## Historical Context
+- Jun 2013: TDSR first introduced at 60%
+- Sep 2022: reduced to 55% (tightened to cool the market)
+- Jul 2023: current framework confirmedAlways verify effective_date. MAS reviews TDSR periodically."

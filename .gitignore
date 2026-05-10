@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data — raw CSVs are large, don't commit
+data/raw/
+data/processed/hdb_clean.csv
+data/processed/ura_clean.csv
+data/processed/ura_rental_clean.csv
+
+# Keep processed chunks (small, needed for Pinecone re-ingestion reference)
+# data/processed/*.csv  <-- intentionally NOT ignored
+
+# Logs
+logs/
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+
+# Tests results (generated)
+tests/integration/results/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; max-width: 900px; margin: 40px auto; color: #1e293b; line-height: 1.6; padding: 0 20px; }
+  h1 { color: #0f172a; border-bottom: 3px solid #2563eb; padding-bottom: 12px; }
+  h2 { color: #1e40af; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-top: 36px; }
+  h3 { color: #334155; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 13px; }
+  th { background: #f8fafc; border: 1px solid #e2e8f0; padding: 8px 12px; text-align: left; font-weight: 700; }
+  td { border: 1px solid #e2e8f0; padding: 8px 12px; vertical-align: top; }
+  img { max-width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; margin: 4px 0; }
+  code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+  pre { background: #0f172a; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 12px; }
+  pre code { background: none; color: inherit; padding: 0; }
+  blockquote { border-left: 4px solid #2563eb; margin: 0; padding: 8px 16px; color: #475569; background: #f8fafc; }
+  hr { border: none; border-top: 1px solid #e2e8f0; margin: 32px 0; }
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body><h1>PropSense.AI — Singapore Property Buy Readiness Advisor</h1>
+<p><strong>DataExpert.io AI Engineering Bootcamp — Spring 2026 Capstone</strong><br />
+<strong>Author:</strong> Nag Aditya Gade<br />
+<strong>Live Demo:</strong> <em>(see deployment section)</em></p>
+<hr />
+<h2>Demo</h2>
+<p><img alt="PropSense.AI Demo" src="docs/demo.gif" /></p>
+<h3>Screenshots</h3>
+<table>
+<thead>
+<tr>
+<th>Landing — Quick Start Presets + AI Advisor</th>
+<th>AI Fills Form from Natural Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Landing" src="docs/screenshots/01_landing.png" /></td>
+<td><img alt="AI Fill" src="docs/screenshots/02_ai_filled.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Score Result with Area Suggestions</th>
+<th>Area Scored — Lifestyle + Transactions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Score" src="docs/screenshots/03_score_with_suggestions.png" /></td>
+<td><img alt="Area Score" src="docs/screenshots/04_area_score.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Score Breakdown — All 5 Dimensions</th>
+<th>Lifestyle Fit + Recent 2026 Transactions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Breakdown" src="docs/screenshots/05_score_breakdown.png" /></td>
+<td><img alt="Lifestyle" src="docs/screenshots/06_lifestyle_transactions.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Hot Areas Map — Zoomed to Tampines</th>
+<th>Project-level Drill-down (individual condos)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Map Zoomed" src="docs/screenshots/07_map_zoomed.png" /></td>
+<td><img alt="Projects" src="docs/screenshots/08_map_projects.png" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>What Business Problem Does This Solve?</h2>
+<p>Singapore's property market is one of the most regulated and expensive in the world. A first-time buyer faces:
+- <strong>ABSD</strong> (Additional Buyer's Stamp Duty) — up to 60% for foreigners, 20% for SC upgraders
+- <strong>TDSR/MSR limits</strong> — 55% and 30% income caps enforced by MAS and HDB
+- <strong>CPF proration rules</strong> — lease decay penalises buyers if lease &lt; 95 − age
+- <strong>PSF market data</strong> — no single source compares what you're paying vs what the market pays</p>
+<p>Today, buyers rely on property agents who have a direct conflict of interest. PropSense provides a <strong>neutral, data-grounded Buy Readiness Score</strong> (0–100) with cited sources, real 2026 transaction data, and honest financial risk flags — no commission, no bias.</p>
+<hr />
+<h2>System Architecture</h2>
+<pre><code>User Input (natural language + form)
+           │
+           ▼
+  ┌─────────────────────────────────────────────────────────┐
+  │              PropSense.AI Backend (FastAPI)              │
+  │                                                          │
+  │  ① AI Advisor ──► GPT-4o-mini ──► extract profile       │
+  │  ② Query sanitisation + injection detection              │
+  │  ③ RAG Retrieval                                        │
+  │     Query ──► OpenAI embed ──► Pinecone cosine top-20   │
+  │                            ──► Cohere rerank ──► top-5  │
+  │  ④ Deterministic Scoring Engine                         │
+  │     5 dimensions × weighted math (no LLM in score path) │
+  │     HDB/URA CSV lookups for benchmarks (2024–2026 data) │
+  │  ⑤ LLM Narrator (GPT-4o-mini)                          │
+  │     Score dict + policy chunks ──► cited narrative       │
+  │  ⑥ LLM-as-Judge (high-risk outputs only)               │
+  │  ⑦ PII filter + rate limit + token burn protection      │
+  └─────────────────────────────────────────────────────────┘
+           │
+           ▼
+  ┌─────────────────────┐
+  │  Next.js Frontend   │
+  │  - Score card       │
+  │  - Area suggestions │
+  │  - Leaflet map      │
+  │  - Transaction data │
+  └─────────────────────┘
+
+Data Sources (Pinecone Vector DB):
+  ┌──────────────────┬───────────────┬─────────────────┐
+  │ URA Transactions │  HDB Resale   │   Policy KB     │
+  │ D1–D28, 2021–26 │ 2017–2026     │ ABSD/BSD/TDSR   │
+  │ 118k records     │ 268k records  │ MSR/LTV/CPF     │
+  └──────────────────┴───────────────┴─────────────────┘
+  + MRT station locations (LTA) + Primary school locations (MOE)
+  + URA Rental data (quarterly, all districts)
+</code></pre>
+<hr />
+<h2>Tech Stack &amp; Justifications</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Choice</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Backend</strong></td>
+<td>FastAPI + Python</td>
+<td>Async, fast, Pydantic validation; Python has best ML/data ecosystem</td>
+</tr>
+<tr>
+<td><strong>Frontend</strong></td>
+<td>Next.js (TypeScript)</td>
+<td>SSR support, React ecosystem, Vercel-native</td>
+</tr>
+<tr>
+<td><strong>Vector DB</strong></td>
+<td>Pinecone</td>
+<td>Managed, serverless, metadata filtering for source-scoped retrieval</td>
+</tr>
+<tr>
+<td><strong>Embeddings</strong></td>
+<td>OpenAI text-embedding-3-small</td>
+<td>Best cost/quality ratio; 1536-dim reduced to 1024</td>
+</tr>
+<tr>
+<td><strong>Reranking</strong></td>
+<td>Cohere rerank-english-v3.0</td>
+<td>Cross-encoder ranking outperforms cosine similarity on structured text</td>
+</tr>
+<tr>
+<td><strong>LLM (narrative)</strong></td>
+<td>GPT-4o-mini</td>
+<td>Fast, cheap, follows structured JSON output reliably</td>
+</tr>
+<tr>
+<td><strong>LLM (AI Advisor)</strong></td>
+<td>GPT-4o-mini</td>
+<td>Field extraction from natural language; temperature=0 for determinism</td>
+</tr>
+<tr>
+<td><strong>Mapping</strong></td>
+<td>Leaflet + react-leaflet</td>
+<td>Open source, lightweight, supports custom bubble + project-level markers</td>
+</tr>
+<tr>
+<td><strong>Charts</strong></td>
+<td>Recharts</td>
+<td>React-native, composable, no external deps</td>
+</tr>
+<tr>
+<td><strong>Data Processing</strong></td>
+<td>pandas</td>
+<td>Standard for Singapore gov CSV datasets</td>
+</tr>
+<tr>
+<td><strong>Rate Limiting</strong></td>
+<td>slowapi</td>
+<td>FastAPI-compatible, per-IP and per-day limits</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why NOT Cohere for embeddings?</strong> OpenAI text-embedding-3-small is cheaper and the Pinecone integration is more mature. Cohere is used for reranking where it adds real value (cross-encoder vs bi-encoder).</p>
+<p><strong>Why deterministic scoring?</strong> LLMs hallucinate numbers. ABSD rates, TDSR ratios, and BSD calculations are legal facts — they must be computed deterministically. The LLM only <em>explains</em> the deterministic output.</p>
+<hr />
+<h2>Datasets</h2>
+<h3>1. URA Private Residential Transactions</h3>
+<ul>
+<li><strong>Source:</strong> data.gov.sg API → <code>d_7c69c943d5f0d89d6a9a773d2b51f337</code></li>
+<li><strong>Format:</strong> CSV (downloaded via S3 pre-signed URL)</li>
+<li><strong>Coverage:</strong> Districts 1–28, property types: Condominium, Apartment, EC, Terrace, Semi-D, Detached</li>
+<li><strong>Records:</strong> 131,329 (2021–2026, including landed)</li>
+<li><strong>Key fields:</strong> district, propertyType, contractDate (mmYY format), price, area, price_psf, x/y coordinates (SVY21)</li>
+</ul>
+<h3>2. HDB Resale Flat Prices</h3>
+<ul>
+<li><strong>Source:</strong> data.gov.sg API → <code>d_8b84c4ee58e3cfc0ece0d773c8ca6abc</code></li>
+<li><strong>Format:</strong> CSV</li>
+<li><strong>Coverage:</strong> All HDB towns, flat types (3-room to Executive), 2017–2026</li>
+<li><strong>Records:</strong> 268,000+</li>
+<li><strong>Key fields:</strong> town, flat_type, resale_price, price_per_sqft, remaining_lease, year</li>
+</ul>
+<h3>3. URA Rental Median Data</h3>
+<ul>
+<li><strong>Source:</strong> URA Access API (quarterly district-level medians)</li>
+<li><strong>Records:</strong> ~5,000 district × quarter × property type combinations</li>
+<li><strong>Key fields:</strong> district, rental_psf_month, year, quarter</li>
+</ul>
+<h3>4. Singapore Policy Knowledge Base</h3>
+<ul>
+<li><strong>Source:</strong> Hand-authored Markdown from official MAS/IRAS/HDB sources (verified May 2026)</li>
+<li><strong>Policies:</strong> ABSD, BSD, TDSR, MSR, LTV, CPF Withdrawal Limits</li>
+<li><strong>Effective dates:</strong> All current as of 2023-04-27 (ABSD), 2023-02-15 (BSD), 2022-09-30 (LTV)</li>
+</ul>
+<h3>5. MRT Station Locations</h3>
+<ul>
+<li><strong>Source:</strong> data.gov.sg LTA dataset → <code>d_b39d3a0871985372d7e1637193335da5</code> (GeoJSON)</li>
+<li><strong>Records:</strong> 186 stations (exits aggregated to station centroids, Dec 2025)</li>
+</ul>
+<h3>6. Primary School Directory</h3>
+<ul>
+<li><strong>Source:</strong> data.gov.sg MOE dataset → <code>d_688b934f82c1059ed0a6993d2a829089</code></li>
+<li><strong>Records:</strong> 179 primary schools, geocoded via OneMap API</li>
+<li><strong>Key fields:</strong> school_name, postal_code, latitude, longitude</li>
+</ul>
+<hr />
+<h2>Data Quality Checks</h2>
+<h3>URA Transactions</h3>
+<ol>
+<li><strong>Outlier detection:</strong> PSF values flagged where |PSF − median| &gt; 3×MAD per district×year. Removed 0.3% of records.</li>
+<li><strong>Date parsing validation:</strong> contractDate in <code>mmYY</code> format — rejected records where month &gt; 12 or year &lt; 2000 or &gt; 2030.</li>
+<li><strong>Coordinate bounds check:</strong> SVY21 x/y converted to WGS84; records outside Singapore bounding box (1.15N–1.50N, 103.55E–104.10E) removed.</li>
+<li><strong>Duplicate removal:</strong> Deduped by (project, street, contractDate, price, area).</li>
+</ol>
+<h3>HDB Resale</h3>
+<ol>
+<li><strong>Lease parsing:</strong> <code>remaining_lease</code> stored as string ("85 years 06 months") — parsed to fractional years; records with parsed value &lt; 1 or &gt; 99 dropped.</li>
+<li><strong>PSF outlier check:</strong> HDB PSF above 3000 or below 100 flagged as data errors and removed.</li>
+<li><strong>Town normalisation:</strong> Standardised all town names to uppercase (BEDOK, ANG MO KIO) to prevent join failures.</li>
+<li><strong>Flat type validation:</strong> Only accepted: 1 ROOM, 2 ROOM, 3 ROOM, 4 ROOM, 5 ROOM, EXECUTIVE, MULTI-GENERATION.</li>
+</ol>
+<h3>Policy KB</h3>
+<ol>
+<li><strong>Effective date frontmatter:</strong> Every policy chunk requires <code>effective_date</code> in ISO format — ingestion fails on missing/malformed dates.</li>
+<li><strong>Rate cross-check:</strong> ABSD rates in policy chunks are programmatically verified against hardcoded <code>ABSD_RATES</code> dict in <code>scoring/readiness.py</code> before embedding.</li>
+</ol>
+<h3>MRT + School Data</h3>
+<ol>
+<li><strong>Geocoding validation:</strong> OneMap API results checked against Singapore bounding box; 3 schools with invalid postcodes were skipped.</li>
+<li><strong>Station deduplication:</strong> Multiple exits per station aggregated to centroid; stations with &lt; 2 exits flagged for manual review.</li>
+</ol>
+<hr />
+<h2>Buy Readiness Score — Invest Mode</h2>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Weight</th>
+<th>What it measures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Financial Readiness</td>
+<td>30%</td>
+<td>Cash vs upfront costs (ABSD+BSD+down payment+6mo EMI buffer), TDSR, MSR</td>
+</tr>
+<tr>
+<td>Market Timing</td>
+<td>20%</td>
+<td>Current market PSF vs pre-2024 baseline (is the market at a peak?)</td>
+</tr>
+<tr>
+<td>Area Value</td>
+<td>20%</td>
+<td>PSF CAGR 2022–2026 from URA/HDB transaction data</td>
+</tr>
+<tr>
+<td>Opportunity Cost</td>
+<td>15%</td>
+<td>ABSD sunk cost as % of property price; CPF OA foregone returns</td>
+</tr>
+<tr>
+<td>Life-Stage Fit</td>
+<td>15%</td>
+<td>Holding period vs breakeven; lease decay; loan vs retirement age</td>
+</tr>
+</tbody>
+</table>
+<h2>Buy Readiness Score — Live-In Mode</h2>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Weight</th>
+<th>What it measures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Financial Sustainability</td>
+<td>35%</td>
+<td>Same as above — can you actually afford the upfront costs?</td>
+</tr>
+<tr>
+<td>Affordability Comfort</td>
+<td>25%</td>
+<td>EMI as % of income; +2% SORA stress test; monthly surplus</td>
+</tr>
+<tr>
+<td>Lifestyle Fit</td>
+<td>20%</td>
+<td>MRT distance (LTA data); nearest primary school (MOE data)</td>
+</tr>
+<tr>
+<td>Fair Price Check</td>
+<td>10%</td>
+<td>Entered price vs 2024–2026 area median from transaction registry</td>
+</tr>
+<tr>
+<td>Life-Stage Fit</td>
+<td>10%</td>
+<td>Holding period vs breakeven; lease decay</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Score Bands (Invest):</strong> Strong Buy (80–100) / Conditional Buy (60–79) / Marginal (40–59) / Do Not Buy (0–39)<br />
+<strong>Score Bands (Live-in):</strong> Very Ready / Ready with Caveats / Marginal Fit / Not Ready</p>
+<p><strong>Key design principle:</strong> The LLM never touches a number. All ABSD, TDSR, MSR, BSD calculations are deterministic Python. The LLM only explains the pre-computed result.</p>
+<hr />
+<h2>RAG Implementation</h2>
+<h3>Retrieval Pipeline</h3>
+<pre><code>User query
+    → OpenAI text-embedding-3-small (1024-dim)
+    → Pinecone cosine similarity → top-20 candidates
+    → Cohere rerank-english-v3.0 → top-5 chunks
+    → Scoring engine + LLM narrator
+</code></pre>
+<h3>Embeddings in Pinecone</h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Chunks</th>
+<th>Metadata fields</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ura_transaction</code></td>
+<td>~700</td>
+<td>district, year, property_type, market_segment</td>
+</tr>
+<tr>
+<td><code>hdb</code></td>
+<td>~500</td>
+<td>town, flat_type, year</td>
+</tr>
+<tr>
+<td><code>ura_rental</code></td>
+<td>~400</td>
+<td>district, year, quarter</td>
+</tr>
+<tr>
+<td><code>policy</code></td>
+<td>~80</td>
+<td>policy_name, effective_date</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~1,680</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Why Cohere Reranking?</h3>
+<p>Cosine similarity is a bi-encoder (query and document embedded independently). Cohere's cross-encoder reads query + document <em>together</em> — significantly better at:
+- Returning District 18 chunks when query says "Tampines" (D18) vs District 9 (Orchard)
+- Ranking the 2023/2024 ABSD policy chunk above pre-2023 rules
+- Matching "fair value entry" language to specific PSF trend chunks</p>
+<p>Validated: "PSF District 9 condo 2023" → Cohere ranks the 2023 chunk at 0.98 vs cosine ranking 2024 highest at 0.61.</p>
+<h3>Recall@10 Logging</h3>
+<p>Every retrieval call logs to <code>logs/recall.jsonl</code>:
+- <code>recall_at_10</code>: fraction of top-10 Pinecone candidates above similarity threshold
+- <code>reranked</code>: whether Cohere was applied
+- <code>rerank_delta</code>: how many chunks changed rank due to Cohere</p>
+<hr />
+<h2>Abuse Protection (8 Controls)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Control</th>
+<th>Implementation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Rate limiting</td>
+<td>slowapi: 10 req/min + 100 req/day per IP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Global LLM budget</td>
+<td>200 narrative calls/day max (circuit breaker)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Query length cap</td>
+<td>2,000 characters max</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Prompt injection detection</td>
+<td>Regex scan for "ignore instructions", "jailbreak", "DAN", etc.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Topic restriction</td>
+<td>System prompt explicitly restricts to Singapore property only</td>
+</tr>
+<tr>
+<td>6</td>
+<td>PII output filter</td>
+<td>Regex masks NRIC (S/T/F/G + 7 digits), SG phone numbers, emails</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Context fallback</td>
+<td>If &lt; 3 chunks above 0.35 similarity → insufficient_data response</td>
+</tr>
+<tr>
+<td>8</td>
+<td>LLM-as-judge</td>
+<td>Secondary GPT call on high-risk outputs (ABSD ≥ 20%, short lease)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Bearer auth</td>
+<td><code>Authorization: Bearer &lt;token&gt;</code> required on all endpoints</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Integration Tests (23 Passing)</h2>
+<p>All 5 proposal queries validated + 18 additional tests. Run with:</p>
+<pre><code class="language-bash">pytest tests/integration/test_pipeline.py -v
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Test Case</th>
+<th>Assertions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR first HDB Tampines</td>
+<td>ABSD=5%, MSR computed, policy chunks retrieved</td>
+</tr>
+<tr>
+<td>Foreigner District 9</td>
+<td>ABSD=60%, effective_date 2023-04-27 cited</td>
+</tr>
+<tr>
+<td>Rental yield Buona Vista</td>
+<td>URA rental chunks retrieved, mortgage rate cited</td>
+</tr>
+<tr>
+<td>PSF appreciation 2021–2025</td>
+<td>ROI chunks with CAGR, multi-year URA trend</td>
+</tr>
+<tr>
+<td>SC upgrader 2nd property</td>
+<td>ABSD=20%, LTV=45%, CPF OA cited</td>
+</tr>
+</tbody>
+</table>
+<p>Evidence report: <code>tests/integration/results/report_2026-05-09.md</code></p>
+<hr />
+<h2>Steps Followed &amp; Challenges</h2>
+<h3>Steps</h3>
+<ol>
+<li>Data download via data.gov.sg poll-download API (CSV via S3 pre-signed URL)</li>
+<li>Ingestion pipelines: outlier removal, date parsing, dedup, PSF calculation</li>
+<li>Chunking strategy: district × property_type × year for URA; town × flat_type × year for HDB; 256-token chunks with 32-token overlap for policy</li>
+<li>Batch embedding (OpenAI, batch=100 to respect rate limits) → Pinecone upsert with metadata</li>
+<li>Deterministic scoring engine: 5 dimensions, all arithmetic verified against IRAS/MAS official rates</li>
+<li>FastAPI backend with rate limiting, PII filter, auth</li>
+<li>LLM narrator: structured JSON output with inline citations</li>
+<li>Next.js frontend: presets, AI Advisor (GPT field extraction), hot areas map, project-level drill-down</li>
+<li>Integration testing + consistency proof</li>
+</ol>
+<h3>Challenges</h3>
+<ul>
+<li><strong>URA contractDate format:</strong> Stored as <code>mmYY</code> (e.g., <code>0524</code> = May 2024) — not documented in API spec</li>
+<li><strong>HDB vs URA PSF mixing bug:</strong> Early versions mixed HDB (SGD 500/sqft) and URA condo (SGD 2,000/sqft) chunks in the same scoring dimension, producing 103% CAGR. Fixed by source-filtering per property type</li>
+<li><strong>Cohere non-determinism:</strong> Different API calls return slightly different chunk orderings for identical queries (10–18pt spread in area value score). Fixed by separating RAG-dependent vs deterministic scoring paths</li>
+<li><strong>Singapore geographic precision:</strong> "East Coast" means Marine Parade/Bedok (D15–16), not the broader east including Tampines/Hougang. Required custom sub-area mapping (30+ entries)</li>
+<li><strong><code>from __future__ import annotations</code> + Pydantic v2:</strong> Caused <code>ForwardRef</code> errors with <code>Body(...)</code>. Solution: remove the import from <code>api/main.py</code></li>
+</ul>
+<hr />
+<h2>Future Enhancements</h2>
+<ol>
+<li><strong>Real-time listing integration</strong> — 99.co / PropertyGuru scraper to match score against live listings</li>
+<li><strong>New launch coverage</strong> — URA new sale data (currently excluded — no coordinates)</li>
+<li><strong>Graph RAG</strong> — Multi-hop reasoning: schools → planning area → PSF trend → ABSD impact</li>
+<li><strong>User accounts</strong> — Save profiles, track market changes over time, watchlists</li>
+<li><strong>Confidence scoring</strong> — Trained classifier on retrieval quality vs user satisfaction</li>
+<li><strong>Malaysia / Hong Kong expansion</strong> — Same framework, different policy KB</li>
+<li><strong>Mortgage calculator integration</strong> — Live rates from DBS/OCBC/UOB APIs</li>
+<li><strong>OneMap amenity enrichment</strong> — Full amenity data (hawker centres, parks, hospitals) per planning area</li>
+</ol>
+<hr />
+<h2>Setup Instructions</h2>
+<h3>Prerequisites</h3>
+<ul>
+<li>Python 3.11+</li>
+<li>Node.js 18+</li>
+<li>Pinecone account (free tier)</li>
+<li>OpenAI API key</li>
+<li>Cohere API key (free tier)</li>
+</ul>
+<h3>Backend</h3>
+<pre><code class="language-bash">cd propsense
+pip install -r requirements.txt
+cp .env.example .env
+# Fill in: OPENAI_API_KEY, PINECONE_API_KEY, COHERE_API_KEY, API_BEARER_TOKEN
+uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+</code></pre>
+<h3>Frontend</h3>
+<pre><code class="language-bash">cd propsense/frontend
+npm install
+cp .env.local.example .env.local
+# Set: NEXT_PUBLIC_API_URL=http://localhost:8000
+# Set: NEXT_PUBLIC_API_TOKEN=&lt;your bearer token&gt;
+npm run dev
+</code></pre>
+<h3>Re-ingesting Data (optional — Pinecone already loaded)</h3>
+<pre><code class="language-bash">python -m ingestion.download_raw     # Download URA + HDB CSVs
+python -m ingestion.ura              # Process URA transactions
+python -m ingestion.hdb              # Process HDB resale
+python -m ingestion.policy           # Embed policy KB
+python -m ingestion.amenities        # Download MRT + school data
+python -m rag.embedder               # Batch embed all chunks
+python -m rag.store                  # Upsert to Pinecone
+</code></pre>
+<h3>Tests</h3>
+<pre><code class="language-bash">pytest tests/integration/test_pipeline.py -v          # 23 integration tests
+python -m tests.integration.generate_report           # Evidence report
+python -m tests.integration.qa_suite                  # 39 QA cases
+python -m rag.recall_logger                           # Recall@10 summary
+</code></pre>
+<hr />
+<h2>Project Structure</h2>
+<pre><code>propsense/
+├── api/
+│   ├── main.py          # FastAPI: /score, /parse-query, /suggest-areas, /areas-geo, /projects-geo, /transactions
+│   ├── filters.py       # PII masking + prompt injection detection
+│   └── middleware.py    # Rate limiting config
+├── data/
+│   ├── processed/       # hdb_clean.csv, ura_clean.csv, area_amenities.csv, policy_chunks.csv
+│   └── policy_kb/       # ABSD, BSD, TDSR, MSR, LTV, CPF markdown files
+├── ingestion/
+│   ├── ura.py           # URA transaction pipeline
+│   ├── hdb.py           # HDB resale pipeline
+│   ├── policy.py        # Policy KB chunker
+│   └── amenities.py     # MRT + school downloader/geocoder
+├── rag/
+│   ├── embedder.py      # Batch OpenAI embedding
+│   ├── store.py         # Pinecone upsert
+│   ├── retriever.py     # Cosine → Cohere rerank pipeline
+│   └── recall_logger.py # Recall@10 tracking
+├── scoring/
+│   └── readiness.py     # Deterministic 5-dimension scorer (invest + live-in modes)
+├── llm/
+│   ├── narrator.py      # GPT-4o-mini cited narrative generation
+│   └── judge.py         # LLM-as-judge for high-risk outputs
+├── frontend/            # Next.js app
+│   └── app/
+│       ├── page.tsx     # Main UI (presets, AI Advisor, score display)
+│       └── components/
+│           ├── HotAreasMap.tsx  # Leaflet bubble + project-level drill-down
+│           └── ROIChart.tsx     # Recharts projection chart
+└── tests/
+    └── integration/
+        ├── test_pipeline.py        # 23 integration tests
+        ├── test_score_consistency.py # Score consistency proof
+        ├── generate_report.py      # Evidence report generator
+        └── qa_suite.py             # 39 QA cases (ABSD/BSD/LTV verified against IRAS)
+</code></pre>
+<hr />
+<p><em>Not financial advice. Verify effective_date before transacting.</em><br />
+<em>PropSense SG — Built by Nag Aditya Gade | DataExpert.io AI Engineering Bootcamp, Spring 2026</em></p></body>
+</html>

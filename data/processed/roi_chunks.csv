@@ -1,0 +1,775 @@
+chunk_id,source,planning_area,region,model_vintage,latest_psf,psf_cagr_pct,gross_yield_pct,mrt_dist_m,cbd_dist_km,text
+roi_ang_mo_kio,roi,Ang Mo Kio,North East Region,2022,1969.0,4.89,3.31,154,6.9,"Area Investment Profile — Ang Mo Kio | North East Region
+
+Location & Accessibility:
+  MRT access: 154m avg — Excellent (≤500m)
+  Distance to CBD: 6.9 km
+  Nearest top primary school: 922m
+  Nearest shopping mall: 123m
+  Nearest park: 122m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,551  2022: SGD 1,917  2023: SGD 1,754  2024: SGD 1,807  2025: SGD 1,935
+  PSF CAGR 2021-2026: +4.9%/yr
+  Based on 2,748 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.43 (2026Q1)
+  Gross rental yield: 3.31%/yr
+  Net rental yield (est.): 2.31%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,387  2024: SGD 1,408  2025: SGD 1,617  2026: SGD 1,638  (CAGR +5.7%/yr)
+  2-bed: 2023: SGD 1,399  2024: SGD 1,267  2025: SGD 1,422  2026: SGD 1,594  (CAGR +4.5%/yr)
+  3-bed: 2023: SGD 1,397  2024: SGD 1,249  2025: SGD 1,352  2026: SGD 1,537  (CAGR +3.2%/yr)
+  4-bed: 2023: SGD 1,241  2024: SGD 1,180  2025: SGD 1,133  2026: SGD 1,197  (CAGR -1.2%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_bedok,roi,Bedok,East Region,2022,1643.0,6.74,2.63,451,7.8,"Area Investment Profile — Bedok | East Region
+
+Location & Accessibility:
+  MRT access: 451m avg — Excellent (≤500m)
+  Distance to CBD: 7.8 km
+  Nearest top primary school: 945m
+  Nearest shopping mall: 1486m
+  Nearest park: 445m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,186  2022: SGD 1,349  2023: SGD 1,528  2024: SGD 1,525  2025: SGD 1,562
+  PSF CAGR 2021-2026: +6.7%/yr
+  Based on 3,845 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 3.60 (2026Q1)
+  Gross rental yield: 2.63%/yr
+  Net rental yield (est.): 1.63%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,533  2024: SGD 1,503  2025: SGD 1,437  2026: SGD 1,443  (CAGR -2.0%/yr)
+  2-bed: 2023: SGD 1,431  2024: SGD 1,363  2025: SGD 1,292  2026: SGD 1,342  (CAGR -2.1%/yr)
+  3-bed: 2023: SGD 1,469  2024: SGD 1,436  2025: SGD 1,265  2026: SGD 1,265  (CAGR -4.9%/yr)
+  4-bed: 2023: SGD 1,370  2024: SGD 1,305  2025: SGD 1,153  2026: SGD 1,177  (CAGR -5.0%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_bishan,roi,Bishan,Central Region,2022,1969.0,4.89,3.31,393,5.1,"Area Investment Profile — Bishan | Central Region
+
+Location & Accessibility:
+  MRT access: 393m avg — Excellent (≤500m)
+  Distance to CBD: 5.1 km
+  Nearest top primary school: 760m
+  Nearest shopping mall: 399m
+  Nearest park: 567m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,551  2022: SGD 1,917  2023: SGD 1,754  2024: SGD 1,807  2025: SGD 1,935
+  PSF CAGR 2021-2026: +4.9%/yr
+  Based on 2,748 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.43 (2026Q1)
+  Gross rental yield: 3.31%/yr
+  Net rental yield (est.): 2.31%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,663  2024: SGD 1,627  2025: SGD 1,592  2026: SGD 1,610  (CAGR -1.1%/yr)
+  2-bed: 2023: SGD 1,494  2024: SGD 1,515  2025: SGD 1,445  2026: SGD 1,430  (CAGR -1.5%/yr)
+  3-bed: 2023: SGD 1,394  2024: SGD 1,391  2025: SGD 1,368  2026: SGD 1,393  (CAGR -0.0%/yr)
+  4-bed: 2023: SGD 1,478  2024: SGD 1,373  2025: SGD 1,322  2026: SGD 1,412  (CAGR -1.5%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_bukit_batok,roi,Bukit Batok,West Region,2022,1612.0,1.21,4.0,617,10.1,"Area Investment Profile — Bukit Batok | West Region
+
+Location & Accessibility:
+  MRT access: 617m avg — Good (500-1000m)
+  Distance to CBD: 10.1 km
+  Nearest top primary school: 4706m
+  Nearest shopping mall: 524m
+  Nearest park: 579m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,518  2022: SGD 1,272  2023: SGD 1,461  2024: SGD 1,515  2025: SGD 1,495
+  PSF CAGR 2021-2026: +1.2%/yr
+  Based on 7,492 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.38 (2026Q1)
+  Gross rental yield: 4.00%/yr
+  Net rental yield (est.): 3.00%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,340  2024: SGD 1,317  2025: SGD 1,192  2026: SGD 1,188  (CAGR -3.9%/yr)
+  2-bed: 2023: SGD 1,347  2024: SGD 1,234  2025: SGD 1,105  2026: SGD 1,177  (CAGR -4.4%/yr)
+  3-bed: 2023: SGD 1,458  2024: SGD 1,345  2025: SGD 1,154  2026: SGD 1,216  (CAGR -5.9%/yr)
+  4-bed: 2023: SGD 1,322  2024: SGD 1,123  2025: SGD 1,159  2026: SGD 1,354  (CAGR +0.8%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_bukit_merah,roi,Bukit Merah,Central Region,2022,2346.0,1.86,3.77,403,1.9,"Area Investment Profile — Bukit Merah | Central Region
+
+Location & Accessibility:
+  MRT access: 403m avg — Excellent (≤500m)
+  Distance to CBD: 1.9 km
+  Nearest top primary school: 2007m
+  Nearest shopping mall: 968m
+  Nearest park: 480m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,140  2022: SGD 2,277  2023: SGD 2,236  2024: SGD 2,212  2025: SGD 2,814
+  PSF CAGR 2021-2026: +1.9%/yr
+  Based on 5,599 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 7.38 (2026Q1)
+  Gross rental yield: 3.77%/yr
+  Net rental yield (est.): 2.77%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 2,149  2024: SGD 2,298  2025: SGD 2,253  2026: SGD 2,138  (CAGR -0.2%/yr)
+  2-bed: 2023: SGD 1,855  2024: SGD 1,844  2025: SGD 1,888  2026: SGD 1,925  (CAGR +1.2%/yr)
+  3-bed: 2023: SGD 1,795  2024: SGD 1,784  2025: SGD 1,772  2026: SGD 1,802  (CAGR +0.1%/yr)
+  4-bed: 2023: SGD 1,845  2024: SGD 2,025  2025: SGD 1,747  2026: SGD 1,545  (CAGR -5.7%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_bukit_panjang,roi,Bukit Panjang,West Region,2022,1612.0,1.21,4.0,1057,8.9,"Area Investment Profile — Bukit Panjang | West Region
+
+Location & Accessibility:
+  MRT access: 1057m avg — Moderate (1-1.5km)
+  Distance to CBD: 8.9 km
+  Nearest top primary school: 4118m
+  Nearest shopping mall: 1291m
+  Nearest park: 95m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,518  2022: SGD 1,272  2023: SGD 1,461  2024: SGD 1,515  2025: SGD 1,495
+  PSF CAGR 2021-2026: +1.2%/yr
+  Based on 7,492 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.38 (2026Q1)
+  Gross rental yield: 4.00%/yr
+  Net rental yield (est.): 3.00%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,338  2024: SGD 1,317  2025: SGD 1,285  2026: SGD 1,297  (CAGR -1.0%/yr)
+  2-bed: 2023: SGD 1,234  2024: SGD 1,207  2025: SGD 1,138  2026: SGD 1,143  (CAGR -2.5%/yr)
+  3-bed: 2023: SGD 1,141  2024: SGD 1,122  2025: SGD 1,098  2026: SGD 1,112  (CAGR -0.8%/yr)
+  4-bed: 2023: SGD 1,109  2024: SGD 1,031  2025: SGD 1,047  2026: SGD 1,124  (CAGR +0.5%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_bukit_timah,roi,Bukit Timah,Central Region,2022,2328.0,-0.47,4.32,519,2.9,"Area Investment Profile — Bukit Timah | Central Region
+
+Location & Accessibility:
+  MRT access: 519m avg — Good (500-1000m)
+  Distance to CBD: 2.9 km
+  Nearest top primary school: 894m
+  Nearest shopping mall: 1970m
+  Nearest park: 951m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,384  2022: SGD 2,656  2023: SGD 2,554  2024: SGD 2,280  2025: SGD 2,796
+  PSF CAGR 2021-2026: -0.5%/yr
+  Based on 7,465 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 8.38 (2026Q1)
+  Gross rental yield: 4.32%/yr
+  Net rental yield (est.): 3.32%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,735  2024: SGD 1,764  2025: SGD 1,742  2026: SGD 1,707  (CAGR -0.5%/yr)
+  2-bed: 2023: SGD 1,838  2024: SGD 1,909  2025: SGD 1,721  2026: SGD 1,633  (CAGR -3.9%/yr)
+  3-bed: 2023: SGD 1,552  2024: SGD 1,557  2025: SGD 1,491  2026: SGD 1,481  (CAGR -1.6%/yr)
+  4-bed: 2023: SGD 1,642  2024: SGD 1,665  2025: SGD 1,593  2026: SGD 1,574  (CAGR -1.4%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_clementi,roi,Clementi,West Region,2022,2004.0,2.85,2.85,1331,6.7,"Area Investment Profile — Clementi | West Region
+
+Location & Accessibility:
+  MRT access: 1331m avg — Moderate (1-1.5km)
+  Distance to CBD: 6.7 km
+  Nearest top primary school: 1479m
+  Nearest shopping mall: 576m
+  Nearest park: 447m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,741  2022: SGD 1,724  2023: SGD 1,858  2024: SGD 1,900  2025: SGD 2,176
+  PSF CAGR 2021-2026: +2.9%/yr
+  Based on 7,898 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.76 (2026Q1)
+  Gross rental yield: 2.85%/yr
+  Net rental yield (est.): 1.85%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,532  2024: SGD 1,482  2025: SGD 1,432  2026: SGD 1,468  (CAGR -1.4%/yr)
+  2-bed: 2023: SGD 1,445  2024: SGD 1,362  2025: SGD 1,331  2026: SGD 1,415  (CAGR -0.7%/yr)
+  3-bed: 2023: SGD 1,269  2024: SGD 1,235  2025: SGD 1,265  2026: SGD 1,327  (CAGR +1.5%/yr)
+  4-bed: 2023: SGD 1,222  2024: SGD 1,199  2025: SGD 1,334  2026: SGD 1,417  (CAGR +5.1%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_downtown_core,roi,Downtown Core,Central Region,2022,2806.0,4.95,2.56,185,0.0,"Area Investment Profile — Downtown Core | Central Region
+
+Location & Accessibility:
+  MRT access: 185m avg — Excellent (≤500m)
+  Distance to CBD: 0.0 km
+  Nearest top primary school: 3168m
+  Nearest shopping mall: 148m
+  Nearest park: 196m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,204  2022: SGD 2,025  2023: SGD 1,981  2024: SGD 2,190  2025: SGD 2,928
+  PSF CAGR 2021-2026: +5.0%/yr
+  Based on 1,709 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.99 (2026Q1)
+  Gross rental yield: 2.56%/yr
+  Net rental yield (est.): 1.56%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 3,008  2024: SGD 2,998  2025: SGD 2,895  2026: SGD 2,885  (CAGR -1.4%/yr)
+  2-bed: 2023: SGD 2,639  2024: SGD 2,639  2025: SGD 2,639  2026: SGD 2,639  (CAGR +0.0%/yr)
+  3-bed: 2023: SGD 3,300  2024: SGD 3,300  2025: SGD 3,300  2026: SGD 3,300  (CAGR +0.0%/yr)
+  4-bed: 2023: SGD 2,849  2024: SGD 2,805  2025: SGD 2,790  2026: SGD 2,823  (CAGR -0.3%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_geylang,roi,Geylang,Central Region,2022,2003.0,3.36,4.23,343,4.3,"Area Investment Profile — Geylang | Central Region
+
+Location & Accessibility:
+  MRT access: 343m avg — Excellent (≤500m)
+  Distance to CBD: 4.3 km
+  Nearest top primary school: 1367m
+  Nearest shopping mall: 2284m
+  Nearest park: 656m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,698  2022: SGD 1,798  2023: SGD 1,844  2024: SGD 1,912  2025: SGD 1,978
+  PSF CAGR 2021-2026: +3.4%/yr
+  Based on 2,097 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 7.06 (2026Q1)
+  Gross rental yield: 4.23%/yr
+  Net rental yield (est.): 3.23%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,592  2024: SGD 1,491  2025: SGD 1,503  2026: SGD 1,598  (CAGR +0.1%/yr)
+  2-bed: 2023: SGD 1,570  2024: SGD 1,360  2025: SGD 1,413  2026: SGD 1,632  (CAGR +1.3%/yr)
+  3-bed: 2023: SGD 1,405  2024: SGD 1,351  2025: SGD 1,282  2026: SGD 1,335  (CAGR -1.7%/yr)
+  4-bed: 2023: SGD 1,210  2024: SGD 1,183  2025: SGD 1,175  2026: SGD 1,208  (CAGR -0.0%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_hougang,roi,Hougang,North East Region,2022,1641.0,6.18,2.79,960,8.6,"Area Investment Profile — Hougang | North East Region
+
+Location & Accessibility:
+  MRT access: 960m avg — Good (500-1000m)
+  Distance to CBD: 8.6 km
+  Nearest top primary school: 2552m
+  Nearest shopping mall: 974m
+  Nearest park: 298m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,216  2022: SGD 1,302  2023: SGD 1,433  2024: SGD 1,515  2025: SGD 1,602
+  PSF CAGR 2021-2026: +6.2%/yr
+  Based on 13,028 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 3.82 (2026Q1)
+  Gross rental yield: 2.79%/yr
+  Net rental yield (est.): 1.79%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,576  2024: SGD 1,538  2025: SGD 1,420  2026: SGD 1,410  (CAGR -3.6%/yr)
+  2-bed: 2023: SGD 1,330  2024: SGD 1,342  2025: SGD 1,155  2026: SGD 1,106  (CAGR -6.0%/yr)
+  3-bed: 2023: SGD 1,169  2024: SGD 1,152  2025: SGD 1,006  2026: SGD 984  (CAGR -5.6%/yr)
+  4-bed: 2023: SGD 1,177  2024: SGD 1,108  2025: SGD 975  2026: SGD 1,001  (CAGR -5.3%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_jurong_east,roi,Jurong East,West Region,2022,1683.0,8.64,4.47,326,9.6,"Area Investment Profile — Jurong East | West Region
+
+Location & Accessibility:
+  MRT access: 326m avg — Excellent (≤500m)
+  Distance to CBD: 9.6 km
+  Nearest top primary school: 2751m
+  Nearest shopping mall: 204m
+  Nearest park: 954m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,112  2022: SGD 1,184  2023: SGD 2,060  2024: SGD 1,776  2025: SGD 1,642
+  PSF CAGR 2021-2026: +8.6%/yr
+  Based on 2,901 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 6.27 (2026Q1)
+  Gross rental yield: 4.47%/yr
+  Net rental yield (est.): 3.47%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,924  2024: SGD 1,873  2025: SGD 1,425  2026: SGD 1,383  (CAGR -10.4%/yr)
+  2-bed: 2023: SGD 1,758  2024: SGD 1,720  2025: SGD 1,335  2026: SGD 1,296  (CAGR -9.7%/yr)
+  3-bed: 2023: SGD 1,711  2024: SGD 1,672  2025: SGD 1,286  2026: SGD 1,247  (CAGR -10.0%/yr)
+  4-bed: 2023: SGD 1,701  2024: SGD 1,662  2025: SGD 1,266  2026: SGD 1,226  (CAGR -10.3%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_jurong_west,roi,Jurong West,West Region,2022,1683.0,8.64,4.47,244,12.2,"Area Investment Profile — Jurong West | West Region
+
+Location & Accessibility:
+  MRT access: 244m avg — Excellent (≤500m)
+  Distance to CBD: 12.2 km
+  Nearest top primary school: 458m
+  Nearest shopping mall: 845m
+  Nearest park: 327m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,112  2022: SGD 1,184  2023: SGD 2,060  2024: SGD 1,776  2025: SGD 1,642
+  PSF CAGR 2021-2026: +8.6%/yr
+  Based on 2,901 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 6.27 (2026Q1)
+  Gross rental yield: 4.47%/yr
+  Net rental yield (est.): 3.47%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,337  2024: SGD 1,335  2025: SGD 1,318  2026: SGD 1,316  (CAGR -0.5%/yr)
+  2-bed: 2023: SGD 1,290  2024: SGD 1,278  2025: SGD 1,143  2026: SGD 1,122  (CAGR -4.5%/yr)
+  3-bed: 2023: SGD 1,262  2024: SGD 1,194  2025: SGD 1,101  2026: SGD 1,143  (CAGR -3.2%/yr)
+  4-bed: 2023: SGD 1,193  2024: SGD 1,125  2025: SGD 997  2026: SGD 1,035  (CAGR -4.6%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_kallang,roi,Kallang,Central Region,2022,1740.0,3.36,3.28,486,2.1,"Area Investment Profile — Kallang | Central Region
+
+Location & Accessibility:
+  MRT access: 486m avg — Excellent (≤500m)
+  Distance to CBD: 2.1 km
+  Nearest top primary school: 1968m
+  Nearest shopping mall: 1356m
+  Nearest park: 402m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,475  2022: SGD 1,594  2023: SGD 1,630  2024: SGD 1,756  2025: SGD 2,100
+  PSF CAGR 2021-2026: +3.4%/yr
+  Based on 2,741 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.76 (2026Q1)
+  Gross rental yield: 3.28%/yr
+  Net rental yield (est.): 2.28%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 2,341  2024: SGD 2,197  2025: SGD 1,649  2026: SGD 1,653  (CAGR -11.0%/yr)
+  2-bed: 2023: SGD 1,379  2024: SGD 1,408  2025: SGD 1,386  2026: SGD 1,360  (CAGR -0.5%/yr)
+  3-bed: 2023: SGD 1,302  2024: SGD 1,307  2025: SGD 1,343  2026: SGD 1,366  (CAGR +1.6%/yr)
+  4-bed: 2023: SGD 1,282  2024: SGD 1,330  2025: SGD 1,361  2026: SGD 1,347  (CAGR +1.7%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_marine_parade,roi,Marine Parade,Central Region,2022,2330.0,7.66,2.5,1520,2.4,"Area Investment Profile — Marine Parade | Central Region
+
+Location & Accessibility:
+  MRT access: 1520m avg — Low (>1.5km)
+  Distance to CBD: 2.4 km
+  Nearest top primary school: 1800m
+  Nearest shopping mall: 809m
+  Nearest park: 157m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,611  2022: SGD 1,779  2023: SGD 2,431  2024: SGD 2,488  2025: SGD 2,122
+  PSF CAGR 2021-2026: +7.7%/yr
+  Based on 10,156 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.86 (2026Q1)
+  Gross rental yield: 2.50%/yr
+  Net rental yield (est.): 1.50%/yr
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_newton,roi,Newton,Central Region,2022,3125.0,5.43,1.76,384,0.3,"Area Investment Profile — Newton | Central Region
+
+Location & Accessibility:
+  MRT access: 384m avg — Excellent (≤500m)
+  Distance to CBD: 0.3 km
+  Nearest top primary school: 833m
+  Nearest shopping mall: 514m
+  Nearest park: 894m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,399  2022: SGD 2,533  2023: SGD 2,586  2024: SGD 2,342  2025: SGD 2,869
+  PSF CAGR 2021-2026: +5.4%/yr
+  Based on 5,863 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.59 (2026Q1)
+  Gross rental yield: 1.76%/yr
+  Net rental yield (est.): 0.76%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 4,257  2024: SGD 4,213  2025: SGD 3,770  2026: SGD 3,726  (CAGR -4.3%/yr)
+  2-bed: 2023: SGD 3,342  2024: SGD 3,322  2025: SGD 3,370  2026: SGD 3,428  (CAGR +0.9%/yr)
+  3-bed: 2023: SGD 2,766  2024: SGD 2,698  2025: SGD 2,804  2026: SGD 2,920  (CAGR +1.8%/yr)
+  4-bed: 2023: SGD 2,570  2024: SGD 2,663  2025: SGD 2,762  2026: SGD 2,737  (CAGR +2.1%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_novena,roi,Novena,Central Region,2022,2082.0,3.18,3.04,488,1.2,"Area Investment Profile — Novena | Central Region
+
+Location & Accessibility:
+  MRT access: 488m avg — Excellent (≤500m)
+  Distance to CBD: 1.2 km
+  Nearest top primary school: 944m
+  Nearest shopping mall: 533m
+  Nearest park: 455m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,780  2022: SGD 2,040  2023: SGD 2,186  2024: SGD 2,030  2025: SGD 2,087
+  PSF CAGR 2021-2026: +3.2%/yr
+  Based on 2,322 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.27 (2026Q1)
+  Gross rental yield: 3.04%/yr
+  Net rental yield (est.): 2.04%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 2,387  2024: SGD 2,261  2025: SGD 2,412  2026: SGD 2,585  (CAGR +2.7%/yr)
+  2-bed: 2023: SGD 1,934  2024: SGD 1,843  2025: SGD 1,778  2026: SGD 1,842  (CAGR -1.6%/yr)
+  3-bed: 2023: SGD 2,547  2024: SGD 2,550  2025: SGD 2,173  2026: SGD 2,118  (CAGR -6.0%/yr)
+  4-bed: 2023: SGD 1,803  2024: SGD 1,760  2025: SGD 1,682  2026: SGD 1,703  (CAGR -1.9%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_pasir_ris,roi,Pasir Ris,East Region,2022,1905.0,9.74,2.25,1044,12.0,"Area Investment Profile — Pasir Ris | East Region
+
+Location & Accessibility:
+  MRT access: 1044m avg — Moderate (1-1.5km)
+  Distance to CBD: 12.0 km
+  Nearest top primary school: 1540m
+  Nearest shopping mall: 1155m
+  Nearest park: 377m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,197  2022: SGD 1,241  2023: SGD 1,364  2024: SGD 1,426  2025: SGD 1,718
+  PSF CAGR 2021-2026: +9.7%/yr
+  Based on 9,302 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 3.57 (2026Q1)
+  Gross rental yield: 2.25%/yr
+  Net rental yield (est.): 1.25%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,176  2024: SGD 1,171  2025: SGD 1,084  2026: SGD 1,064  (CAGR -3.3%/yr)
+  2-bed: 2023: SGD 997  2024: SGD 986  2025: SGD 932  2026: SGD 926  (CAGR -2.4%/yr)
+  3-bed: 2023: SGD 951  2024: SGD 970  2025: SGD 922  2026: SGD 900  (CAGR -1.8%/yr)
+  4-bed: 2023: SGD 923  2024: SGD 900  2025: SGD 844  2026: SGD 855  (CAGR -2.5%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_punggol,roi,Punggol,North East Region,2022,1641.0,6.18,2.79,1373,11.9,"Area Investment Profile — Punggol | North East Region
+
+Location & Accessibility:
+  MRT access: 1373m avg — Moderate (1-1.5km)
+  Distance to CBD: 11.9 km
+  Nearest top primary school: 4836m
+  Nearest shopping mall: 527m
+  Nearest park: 1556m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,216  2022: SGD 1,302  2023: SGD 1,433  2024: SGD 1,515  2025: SGD 1,602
+  PSF CAGR 2021-2026: +6.2%/yr
+  Based on 13,028 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 3.82 (2026Q1)
+  Gross rental yield: 2.79%/yr
+  Net rental yield (est.): 1.79%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,492  2024: SGD 1,471  2025: SGD 1,264  2026: SGD 1,244  (CAGR -5.9%/yr)
+  2-bed: 2023: SGD 1,004  2024: SGD 1,001  2025: SGD 932  2026: SGD 914  (CAGR -3.1%/yr)
+  3-bed: 2023: SGD 814  2024: SGD 815  2025: SGD 840  2026: SGD 842  (CAGR +1.2%/yr)
+  4-bed: 2023: SGD 629  2024: SGD 630  2025: SGD 734  2026: SGD 756  (CAGR +6.3%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_queenstown,roi,Queenstown,Central Region,2022,2004.0,2.85,2.85,1563,6.0,"Area Investment Profile — Queenstown | Central Region
+
+Location & Accessibility:
+  MRT access: 1563m avg — Low (>1.5km)
+  Distance to CBD: 6.0 km
+  Nearest top primary school: 3285m
+  Nearest shopping mall: 1503m
+  Nearest park: 78m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,741  2022: SGD 1,724  2023: SGD 1,858  2024: SGD 1,900  2025: SGD 2,176
+  PSF CAGR 2021-2026: +2.9%/yr
+  Based on 7,898 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.76 (2026Q1)
+  Gross rental yield: 2.85%/yr
+  Net rental yield (est.): 1.85%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,684  2024: SGD 1,695  2025: SGD 1,623  2026: SGD 1,593  (CAGR -1.8%/yr)
+  2-bed: 2023: SGD 1,613  2024: SGD 1,578  2025: SGD 1,504  2026: SGD 1,548  (CAGR -1.4%/yr)
+  3-bed: 2023: SGD 1,158  2024: SGD 1,106  2025: SGD 1,179  2026: SGD 1,252  (CAGR +2.6%/yr)
+  4-bed: 2023: SGD 1,375  2024: SGD 1,400  2025: SGD 1,444  2026: SGD 1,462  (CAGR +2.1%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_river_valley,roi,River Valley,Central Region,2022,3125.0,5.43,1.76,438,0.2,"Area Investment Profile — River Valley | Central Region
+
+Location & Accessibility:
+  MRT access: 438m avg — Excellent (≤500m)
+  Distance to CBD: 0.2 km
+  Nearest top primary school: 2209m
+  Nearest shopping mall: 369m
+  Nearest park: 390m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,399  2022: SGD 2,533  2023: SGD 2,586  2024: SGD 2,342  2025: SGD 2,869
+  PSF CAGR 2021-2026: +5.4%/yr
+  Based on 5,863 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.59 (2026Q1)
+  Gross rental yield: 1.76%/yr
+  Net rental yield (est.): 0.76%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 3,148  2024: SGD 3,143  2025: SGD 3,094  2026: SGD 3,089  (CAGR -0.6%/yr)
+  2-bed: 2023: SGD 2,324  2024: SGD 2,202  2025: SGD 2,373  2026: SGD 2,543  (CAGR +3.0%/yr)
+  3-bed: 2023: SGD 2,851  2024: SGD 2,773  2025: SGD 2,367  2026: SGD 2,357  (CAGR -6.1%/yr)
+  4-bed: 2023: SGD 2,890  2024: SGD 3,039  2025: SGD 2,889  2026: SGD 2,784  (CAGR -1.2%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_rochor,roi,Rochor,Central Region,2022,3125.0,5.43,1.76,360,0.0,"Area Investment Profile — Rochor | Central Region
+
+Location & Accessibility:
+  MRT access: 360m avg — Excellent (≤500m)
+  Distance to CBD: 0.0 km
+  Nearest top primary school: 2352m
+  Nearest shopping mall: 180m
+  Nearest park: 252m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,399  2022: SGD 2,533  2023: SGD 2,586  2024: SGD 2,342  2025: SGD 2,869
+  PSF CAGR 2021-2026: +5.4%/yr
+  Based on 5,863 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.59 (2026Q1)
+  Gross rental yield: 1.76%/yr
+  Net rental yield (est.): 0.76%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 2,245  2024: SGD 2,288  2025: SGD 2,716  2026: SGD 2,759  (CAGR +7.1%/yr)
+  2-bed: 2023: SGD 2,059  2024: SGD 1,961  2025: SGD 2,098  2026: SGD 2,247  (CAGR +3.0%/yr)
+  3-bed: 2023: SGD 1,118  2024: SGD 1,139  2025: SGD 1,348  2026: SGD 1,369  (CAGR +7.0%/yr)
+  4-bed: 2023: SGD 1,642  2024: SGD 1,699  2025: SGD 1,600  2026: SGD 1,543  (CAGR -2.1%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_sembawang,roi,Sembawang,North Region,2022,1344.0,2.17,4.05,842,14.8,"Area Investment Profile — Sembawang | North Region
+
+Location & Accessibility:
+  MRT access: 842m avg — Good (500-1000m)
+  Distance to CBD: 14.8 km
+  Nearest top primary school: 1681m
+  Nearest shopping mall: 139m
+  Nearest park: 602m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,207  2022: SGD 1,236  2023: SGD 1,269  2024: SGD 1,301  2025: SGD 1,334
+  PSF CAGR 2021-2026: +2.2%/yr
+  Based on 4,994 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.54 (2026Q1)
+  Gross rental yield: 4.05%/yr
+  Net rental yield (est.): 3.05%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 866  2024: SGD 835  2025: SGD 834  2026: SGD 866  (CAGR -0.0%/yr)
+  2-bed: 2023: SGD 946  2024: SGD 941  2025: SGD 897  2026: SGD 892  (CAGR -1.9%/yr)
+  3-bed: 2023: SGD 884  2024: SGD 888  2025: SGD 867  2026: SGD 862  (CAGR -0.8%/yr)
+  4-bed: 2023: SGD 852  2024: SGD 850  2025: SGD 812  2026: SGD 808  (CAGR -1.8%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_sengkang,roi,Sengkang,North East Region,2022,1641.0,6.18,2.79,558,10.1,"Area Investment Profile — Sengkang | North East Region
+
+Location & Accessibility:
+  MRT access: 558m avg — Good (500-1000m)
+  Distance to CBD: 10.1 km
+  Nearest top primary school: 2745m
+  Nearest shopping mall: 714m
+  Nearest park: 493m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,216  2022: SGD 1,302  2023: SGD 1,433  2024: SGD 1,515  2025: SGD 1,602
+  PSF CAGR 2021-2026: +6.2%/yr
+  Based on 13,028 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 3.82 (2026Q1)
+  Gross rental yield: 2.79%/yr
+  Net rental yield (est.): 1.79%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,167  2024: SGD 1,130  2025: SGD 1,160  2026: SGD 1,188  (CAGR +0.6%/yr)
+  2-bed: 2023: SGD 1,111  2024: SGD 1,083  2025: SGD 1,044  2026: SGD 1,059  (CAGR -1.6%/yr)
+  3-bed: 2023: SGD 1,039  2024: SGD 1,028  2025: SGD 950  2026: SGD 939  (CAGR -3.3%/yr)
+  4-bed: 2023: SGD 1,101  2024: SGD 1,026  2025: SGD 930  2026: SGD 968  (CAGR -4.2%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_serangoon,roi,Serangoon,North East Region,2022,1517.0,4.7,3.95,2668,9.3,"Area Investment Profile — Serangoon | North East Region
+
+Location & Accessibility:
+  MRT access: 2668m avg — Low (>1.5km)
+  Distance to CBD: 9.3 km
+  Nearest top primary school: 1617m
+  Nearest shopping mall: 126m
+  Nearest park: 1339m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,206  2022: SGD 1,242  2023: SGD 1,341  2024: SGD 1,433  2025: SGD 1,480
+  PSF CAGR 2021-2026: +4.7%/yr
+  Based on 2,392 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.99 (2026Q1)
+  Gross rental yield: 3.95%/yr
+  Net rental yield (est.): 2.95%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,273  2024: SGD 1,306  2025: SGD 1,336  2026: SGD 1,316  (CAGR +1.1%/yr)
+  2-bed: 2023: SGD 1,202  2024: SGD 1,229  2025: SGD 1,232  2026: SGD 1,215  (CAGR +0.4%/yr)
+  3-bed: 2023: SGD 1,243  2024: SGD 1,197  2025: SGD 1,156  2026: SGD 1,198  (CAGR -1.2%/yr)
+  4-bed: 2023: SGD 1,132  2024: SGD 1,137  2025: SGD 996  2026: SGD 961  (CAGR -5.3%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_tampines,roi,Tampines,East Region,2022,1905.0,9.74,2.25,1267,8.5,"Area Investment Profile — Tampines | East Region
+
+Location & Accessibility:
+  MRT access: 1267m avg — Moderate (1-1.5km)
+  Distance to CBD: 8.5 km
+  Nearest top primary school: 1842m
+  Nearest shopping mall: 1637m
+  Nearest park: 342m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,197  2022: SGD 1,241  2023: SGD 1,364  2024: SGD 1,426  2025: SGD 1,718
+  PSF CAGR 2021-2026: +9.7%/yr
+  Based on 9,302 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 3.57 (2026Q1)
+  Gross rental yield: 2.25%/yr
+  Net rental yield (est.): 1.25%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,141  2024: SGD 1,203  2025: SGD 1,273  2026: SGD 1,234  (CAGR +2.6%/yr)
+  2-bed: 2023: SGD 1,075  2024: SGD 1,076  2025: SGD 1,044  2026: SGD 1,037  (CAGR -1.2%/yr)
+  3-bed: 2023: SGD 1,081  2024: SGD 1,072  2025: SGD 977  2026: SGD 969  (CAGR -3.6%/yr)
+  4-bed: 2023: SGD 1,045  2024: SGD 1,052  2025: SGD 1,000  2026: SGD 996  (CAGR -1.6%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_tanglin,roi,Tanglin,Central Region,2022,2328.0,-0.47,4.32,820,0.6,"Area Investment Profile — Tanglin | Central Region
+
+Location & Accessibility:
+  MRT access: 820m avg — Good (500-1000m)
+  Distance to CBD: 0.6 km
+  Nearest top primary school: 1790m
+  Nearest shopping mall: 516m
+  Nearest park: 599m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 2,384  2022: SGD 2,656  2023: SGD 2,554  2024: SGD 2,280  2025: SGD 2,796
+  PSF CAGR 2021-2026: -0.5%/yr
+  Based on 7,465 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 8.38 (2026Q1)
+  Gross rental yield: 4.32%/yr
+  Net rental yield (est.): 3.32%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 2,195  2024: SGD 2,180  2025: SGD 2,027  2026: SGD 2,012  (CAGR -2.9%/yr)
+  2-bed: 2023: SGD 2,104  2024: SGD 2,048  2025: SGD 2,026  2026: SGD 2,093  (CAGR -0.2%/yr)
+  3-bed: 2023: SGD 2,046  2024: SGD 1,964  2025: SGD 1,884  2026: SGD 1,949  (CAGR -1.6%/yr)
+  4-bed: 2023: SGD 1,988  2024: SGD 2,055  2025: SGD 2,473  2026: SGD 2,581  (CAGR +9.1%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_toa_payoh,roi,Toa Payoh,Central Region,2022,2003.0,3.36,4.23,226,4.5,"Area Investment Profile — Toa Payoh | Central Region
+
+Location & Accessibility:
+  MRT access: 226m avg — Excellent (≤500m)
+  Distance to CBD: 4.5 km
+  Nearest top primary school: 783m
+  Nearest shopping mall: 1780m
+  Nearest park: 461m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,698  2022: SGD 1,798  2023: SGD 1,844  2024: SGD 1,912  2025: SGD 1,978
+  PSF CAGR 2021-2026: +3.4%/yr
+  Based on 2,097 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 7.06 (2026Q1)
+  Gross rental yield: 4.23%/yr
+  Net rental yield (est.): 3.23%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,573  2024: SGD 1,586  2025: SGD 1,461  2026: SGD 1,417  (CAGR -3.4%/yr)
+  2-bed: 2023: SGD 1,282  2024: SGD 1,272  2025: SGD 1,278  2026: SGD 1,297  (CAGR +0.4%/yr)
+  3-bed: 2023: SGD 1,209  2024: SGD 1,155  2025: SGD 1,198  2026: SGD 1,261  (CAGR +1.4%/yr)
+  4-bed: 2023: SGD 1,184  2024: SGD 1,178  2025: SGD 1,229  2026: SGD 1,252  (CAGR +1.9%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_woodlands,roi,Woodlands,North Region,2022,1240.0,6.95,5.28,975,14.1,"Area Investment Profile — Woodlands | North Region
+
+Location & Accessibility:
+  MRT access: 975m avg — Good (500-1000m)
+  Distance to CBD: 14.1 km
+  Nearest top primary school: 6031m
+  Nearest shopping mall: 781m
+  Nearest park: 704m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 886  2022: SGD 1,024  2023: SGD 1,082  2024: SGD 1,184  2025: SGD 1,199
+  PSF CAGR 2021-2026: +7.0%/yr
+  Based on 1,700 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 5.46 (2026Q1)
+  Gross rental yield: 5.28%/yr
+  Net rental yield (est.): 4.28%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,234  2024: SGD 1,219  2025: SGD 1,066  2026: SGD 1,050  (CAGR -5.2%/yr)
+  2-bed: 2023: SGD 1,106  2024: SGD 1,095  2025: SGD 1,030  2026: SGD 1,026  (CAGR -2.5%/yr)
+  3-bed: 2023: SGD 1,059  2024: SGD 1,051  2025: SGD 941  2026: SGD 929  (CAGR -4.3%/yr)
+  4-bed: 2023: SGD 953  2024: SGD 942  2025: SGD 828  2026: SGD 817  (CAGR -5.0%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."
+roi_yishun,roi,Yishun,North Region,2022,1344.0,2.17,4.05,1565,12.5,"Area Investment Profile — Yishun | North Region
+
+Location & Accessibility:
+  MRT access: 1565m avg — Low (>1.5km)
+  Distance to CBD: 12.5 km
+  Nearest top primary school: 2194m
+  Nearest shopping mall: 1678m
+  Nearest park: 542m
+
+Private Property PSF (URA transaction data):
+  2021: SGD 1,207  2022: SGD 1,236  2023: SGD 1,269  2024: SGD 1,301  2025: SGD 1,334
+  PSF CAGR 2021-2026: +2.2%/yr
+  Based on 4,994 transactions (2020-2026)
+
+Rental Market:
+  Median rental PSF/month: SGD 4.54 (2026Q1)
+  Gross rental yield: 4.05%/yr
+  Net rental yield (est.): 3.05%/yr
+
+Forecast PSF by bedroom type (model vintage 2022, directional only):
+  1-bed: 2023: SGD 1,309  2024: SGD 1,297  2025: SGD 1,167  2026: SGD 1,154  (CAGR -4.1%/yr)
+  2-bed: 2023: SGD 1,038  2024: SGD 1,002  2025: SGD 970  2026: SGD 1,001  (CAGR -1.2%/yr)
+  3-bed: 2023: SGD 995  2024: SGD 961  2025: SGD 920  2026: SGD 947  (CAGR -1.6%/yr)
+  4-bed: 2023: SGD 1,086  2024: SGD 1,083  2025: SGD 964  2026: SGD 948  (CAGR -4.4%/yr)
+
+Note: PSF trend from URA live data (authoritative). Forecast from proprietary model — treat as directional. Model vintage 2022."

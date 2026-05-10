@@ -1,0 +1,2178 @@
+chunk_id,source,district,ref_period,year,quarter,n_projects,median_psf_rent,text
+ura_rent_d1_2023q2,ura_rental,1,2023Q2,2023,2,10,7.155,"URA Rental Median — District 1 | 2023Q2
+Properties tracked: 10
+Median rental PSF/month: SGD 7.16
+25th percentile rental PSF: SGD 6.53
+75th percentile rental PSF: SGD 7.86
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2023q3,ura_rental,1,2023Q3,2023,3,11,6.93,"URA Rental Median — District 1 | 2023Q3
+Properties tracked: 11
+Median rental PSF/month: SGD 6.93
+25th percentile rental PSF: SGD 6.33
+75th percentile rental PSF: SGD 7.61
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2023q4,ura_rental,1,2023Q4,2023,4,11,6.9,"URA Rental Median — District 1 | 2023Q4
+Properties tracked: 11
+Median rental PSF/month: SGD 6.90
+25th percentile rental PSF: SGD 6.18
+75th percentile rental PSF: SGD 7.43
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2024q1,ura_rental,1,2024Q1,2024,1,10,6.675000000000001,"URA Rental Median — District 1 | 2024Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 6.68
+25th percentile rental PSF: SGD 6.17
+75th percentile rental PSF: SGD 7.37
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2024q2,ura_rental,1,2024Q2,2024,2,10,6.5,"URA Rental Median — District 1 | 2024Q2
+Properties tracked: 10
+Median rental PSF/month: SGD 6.50
+25th percentile rental PSF: SGD 5.95
+75th percentile rental PSF: SGD 7.28
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2024q3,ura_rental,1,2024Q3,2024,3,11,6.01,"URA Rental Median — District 1 | 2024Q3
+Properties tracked: 11
+Median rental PSF/month: SGD 6.01
+25th percentile rental PSF: SGD 5.65
+75th percentile rental PSF: SGD 7.03
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2024q4,ura_rental,1,2024Q4,2024,4,11,6.41,"URA Rental Median — District 1 | 2024Q4
+Properties tracked: 11
+Median rental PSF/month: SGD 6.41
+25th percentile rental PSF: SGD 5.72
+75th percentile rental PSF: SGD 7.20
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2025q1,ura_rental,1,2025Q1,2025,1,10,6.654999999999999,"URA Rental Median — District 1 | 2025Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 6.65
+25th percentile rental PSF: SGD 6.15
+75th percentile rental PSF: SGD 7.31
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2025q2,ura_rental,1,2025Q2,2025,2,11,6.61,"URA Rental Median — District 1 | 2025Q2
+Properties tracked: 11
+Median rental PSF/month: SGD 6.61
+25th percentile rental PSF: SGD 6.02
+75th percentile rental PSF: SGD 7.40
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2025q3,ura_rental,1,2025Q3,2025,3,11,6.43,"URA Rental Median — District 1 | 2025Q3
+Properties tracked: 11
+Median rental PSF/month: SGD 6.43
+25th percentile rental PSF: SGD 5.79
+75th percentile rental PSF: SGD 7.08
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2025q4,ura_rental,1,2025Q4,2025,4,11,6.43,"URA Rental Median — District 1 | 2025Q4
+Properties tracked: 11
+Median rental PSF/month: SGD 6.43
+25th percentile rental PSF: SGD 5.85
+75th percentile rental PSF: SGD 7.32
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d1_2026q1,ura_rental,1,2026Q1,2026,1,10,6.425000000000001,"URA Rental Median — District 1 | 2026Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 6.43
+25th percentile rental PSF: SGD 6.02
+75th percentile rental PSF: SGD 7.16
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2023q2,ura_rental,2,2023Q2,2023,2,11,7.14,"URA Rental Median — District 2 | 2023Q2
+Properties tracked: 11
+Median rental PSF/month: SGD 7.14
+25th percentile rental PSF: SGD 6.48
+75th percentile rental PSF: SGD 7.71
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2023q3,ura_rental,2,2023Q3,2023,3,13,6.83,"URA Rental Median — District 2 | 2023Q3
+Properties tracked: 13
+Median rental PSF/month: SGD 6.83
+25th percentile rental PSF: SGD 6.34
+75th percentile rental PSF: SGD 7.37
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2023q4,ura_rental,2,2023Q4,2023,4,12,7.42,"URA Rental Median — District 2 | 2023Q4
+Properties tracked: 12
+Median rental PSF/month: SGD 7.42
+25th percentile rental PSF: SGD 6.86
+75th percentile rental PSF: SGD 7.97
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2024q1,ura_rental,2,2024Q1,2024,1,12,7.05,"URA Rental Median — District 2 | 2024Q1
+Properties tracked: 12
+Median rental PSF/month: SGD 7.05
+25th percentile rental PSF: SGD 5.97
+75th percentile rental PSF: SGD 7.50
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2024q2,ura_rental,2,2024Q2,2024,2,12,6.915,"URA Rental Median — District 2 | 2024Q2
+Properties tracked: 12
+Median rental PSF/month: SGD 6.92
+25th percentile rental PSF: SGD 5.96
+75th percentile rental PSF: SGD 7.29
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2024q3,ura_rental,2,2024Q3,2024,3,13,7.25,"URA Rental Median — District 2 | 2024Q3
+Properties tracked: 13
+Median rental PSF/month: SGD 7.25
+25th percentile rental PSF: SGD 6.42
+75th percentile rental PSF: SGD 7.48
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2024q4,ura_rental,2,2024Q4,2024,4,12,7.11,"URA Rental Median — District 2 | 2024Q4
+Properties tracked: 12
+Median rental PSF/month: SGD 7.11
+25th percentile rental PSF: SGD 6.41
+75th percentile rental PSF: SGD 7.51
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2025q1,ura_rental,2,2025Q1,2025,1,14,7.025,"URA Rental Median — District 2 | 2025Q1
+Properties tracked: 14
+Median rental PSF/month: SGD 7.03
+25th percentile rental PSF: SGD 6.37
+75th percentile rental PSF: SGD 7.47
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2025q2,ura_rental,2,2025Q2,2025,2,13,6.88,"URA Rental Median — District 2 | 2025Q2
+Properties tracked: 13
+Median rental PSF/month: SGD 6.88
+25th percentile rental PSF: SGD 6.05
+75th percentile rental PSF: SGD 7.28
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2025q3,ura_rental,2,2025Q3,2025,3,14,6.84,"URA Rental Median — District 2 | 2025Q3
+Properties tracked: 14
+Median rental PSF/month: SGD 6.84
+25th percentile rental PSF: SGD 6.33
+75th percentile rental PSF: SGD 7.27
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2025q4,ura_rental,2,2025Q4,2025,4,13,7.08,"URA Rental Median — District 2 | 2025Q4
+Properties tracked: 13
+Median rental PSF/month: SGD 7.08
+25th percentile rental PSF: SGD 6.44
+75th percentile rental PSF: SGD 7.70
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d2_2026q1,ura_rental,2,2026Q1,2026,1,14,6.87,"URA Rental Median — District 2 | 2026Q1
+Properties tracked: 14
+Median rental PSF/month: SGD 6.87
+25th percentile rental PSF: SGD 6.33
+75th percentile rental PSF: SGD 7.47
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2023q2,ura_rental,3,2023Q2,2023,2,25,6.31,"URA Rental Median — District 3 | 2023Q2
+Properties tracked: 25
+Median rental PSF/month: SGD 6.31
+25th percentile rental PSF: SGD 5.85
+75th percentile rental PSF: SGD 6.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2023q3,ura_rental,3,2023Q3,2023,3,26,6.165,"URA Rental Median — District 3 | 2023Q3
+Properties tracked: 26
+Median rental PSF/month: SGD 6.17
+25th percentile rental PSF: SGD 5.53
+75th percentile rental PSF: SGD 6.40
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2023q4,ura_rental,3,2023Q4,2023,4,24,6.255000000000001,"URA Rental Median — District 3 | 2023Q4
+Properties tracked: 24
+Median rental PSF/month: SGD 6.26
+25th percentile rental PSF: SGD 5.68
+75th percentile rental PSF: SGD 6.62
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2024q1,ura_rental,3,2024Q1,2024,1,24,5.8,"URA Rental Median — District 3 | 2024Q1
+Properties tracked: 24
+Median rental PSF/month: SGD 5.80
+25th percentile rental PSF: SGD 5.55
+75th percentile rental PSF: SGD 6.08
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2024q2,ura_rental,3,2024Q2,2024,2,24,6.12,"URA Rental Median — District 3 | 2024Q2
+Properties tracked: 24
+Median rental PSF/month: SGD 6.12
+25th percentile rental PSF: SGD 5.63
+75th percentile rental PSF: SGD 6.44
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2024q3,ura_rental,3,2024Q3,2024,3,27,5.67,"URA Rental Median — District 3 | 2024Q3
+Properties tracked: 27
+Median rental PSF/month: SGD 5.67
+25th percentile rental PSF: SGD 5.40
+75th percentile rental PSF: SGD 6.22
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2024q4,ura_rental,3,2024Q4,2024,4,24,5.975,"URA Rental Median — District 3 | 2024Q4
+Properties tracked: 24
+Median rental PSF/month: SGD 5.97
+25th percentile rental PSF: SGD 5.52
+75th percentile rental PSF: SGD 6.54
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2025q1,ura_rental,3,2025Q1,2025,1,24,6.135,"URA Rental Median — District 3 | 2025Q1
+Properties tracked: 24
+Median rental PSF/month: SGD 6.13
+25th percentile rental PSF: SGD 5.48
+75th percentile rental PSF: SGD 6.42
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2025q2,ura_rental,3,2025Q2,2025,2,26,6.255000000000001,"URA Rental Median — District 3 | 2025Q2
+Properties tracked: 26
+Median rental PSF/month: SGD 6.26
+25th percentile rental PSF: SGD 5.67
+75th percentile rental PSF: SGD 6.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2025q3,ura_rental,3,2025Q3,2025,3,27,5.96,"URA Rental Median — District 3 | 2025Q3
+Properties tracked: 27
+Median rental PSF/month: SGD 5.96
+25th percentile rental PSF: SGD 5.62
+75th percentile rental PSF: SGD 6.17
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2025q4,ura_rental,3,2025Q4,2025,4,25,6.35,"URA Rental Median — District 3 | 2025Q4
+Properties tracked: 25
+Median rental PSF/month: SGD 6.35
+25th percentile rental PSF: SGD 5.71
+75th percentile rental PSF: SGD 6.69
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d3_2026q1,ura_rental,3,2026Q1,2026,1,25,6.4,"URA Rental Median — District 3 | 2026Q1
+Properties tracked: 25
+Median rental PSF/month: SGD 6.40
+25th percentile rental PSF: SGD 5.93
+75th percentile rental PSF: SGD 6.73
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2023q2,ura_rental,4,2023Q2,2023,2,18,5.905,"URA Rental Median — District 4 | 2023Q2
+Properties tracked: 18
+Median rental PSF/month: SGD 5.91
+25th percentile rental PSF: SGD 5.35
+75th percentile rental PSF: SGD 6.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2023q3,ura_rental,4,2023Q3,2023,3,17,5.57,"URA Rental Median — District 4 | 2023Q3
+Properties tracked: 17
+Median rental PSF/month: SGD 5.57
+25th percentile rental PSF: SGD 5.11
+75th percentile rental PSF: SGD 5.99
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2023q4,ura_rental,4,2023Q4,2023,4,13,5.55,"URA Rental Median — District 4 | 2023Q4
+Properties tracked: 13
+Median rental PSF/month: SGD 5.55
+25th percentile rental PSF: SGD 5.10
+75th percentile rental PSF: SGD 5.91
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2024q1,ura_rental,4,2024Q1,2024,1,13,5.06,"URA Rental Median — District 4 | 2024Q1
+Properties tracked: 13
+Median rental PSF/month: SGD 5.06
+25th percentile rental PSF: SGD 4.71
+75th percentile rental PSF: SGD 5.42
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2024q2,ura_rental,4,2024Q2,2024,2,15,5.2,"URA Rental Median — District 4 | 2024Q2
+Properties tracked: 15
+Median rental PSF/month: SGD 5.20
+25th percentile rental PSF: SGD 4.79
+75th percentile rental PSF: SGD 5.42
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2024q3,ura_rental,4,2024Q3,2024,3,18,4.83,"URA Rental Median — District 4 | 2024Q3
+Properties tracked: 18
+Median rental PSF/month: SGD 4.83
+25th percentile rental PSF: SGD 4.58
+75th percentile rental PSF: SGD 5.17
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2024q4,ura_rental,4,2024Q4,2024,4,17,5.31,"URA Rental Median — District 4 | 2024Q4
+Properties tracked: 17
+Median rental PSF/month: SGD 5.31
+25th percentile rental PSF: SGD 4.90
+75th percentile rental PSF: SGD 5.63
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2025q1,ura_rental,4,2025Q1,2025,1,14,5.385,"URA Rental Median — District 4 | 2025Q1
+Properties tracked: 14
+Median rental PSF/month: SGD 5.38
+25th percentile rental PSF: SGD 4.88
+75th percentile rental PSF: SGD 5.66
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2025q2,ura_rental,4,2025Q2,2025,2,17,5.48,"URA Rental Median — District 4 | 2025Q2
+Properties tracked: 17
+Median rental PSF/month: SGD 5.48
+25th percentile rental PSF: SGD 5.07
+75th percentile rental PSF: SGD 5.71
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2025q3,ura_rental,4,2025Q3,2025,3,17,5.29,"URA Rental Median — District 4 | 2025Q3
+Properties tracked: 17
+Median rental PSF/month: SGD 5.29
+25th percentile rental PSF: SGD 5.05
+75th percentile rental PSF: SGD 5.50
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2025q4,ura_rental,4,2025Q4,2025,4,14,5.47,"URA Rental Median — District 4 | 2025Q4
+Properties tracked: 14
+Median rental PSF/month: SGD 5.47
+25th percentile rental PSF: SGD 5.01
+75th percentile rental PSF: SGD 5.82
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d4_2026q1,ura_rental,4,2026Q1,2026,1,15,5.22,"URA Rental Median — District 4 | 2026Q1
+Properties tracked: 15
+Median rental PSF/month: SGD 5.22
+25th percentile rental PSF: SGD 5.03
+75th percentile rental PSF: SGD 5.44
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2023q2,ura_rental,5,2023Q2,2023,2,28,4.98,"URA Rental Median — District 5 | 2023Q2
+Properties tracked: 28
+Median rental PSF/month: SGD 4.98
+25th percentile rental PSF: SGD 4.63
+75th percentile rental PSF: SGD 5.45
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2023q3,ura_rental,5,2023Q3,2023,3,38,5.04,"URA Rental Median — District 5 | 2023Q3
+Properties tracked: 38
+Median rental PSF/month: SGD 5.04
+25th percentile rental PSF: SGD 4.56
+75th percentile rental PSF: SGD 5.35
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2023q4,ura_rental,5,2023Q4,2023,4,27,5.65,"URA Rental Median — District 5 | 2023Q4
+Properties tracked: 27
+Median rental PSF/month: SGD 5.65
+25th percentile rental PSF: SGD 5.06
+75th percentile rental PSF: SGD 6.15
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2024q1,ura_rental,5,2024Q1,2024,1,26,5.455,"URA Rental Median — District 5 | 2024Q1
+Properties tracked: 26
+Median rental PSF/month: SGD 5.46
+25th percentile rental PSF: SGD 5.12
+75th percentile rental PSF: SGD 5.94
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2024q2,ura_rental,5,2024Q2,2024,2,32,5.155,"URA Rental Median — District 5 | 2024Q2
+Properties tracked: 32
+Median rental PSF/month: SGD 5.16
+25th percentile rental PSF: SGD 4.60
+75th percentile rental PSF: SGD 5.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2024q3,ura_rental,5,2024Q3,2024,3,47,4.7,"URA Rental Median — District 5 | 2024Q3
+Properties tracked: 47
+Median rental PSF/month: SGD 4.70
+25th percentile rental PSF: SGD 4.40
+75th percentile rental PSF: SGD 5.23
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2024q4,ura_rental,5,2024Q4,2024,4,29,5.71,"URA Rental Median — District 5 | 2024Q4
+Properties tracked: 29
+Median rental PSF/month: SGD 5.71
+25th percentile rental PSF: SGD 5.52
+75th percentile rental PSF: SGD 6.11
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2025q1,ura_rental,5,2025Q1,2025,1,31,5.46,"URA Rental Median — District 5 | 2025Q1
+Properties tracked: 31
+Median rental PSF/month: SGD 5.46
+25th percentile rental PSF: SGD 4.95
+75th percentile rental PSF: SGD 5.90
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2025q2,ura_rental,5,2025Q2,2025,2,35,5.39,"URA Rental Median — District 5 | 2025Q2
+Properties tracked: 35
+Median rental PSF/month: SGD 5.39
+25th percentile rental PSF: SGD 4.86
+75th percentile rental PSF: SGD 5.97
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2025q3,ura_rental,5,2025Q3,2025,3,48,4.970000000000001,"URA Rental Median — District 5 | 2025Q3
+Properties tracked: 48
+Median rental PSF/month: SGD 4.97
+25th percentile rental PSF: SGD 4.48
+75th percentile rental PSF: SGD 5.16
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2025q4,ura_rental,5,2025Q4,2025,4,28,5.76,"URA Rental Median — District 5 | 2025Q4
+Properties tracked: 28
+Median rental PSF/month: SGD 5.76
+25th percentile rental PSF: SGD 5.03
+75th percentile rental PSF: SGD 6.15
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d5_2026q1,ura_rental,5,2026Q1,2026,1,30,5.665,"URA Rental Median — District 5 | 2026Q1
+Properties tracked: 30
+Median rental PSF/month: SGD 5.67
+25th percentile rental PSF: SGD 5.24
+75th percentile rental PSF: SGD 6.08
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2023q2,ura_rental,7,2023Q2,2023,2,8,5.41,"URA Rental Median — District 7 | 2023Q2
+Properties tracked: 8
+Median rental PSF/month: SGD 5.41
+25th percentile rental PSF: SGD 4.79
+75th percentile rental PSF: SGD 5.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2023q3,ura_rental,7,2023Q3,2023,3,8,5.795,"URA Rental Median — District 7 | 2023Q3
+Properties tracked: 8
+Median rental PSF/month: SGD 5.79
+25th percentile rental PSF: SGD 5.23
+75th percentile rental PSF: SGD 6.12
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2023q4,ura_rental,7,2023Q4,2023,4,8,5.505000000000001,"URA Rental Median — District 7 | 2023Q4
+Properties tracked: 8
+Median rental PSF/month: SGD 5.51
+25th percentile rental PSF: SGD 5.15
+75th percentile rental PSF: SGD 5.98
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2024q1,ura_rental,7,2024Q1,2024,1,8,5.720000000000001,"URA Rental Median — District 7 | 2024Q1
+Properties tracked: 8
+Median rental PSF/month: SGD 5.72
+25th percentile rental PSF: SGD 5.28
+75th percentile rental PSF: SGD 6.04
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2024q2,ura_rental,7,2024Q2,2024,2,9,5.51,"URA Rental Median — District 7 | 2024Q2
+Properties tracked: 9
+Median rental PSF/month: SGD 5.51
+25th percentile rental PSF: SGD 4.84
+75th percentile rental PSF: SGD 5.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2024q3,ura_rental,7,2024Q3,2024,3,11,5.37,"URA Rental Median — District 7 | 2024Q3
+Properties tracked: 11
+Median rental PSF/month: SGD 5.37
+25th percentile rental PSF: SGD 5.18
+75th percentile rental PSF: SGD 5.87
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2024q4,ura_rental,7,2024Q4,2024,4,10,5.23,"URA Rental Median — District 7 | 2024Q4
+Properties tracked: 10
+Median rental PSF/month: SGD 5.23
+25th percentile rental PSF: SGD 4.86
+75th percentile rental PSF: SGD 5.79
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2025q1,ura_rental,7,2025Q1,2025,1,10,5.835,"URA Rental Median — District 7 | 2025Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 5.83
+25th percentile rental PSF: SGD 5.21
+75th percentile rental PSF: SGD 6.07
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2025q2,ura_rental,7,2025Q2,2025,2,9,5.74,"URA Rental Median — District 7 | 2025Q2
+Properties tracked: 9
+Median rental PSF/month: SGD 5.74
+25th percentile rental PSF: SGD 5.24
+75th percentile rental PSF: SGD 5.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2025q3,ura_rental,7,2025Q3,2025,3,12,5.605,"URA Rental Median — District 7 | 2025Q3
+Properties tracked: 12
+Median rental PSF/month: SGD 5.61
+25th percentile rental PSF: SGD 5.27
+75th percentile rental PSF: SGD 6.71
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2025q4,ura_rental,7,2025Q4,2025,4,10,5.5649999999999995,"URA Rental Median — District 7 | 2025Q4
+Properties tracked: 10
+Median rental PSF/month: SGD 5.56
+25th percentile rental PSF: SGD 5.38
+75th percentile rental PSF: SGD 6.72
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d7_2026q1,ura_rental,7,2026Q1,2026,1,10,5.59,"URA Rental Median — District 7 | 2026Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 5.59
+25th percentile rental PSF: SGD 5.31
+75th percentile rental PSF: SGD 6.62
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2023q2,ura_rental,8,2023Q2,2023,2,7,5.78,"URA Rental Median — District 8 | 2023Q2
+Properties tracked: 7
+Median rental PSF/month: SGD 5.78
+25th percentile rental PSF: SGD 5.15
+75th percentile rental PSF: SGD 6.48
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2023q3,ura_rental,8,2023Q3,2023,3,9,6.06,"URA Rental Median — District 8 | 2023Q3
+Properties tracked: 9
+Median rental PSF/month: SGD 6.06
+25th percentile rental PSF: SGD 5.43
+75th percentile rental PSF: SGD 6.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2023q4,ura_rental,8,2023Q4,2023,4,8,5.96,"URA Rental Median — District 8 | 2023Q4
+Properties tracked: 8
+Median rental PSF/month: SGD 5.96
+25th percentile rental PSF: SGD 5.46
+75th percentile rental PSF: SGD 6.63
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2024q1,ura_rental,8,2024Q1,2024,1,6,5.49,"URA Rental Median — District 8 | 2024Q1
+Properties tracked: 6
+Median rental PSF/month: SGD 5.49
+25th percentile rental PSF: SGD 5.03
+75th percentile rental PSF: SGD 5.92
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2024q2,ura_rental,8,2024Q2,2024,2,7,5.9,"URA Rental Median — District 8 | 2024Q2
+Properties tracked: 7
+Median rental PSF/month: SGD 5.90
+25th percentile rental PSF: SGD 5.19
+75th percentile rental PSF: SGD 6.30
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2024q3,ura_rental,8,2024Q3,2024,3,7,5.75,"URA Rental Median — District 8 | 2024Q3
+Properties tracked: 7
+Median rental PSF/month: SGD 5.75
+25th percentile rental PSF: SGD 5.35
+75th percentile rental PSF: SGD 6.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2024q4,ura_rental,8,2024Q4,2024,4,7,5.38,"URA Rental Median — District 8 | 2024Q4
+Properties tracked: 7
+Median rental PSF/month: SGD 5.38
+25th percentile rental PSF: SGD 4.80
+75th percentile rental PSF: SGD 6.10
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2025q1,ura_rental,8,2025Q1,2025,1,7,5.75,"URA Rental Median — District 8 | 2025Q1
+Properties tracked: 7
+Median rental PSF/month: SGD 5.75
+25th percentile rental PSF: SGD 5.14
+75th percentile rental PSF: SGD 6.25
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2025q2,ura_rental,8,2025Q2,2025,2,6,5.4350000000000005,"URA Rental Median — District 8 | 2025Q2
+Properties tracked: 6
+Median rental PSF/month: SGD 5.44
+25th percentile rental PSF: SGD 5.09
+75th percentile rental PSF: SGD 5.83
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2025q3,ura_rental,8,2025Q3,2025,3,8,6.0,"URA Rental Median — District 8 | 2025Q3
+Properties tracked: 8
+Median rental PSF/month: SGD 6.00
+25th percentile rental PSF: SGD 5.50
+75th percentile rental PSF: SGD 6.57
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2025q4,ura_rental,8,2025Q4,2025,4,7,5.82,"URA Rental Median — District 8 | 2025Q4
+Properties tracked: 7
+Median rental PSF/month: SGD 5.82
+25th percentile rental PSF: SGD 5.26
+75th percentile rental PSF: SGD 6.19
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d8_2026q1,ura_rental,8,2026Q1,2026,1,11,6.19,"URA Rental Median — District 8 | 2026Q1
+Properties tracked: 11
+Median rental PSF/month: SGD 6.19
+25th percentile rental PSF: SGD 5.92
+75th percentile rental PSF: SGD 6.55
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2023q2,ura_rental,9,2023Q2,2023,2,64,6.15,"URA Rental Median — District 9 | 2023Q2
+Properties tracked: 64
+Median rental PSF/month: SGD 6.15
+25th percentile rental PSF: SGD 5.75
+75th percentile rental PSF: SGD 6.53
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2023q3,ura_rental,9,2023Q3,2023,3,78,5.855,"URA Rental Median — District 9 | 2023Q3
+Properties tracked: 78
+Median rental PSF/month: SGD 5.86
+25th percentile rental PSF: SGD 5.49
+75th percentile rental PSF: SGD 6.25
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2023q4,ura_rental,9,2023Q4,2023,4,67,5.88,"URA Rental Median — District 9 | 2023Q4
+Properties tracked: 67
+Median rental PSF/month: SGD 5.88
+25th percentile rental PSF: SGD 5.64
+75th percentile rental PSF: SGD 6.25
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2024q1,ura_rental,9,2024Q1,2024,1,60,5.83,"URA Rental Median — District 9 | 2024Q1
+Properties tracked: 60
+Median rental PSF/month: SGD 5.83
+25th percentile rental PSF: SGD 5.46
+75th percentile rental PSF: SGD 6.26
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2024q2,ura_rental,9,2024Q2,2024,2,65,6.04,"URA Rental Median — District 9 | 2024Q2
+Properties tracked: 65
+Median rental PSF/month: SGD 6.04
+25th percentile rental PSF: SGD 5.61
+75th percentile rental PSF: SGD 6.34
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2024q3,ura_rental,9,2024Q3,2024,3,82,5.68,"URA Rental Median — District 9 | 2024Q3
+Properties tracked: 82
+Median rental PSF/month: SGD 5.68
+25th percentile rental PSF: SGD 5.27
+75th percentile rental PSF: SGD 6.10
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2024q4,ura_rental,9,2024Q4,2024,4,67,5.81,"URA Rental Median — District 9 | 2024Q4
+Properties tracked: 67
+Median rental PSF/month: SGD 5.81
+25th percentile rental PSF: SGD 5.39
+75th percentile rental PSF: SGD 6.24
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2025q1,ura_rental,9,2025Q1,2025,1,71,5.68,"URA Rental Median — District 9 | 2025Q1
+Properties tracked: 71
+Median rental PSF/month: SGD 5.68
+25th percentile rental PSF: SGD 5.36
+75th percentile rental PSF: SGD 6.14
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2025q2,ura_rental,9,2025Q2,2025,2,73,6.06,"URA Rental Median — District 9 | 2025Q2
+Properties tracked: 73
+Median rental PSF/month: SGD 6.06
+25th percentile rental PSF: SGD 5.68
+75th percentile rental PSF: SGD 6.50
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2025q3,ura_rental,9,2025Q3,2025,3,81,5.74,"URA Rental Median — District 9 | 2025Q3
+Properties tracked: 81
+Median rental PSF/month: SGD 5.74
+25th percentile rental PSF: SGD 5.46
+75th percentile rental PSF: SGD 6.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2025q4,ura_rental,9,2025Q4,2025,4,74,5.915,"URA Rental Median — District 9 | 2025Q4
+Properties tracked: 74
+Median rental PSF/month: SGD 5.92
+25th percentile rental PSF: SGD 5.57
+75th percentile rental PSF: SGD 6.33
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d9_2026q1,ura_rental,9,2026Q1,2026,1,70,5.795,"URA Rental Median — District 9 | 2026Q1
+Properties tracked: 70
+Median rental PSF/month: SGD 5.79
+25th percentile rental PSF: SGD 5.48
+75th percentile rental PSF: SGD 6.11
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2023q2,ura_rental,10,2023Q2,2023,2,45,5.59,"URA Rental Median — District 10 | 2023Q2
+Properties tracked: 45
+Median rental PSF/month: SGD 5.59
+25th percentile rental PSF: SGD 5.15
+75th percentile rental PSF: SGD 5.83
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2023q3,ura_rental,10,2023Q3,2023,3,57,5.69,"URA Rental Median — District 10 | 2023Q3
+Properties tracked: 57
+Median rental PSF/month: SGD 5.69
+25th percentile rental PSF: SGD 5.31
+75th percentile rental PSF: SGD 5.99
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2023q4,ura_rental,10,2023Q4,2023,4,43,5.2,"URA Rental Median — District 10 | 2023Q4
+Properties tracked: 43
+Median rental PSF/month: SGD 5.20
+25th percentile rental PSF: SGD 4.83
+75th percentile rental PSF: SGD 5.44
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2024q1,ura_rental,10,2024Q1,2024,1,48,5.255000000000001,"URA Rental Median — District 10 | 2024Q1
+Properties tracked: 48
+Median rental PSF/month: SGD 5.26
+25th percentile rental PSF: SGD 4.84
+75th percentile rental PSF: SGD 5.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2024q2,ura_rental,10,2024Q2,2024,2,42,5.46,"URA Rental Median — District 10 | 2024Q2
+Properties tracked: 42
+Median rental PSF/month: SGD 5.46
+25th percentile rental PSF: SGD 5.03
+75th percentile rental PSF: SGD 5.89
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2024q3,ura_rental,10,2024Q3,2024,3,75,5.27,"URA Rental Median — District 10 | 2024Q3
+Properties tracked: 75
+Median rental PSF/month: SGD 5.27
+25th percentile rental PSF: SGD 4.92
+75th percentile rental PSF: SGD 5.56
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2024q4,ura_rental,10,2024Q4,2024,4,50,5.16,"URA Rental Median — District 10 | 2024Q4
+Properties tracked: 50
+Median rental PSF/month: SGD 5.16
+25th percentile rental PSF: SGD 4.94
+75th percentile rental PSF: SGD 5.59
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2025q1,ura_rental,10,2025Q1,2025,1,52,5.08,"URA Rental Median — District 10 | 2025Q1
+Properties tracked: 52
+Median rental PSF/month: SGD 5.08
+25th percentile rental PSF: SGD 4.88
+75th percentile rental PSF: SGD 5.32
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2025q2,ura_rental,10,2025Q2,2025,2,45,5.31,"URA Rental Median — District 10 | 2025Q2
+Properties tracked: 45
+Median rental PSF/month: SGD 5.31
+25th percentile rental PSF: SGD 5.10
+75th percentile rental PSF: SGD 5.49
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2025q3,ura_rental,10,2025Q3,2025,3,74,5.335,"URA Rental Median — District 10 | 2025Q3
+Properties tracked: 74
+Median rental PSF/month: SGD 5.33
+25th percentile rental PSF: SGD 5.15
+75th percentile rental PSF: SGD 5.56
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2025q4,ura_rental,10,2025Q4,2025,4,47,5.4,"URA Rental Median — District 10 | 2025Q4
+Properties tracked: 47
+Median rental PSF/month: SGD 5.40
+25th percentile rental PSF: SGD 5.15
+75th percentile rental PSF: SGD 5.73
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d10_2026q1,ura_rental,10,2026Q1,2026,1,50,5.83,"URA Rental Median — District 10 | 2026Q1
+Properties tracked: 50
+Median rental PSF/month: SGD 5.83
+25th percentile rental PSF: SGD 5.58
+75th percentile rental PSF: SGD 6.38
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2023q2,ura_rental,11,2023Q2,2023,2,22,5.665,"URA Rental Median — District 11 | 2023Q2
+Properties tracked: 22
+Median rental PSF/month: SGD 5.67
+25th percentile rental PSF: SGD 5.25
+75th percentile rental PSF: SGD 5.97
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2023q3,ura_rental,11,2023Q3,2023,3,32,5.58,"URA Rental Median — District 11 | 2023Q3
+Properties tracked: 32
+Median rental PSF/month: SGD 5.58
+25th percentile rental PSF: SGD 5.18
+75th percentile rental PSF: SGD 6.04
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2023q4,ura_rental,11,2023Q4,2023,4,26,5.22,"URA Rental Median — District 11 | 2023Q4
+Properties tracked: 26
+Median rental PSF/month: SGD 5.22
+25th percentile rental PSF: SGD 4.80
+75th percentile rental PSF: SGD 5.87
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2024q1,ura_rental,11,2024Q1,2024,1,23,5.33,"URA Rental Median — District 11 | 2024Q1
+Properties tracked: 23
+Median rental PSF/month: SGD 5.33
+25th percentile rental PSF: SGD 5.09
+75th percentile rental PSF: SGD 5.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2024q2,ura_rental,11,2024Q2,2024,2,27,5.24,"URA Rental Median — District 11 | 2024Q2
+Properties tracked: 27
+Median rental PSF/month: SGD 5.24
+25th percentile rental PSF: SGD 4.99
+75th percentile rental PSF: SGD 5.68
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2024q3,ura_rental,11,2024Q3,2024,3,29,5.09,"URA Rental Median — District 11 | 2024Q3
+Properties tracked: 29
+Median rental PSF/month: SGD 5.09
+25th percentile rental PSF: SGD 4.95
+75th percentile rental PSF: SGD 5.36
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2024q4,ura_rental,11,2024Q4,2024,4,26,5.1850000000000005,"URA Rental Median — District 11 | 2024Q4
+Properties tracked: 26
+Median rental PSF/month: SGD 5.19
+25th percentile rental PSF: SGD 4.64
+75th percentile rental PSF: SGD 5.76
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2025q1,ura_rental,11,2025Q1,2025,1,25,5.14,"URA Rental Median — District 11 | 2025Q1
+Properties tracked: 25
+Median rental PSF/month: SGD 5.14
+25th percentile rental PSF: SGD 4.85
+75th percentile rental PSF: SGD 5.30
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2025q2,ura_rental,11,2025Q2,2025,2,29,5.12,"URA Rental Median — District 11 | 2025Q2
+Properties tracked: 29
+Median rental PSF/month: SGD 5.12
+25th percentile rental PSF: SGD 4.70
+75th percentile rental PSF: SGD 5.53
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2025q3,ura_rental,11,2025Q3,2025,3,38,5.385,"URA Rental Median — District 11 | 2025Q3
+Properties tracked: 38
+Median rental PSF/month: SGD 5.38
+25th percentile rental PSF: SGD 4.79
+75th percentile rental PSF: SGD 5.66
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2025q4,ura_rental,11,2025Q4,2025,4,21,5.23,"URA Rental Median — District 11 | 2025Q4
+Properties tracked: 21
+Median rental PSF/month: SGD 5.23
+25th percentile rental PSF: SGD 4.95
+75th percentile rental PSF: SGD 5.84
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d11_2026q1,ura_rental,11,2026Q1,2026,1,26,5.35,"URA Rental Median — District 11 | 2026Q1
+Properties tracked: 26
+Median rental PSF/month: SGD 5.35
+25th percentile rental PSF: SGD 5.07
+75th percentile rental PSF: SGD 5.62
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2023q2,ura_rental,12,2023Q2,2023,2,23,5.15,"URA Rental Median — District 12 | 2023Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 5.15
+25th percentile rental PSF: SGD 4.88
+75th percentile rental PSF: SGD 5.52
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2023q3,ura_rental,12,2023Q3,2023,3,26,5.609999999999999,"URA Rental Median — District 12 | 2023Q3
+Properties tracked: 26
+Median rental PSF/month: SGD 5.61
+25th percentile rental PSF: SGD 5.04
+75th percentile rental PSF: SGD 6.48
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2023q4,ura_rental,12,2023Q4,2023,4,18,5.32,"URA Rental Median — District 12 | 2023Q4
+Properties tracked: 18
+Median rental PSF/month: SGD 5.32
+25th percentile rental PSF: SGD 4.92
+75th percentile rental PSF: SGD 5.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2024q1,ura_rental,12,2024Q1,2024,1,17,5.57,"URA Rental Median — District 12 | 2024Q1
+Properties tracked: 17
+Median rental PSF/month: SGD 5.57
+25th percentile rental PSF: SGD 5.00
+75th percentile rental PSF: SGD 6.23
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2024q2,ura_rental,12,2024Q2,2024,2,22,5.27,"URA Rental Median — District 12 | 2024Q2
+Properties tracked: 22
+Median rental PSF/month: SGD 5.27
+25th percentile rental PSF: SGD 4.71
+75th percentile rental PSF: SGD 5.75
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2024q3,ura_rental,12,2024Q3,2024,3,21,5.23,"URA Rental Median — District 12 | 2024Q3
+Properties tracked: 21
+Median rental PSF/month: SGD 5.23
+25th percentile rental PSF: SGD 4.67
+75th percentile rental PSF: SGD 6.33
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2024q4,ura_rental,12,2024Q4,2024,4,21,5.6,"URA Rental Median — District 12 | 2024Q4
+Properties tracked: 21
+Median rental PSF/month: SGD 5.60
+25th percentile rental PSF: SGD 5.08
+75th percentile rental PSF: SGD 6.16
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2025q1,ura_rental,12,2025Q1,2025,1,23,5.54,"URA Rental Median — District 12 | 2025Q1
+Properties tracked: 23
+Median rental PSF/month: SGD 5.54
+25th percentile rental PSF: SGD 5.16
+75th percentile rental PSF: SGD 6.12
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2025q2,ura_rental,12,2025Q2,2025,2,21,5.78,"URA Rental Median — District 12 | 2025Q2
+Properties tracked: 21
+Median rental PSF/month: SGD 5.78
+25th percentile rental PSF: SGD 5.13
+75th percentile rental PSF: SGD 6.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2025q3,ura_rental,12,2025Q3,2025,3,25,5.39,"URA Rental Median — District 12 | 2025Q3
+Properties tracked: 25
+Median rental PSF/month: SGD 5.39
+25th percentile rental PSF: SGD 4.80
+75th percentile rental PSF: SGD 6.03
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2025q4,ura_rental,12,2025Q4,2025,4,22,5.755000000000001,"URA Rental Median — District 12 | 2025Q4
+Properties tracked: 22
+Median rental PSF/month: SGD 5.76
+25th percentile rental PSF: SGD 5.07
+75th percentile rental PSF: SGD 5.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d12_2026q1,ura_rental,12,2026Q1,2026,1,21,5.72,"URA Rental Median — District 12 | 2026Q1
+Properties tracked: 21
+Median rental PSF/month: SGD 5.72
+25th percentile rental PSF: SGD 5.24
+75th percentile rental PSF: SGD 6.31
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2023q2,ura_rental,13,2023Q2,2023,2,15,5.5,"URA Rental Median — District 13 | 2023Q2
+Properties tracked: 15
+Median rental PSF/month: SGD 5.50
+25th percentile rental PSF: SGD 5.00
+75th percentile rental PSF: SGD 6.10
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2023q3,ura_rental,13,2023Q3,2023,3,18,5.1899999999999995,"URA Rental Median — District 13 | 2023Q3
+Properties tracked: 18
+Median rental PSF/month: SGD 5.19
+25th percentile rental PSF: SGD 4.73
+75th percentile rental PSF: SGD 5.69
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2023q4,ura_rental,13,2023Q4,2023,4,12,6.055,"URA Rental Median — District 13 | 2023Q4
+Properties tracked: 12
+Median rental PSF/month: SGD 6.05
+25th percentile rental PSF: SGD 5.23
+75th percentile rental PSF: SGD 6.52
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2024q1,ura_rental,13,2024Q1,2024,1,10,5.57,"URA Rental Median — District 13 | 2024Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 5.57
+25th percentile rental PSF: SGD 5.30
+75th percentile rental PSF: SGD 6.22
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2024q2,ura_rental,13,2024Q2,2024,2,12,5.625,"URA Rental Median — District 13 | 2024Q2
+Properties tracked: 12
+Median rental PSF/month: SGD 5.62
+25th percentile rental PSF: SGD 4.85
+75th percentile rental PSF: SGD 6.06
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2024q3,ura_rental,13,2024Q3,2024,3,17,5.12,"URA Rental Median — District 13 | 2024Q3
+Properties tracked: 17
+Median rental PSF/month: SGD 5.12
+25th percentile rental PSF: SGD 4.76
+75th percentile rental PSF: SGD 5.81
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2024q4,ura_rental,13,2024Q4,2024,4,12,5.390000000000001,"URA Rental Median — District 13 | 2024Q4
+Properties tracked: 12
+Median rental PSF/month: SGD 5.39
+25th percentile rental PSF: SGD 4.96
+75th percentile rental PSF: SGD 6.20
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2025q1,ura_rental,13,2025Q1,2025,1,12,5.635,"URA Rental Median — District 13 | 2025Q1
+Properties tracked: 12
+Median rental PSF/month: SGD 5.63
+25th percentile rental PSF: SGD 4.94
+75th percentile rental PSF: SGD 6.11
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2025q2,ura_rental,13,2025Q2,2025,2,13,5.45,"URA Rental Median — District 13 | 2025Q2
+Properties tracked: 13
+Median rental PSF/month: SGD 5.45
+25th percentile rental PSF: SGD 5.00
+75th percentile rental PSF: SGD 6.16
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2025q3,ura_rental,13,2025Q3,2025,3,16,5.574999999999999,"URA Rental Median — District 13 | 2025Q3
+Properties tracked: 16
+Median rental PSF/month: SGD 5.57
+25th percentile rental PSF: SGD 4.92
+75th percentile rental PSF: SGD 6.06
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2025q4,ura_rental,13,2025Q4,2025,4,12,5.55,"URA Rental Median — District 13 | 2025Q4
+Properties tracked: 12
+Median rental PSF/month: SGD 5.55
+25th percentile rental PSF: SGD 5.24
+75th percentile rental PSF: SGD 6.10
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d13_2026q1,ura_rental,13,2026Q1,2026,1,11,5.6,"URA Rental Median — District 13 | 2026Q1
+Properties tracked: 11
+Median rental PSF/month: SGD 5.60
+25th percentile rental PSF: SGD 5.00
+75th percentile rental PSF: SGD 6.29
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2023q2,ura_rental,14,2023Q2,2023,2,27,5.83,"URA Rental Median — District 14 | 2023Q2
+Properties tracked: 27
+Median rental PSF/month: SGD 5.83
+25th percentile rental PSF: SGD 4.95
+75th percentile rental PSF: SGD 6.46
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2023q3,ura_rental,14,2023Q3,2023,3,33,5.91,"URA Rental Median — District 14 | 2023Q3
+Properties tracked: 33
+Median rental PSF/month: SGD 5.91
+25th percentile rental PSF: SGD 5.48
+75th percentile rental PSF: SGD 6.41
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2023q4,ura_rental,14,2023Q4,2023,4,21,5.49,"URA Rental Median — District 14 | 2023Q4
+Properties tracked: 21
+Median rental PSF/month: SGD 5.49
+25th percentile rental PSF: SGD 4.68
+75th percentile rental PSF: SGD 5.98
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2024q1,ura_rental,14,2024Q1,2024,1,23,5.59,"URA Rental Median — District 14 | 2024Q1
+Properties tracked: 23
+Median rental PSF/month: SGD 5.59
+25th percentile rental PSF: SGD 5.04
+75th percentile rental PSF: SGD 6.19
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2024q2,ura_rental,14,2024Q2,2024,2,30,5.475,"URA Rental Median — District 14 | 2024Q2
+Properties tracked: 30
+Median rental PSF/month: SGD 5.47
+25th percentile rental PSF: SGD 5.02
+75th percentile rental PSF: SGD 5.84
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2024q3,ura_rental,14,2024Q3,2024,3,34,5.775,"URA Rental Median — District 14 | 2024Q3
+Properties tracked: 34
+Median rental PSF/month: SGD 5.78
+25th percentile rental PSF: SGD 5.25
+75th percentile rental PSF: SGD 6.26
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2024q4,ura_rental,14,2024Q4,2024,4,31,5.07,"URA Rental Median — District 14 | 2024Q4
+Properties tracked: 31
+Median rental PSF/month: SGD 5.07
+25th percentile rental PSF: SGD 4.57
+75th percentile rental PSF: SGD 5.76
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2025q1,ura_rental,14,2025Q1,2025,1,22,5.5,"URA Rental Median — District 14 | 2025Q1
+Properties tracked: 22
+Median rental PSF/month: SGD 5.50
+25th percentile rental PSF: SGD 4.95
+75th percentile rental PSF: SGD 5.95
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2025q2,ura_rental,14,2025Q2,2025,2,29,5.57,"URA Rental Median — District 14 | 2025Q2
+Properties tracked: 29
+Median rental PSF/month: SGD 5.57
+25th percentile rental PSF: SGD 5.31
+75th percentile rental PSF: SGD 6.01
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2025q3,ura_rental,14,2025Q3,2025,3,40,5.795,"URA Rental Median — District 14 | 2025Q3
+Properties tracked: 40
+Median rental PSF/month: SGD 5.79
+25th percentile rental PSF: SGD 5.38
+75th percentile rental PSF: SGD 6.14
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2025q4,ura_rental,14,2025Q4,2025,4,23,5.78,"URA Rental Median — District 14 | 2025Q4
+Properties tracked: 23
+Median rental PSF/month: SGD 5.78
+25th percentile rental PSF: SGD 5.50
+75th percentile rental PSF: SGD 6.17
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d14_2026q1,ura_rental,14,2026Q1,2026,1,26,5.77,"URA Rental Median — District 14 | 2026Q1
+Properties tracked: 26
+Median rental PSF/month: SGD 5.77
+25th percentile rental PSF: SGD 5.33
+75th percentile rental PSF: SGD 6.34
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2023q2,ura_rental,15,2023Q2,2023,2,38,4.74,"URA Rental Median — District 15 | 2023Q2
+Properties tracked: 38
+Median rental PSF/month: SGD 4.74
+25th percentile rental PSF: SGD 4.33
+75th percentile rental PSF: SGD 5.17
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2023q3,ura_rental,15,2023Q3,2023,3,46,4.84,"URA Rental Median — District 15 | 2023Q3
+Properties tracked: 46
+Median rental PSF/month: SGD 4.84
+25th percentile rental PSF: SGD 4.52
+75th percentile rental PSF: SGD 5.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2023q4,ura_rental,15,2023Q4,2023,4,39,4.92,"URA Rental Median — District 15 | 2023Q4
+Properties tracked: 39
+Median rental PSF/month: SGD 4.92
+25th percentile rental PSF: SGD 4.53
+75th percentile rental PSF: SGD 5.14
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2024q1,ura_rental,15,2024Q1,2024,1,42,4.6899999999999995,"URA Rental Median — District 15 | 2024Q1
+Properties tracked: 42
+Median rental PSF/month: SGD 4.69
+25th percentile rental PSF: SGD 4.47
+75th percentile rental PSF: SGD 4.88
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2024q2,ura_rental,15,2024Q2,2024,2,42,4.555,"URA Rental Median — District 15 | 2024Q2
+Properties tracked: 42
+Median rental PSF/month: SGD 4.55
+25th percentile rental PSF: SGD 4.31
+75th percentile rental PSF: SGD 4.81
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2024q3,ura_rental,15,2024Q3,2024,3,54,4.975,"URA Rental Median — District 15 | 2024Q3
+Properties tracked: 54
+Median rental PSF/month: SGD 4.97
+25th percentile rental PSF: SGD 4.70
+75th percentile rental PSF: SGD 5.28
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2024q4,ura_rental,15,2024Q4,2024,4,42,4.895,"URA Rental Median — District 15 | 2024Q4
+Properties tracked: 42
+Median rental PSF/month: SGD 4.89
+25th percentile rental PSF: SGD 4.54
+75th percentile rental PSF: SGD 5.26
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2025q1,ura_rental,15,2025Q1,2025,1,40,4.82,"URA Rental Median — District 15 | 2025Q1
+Properties tracked: 40
+Median rental PSF/month: SGD 4.82
+25th percentile rental PSF: SGD 4.55
+75th percentile rental PSF: SGD 4.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2025q2,ura_rental,15,2025Q2,2025,2,46,4.915,"URA Rental Median — District 15 | 2025Q2
+Properties tracked: 46
+Median rental PSF/month: SGD 4.92
+25th percentile rental PSF: SGD 4.54
+75th percentile rental PSF: SGD 5.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2025q3,ura_rental,15,2025Q3,2025,3,47,5.03,"URA Rental Median — District 15 | 2025Q3
+Properties tracked: 47
+Median rental PSF/month: SGD 5.03
+25th percentile rental PSF: SGD 4.83
+75th percentile rental PSF: SGD 5.32
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2025q4,ura_rental,15,2025Q4,2025,4,36,5.119999999999999,"URA Rental Median — District 15 | 2025Q4
+Properties tracked: 36
+Median rental PSF/month: SGD 5.12
+25th percentile rental PSF: SGD 4.81
+75th percentile rental PSF: SGD 5.33
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d15_2026q1,ura_rental,15,2026Q1,2026,1,41,4.99,"URA Rental Median — District 15 | 2026Q1
+Properties tracked: 41
+Median rental PSF/month: SGD 4.99
+25th percentile rental PSF: SGD 4.65
+75th percentile rental PSF: SGD 5.32
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2023q2,ura_rental,16,2023Q2,2023,2,23,4.3,"URA Rental Median — District 16 | 2023Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 4.30
+25th percentile rental PSF: SGD 3.94
+75th percentile rental PSF: SGD 4.84
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2023q3,ura_rental,16,2023Q3,2023,3,22,4.525,"URA Rental Median — District 16 | 2023Q3
+Properties tracked: 22
+Median rental PSF/month: SGD 4.53
+25th percentile rental PSF: SGD 4.04
+75th percentile rental PSF: SGD 4.69
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2023q4,ura_rental,16,2023Q4,2023,4,20,4.245,"URA Rental Median — District 16 | 2023Q4
+Properties tracked: 20
+Median rental PSF/month: SGD 4.25
+25th percentile rental PSF: SGD 3.87
+75th percentile rental PSF: SGD 4.39
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2024q1,ura_rental,16,2024Q1,2024,1,21,4.19,"URA Rental Median — District 16 | 2024Q1
+Properties tracked: 21
+Median rental PSF/month: SGD 4.19
+25th percentile rental PSF: SGD 4.05
+75th percentile rental PSF: SGD 4.37
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2024q2,ura_rental,16,2024Q2,2024,2,23,4.12,"URA Rental Median — District 16 | 2024Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 4.12
+25th percentile rental PSF: SGD 3.97
+75th percentile rental PSF: SGD 4.30
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2024q3,ura_rental,16,2024Q3,2024,3,29,4.0,"URA Rental Median — District 16 | 2024Q3
+Properties tracked: 29
+Median rental PSF/month: SGD 4.00
+25th percentile rental PSF: SGD 3.84
+75th percentile rental PSF: SGD 4.18
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2024q4,ura_rental,16,2024Q4,2024,4,23,3.9,"URA Rental Median — District 16 | 2024Q4
+Properties tracked: 23
+Median rental PSF/month: SGD 3.90
+25th percentile rental PSF: SGD 3.74
+75th percentile rental PSF: SGD 4.08
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2025q1,ura_rental,16,2025Q1,2025,1,20,4.4350000000000005,"URA Rental Median — District 16 | 2025Q1
+Properties tracked: 20
+Median rental PSF/month: SGD 4.44
+25th percentile rental PSF: SGD 4.08
+75th percentile rental PSF: SGD 4.75
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2025q2,ura_rental,16,2025Q2,2025,2,23,4.1,"URA Rental Median — District 16 | 2025Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 4.10
+25th percentile rental PSF: SGD 3.90
+75th percentile rental PSF: SGD 4.22
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2025q3,ura_rental,16,2025Q3,2025,3,25,4.09,"URA Rental Median — District 16 | 2025Q3
+Properties tracked: 25
+Median rental PSF/month: SGD 4.09
+25th percentile rental PSF: SGD 3.79
+75th percentile rental PSF: SGD 4.32
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2025q4,ura_rental,16,2025Q4,2025,4,22,4.12,"URA Rental Median — District 16 | 2025Q4
+Properties tracked: 22
+Median rental PSF/month: SGD 4.12
+25th percentile rental PSF: SGD 3.92
+75th percentile rental PSF: SGD 4.31
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d16_2026q1,ura_rental,16,2026Q1,2026,1,22,4.395,"URA Rental Median — District 16 | 2026Q1
+Properties tracked: 22
+Median rental PSF/month: SGD 4.39
+25th percentile rental PSF: SGD 4.15
+75th percentile rental PSF: SGD 4.67
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2023q2,ura_rental,17,2023Q2,2023,2,15,3.52,"URA Rental Median — District 17 | 2023Q2
+Properties tracked: 15
+Median rental PSF/month: SGD 3.52
+25th percentile rental PSF: SGD 3.14
+75th percentile rental PSF: SGD 4.04
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2023q3,ura_rental,17,2023Q3,2023,3,15,3.57,"URA Rental Median — District 17 | 2023Q3
+Properties tracked: 15
+Median rental PSF/month: SGD 3.57
+25th percentile rental PSF: SGD 3.11
+75th percentile rental PSF: SGD 3.92
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2023q4,ura_rental,17,2023Q4,2023,4,14,3.5,"URA Rental Median — District 17 | 2023Q4
+Properties tracked: 14
+Median rental PSF/month: SGD 3.50
+25th percentile rental PSF: SGD 3.23
+75th percentile rental PSF: SGD 3.79
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2024q1,ura_rental,17,2024Q1,2024,1,12,3.7,"URA Rental Median — District 17 | 2024Q1
+Properties tracked: 12
+Median rental PSF/month: SGD 3.70
+25th percentile rental PSF: SGD 3.41
+75th percentile rental PSF: SGD 4.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2024q2,ura_rental,17,2024Q2,2024,2,15,3.47,"URA Rental Median — District 17 | 2024Q2
+Properties tracked: 15
+Median rental PSF/month: SGD 3.47
+25th percentile rental PSF: SGD 3.24
+75th percentile rental PSF: SGD 4.07
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2024q3,ura_rental,17,2024Q3,2024,3,15,3.31,"URA Rental Median — District 17 | 2024Q3
+Properties tracked: 15
+Median rental PSF/month: SGD 3.31
+25th percentile rental PSF: SGD 3.10
+75th percentile rental PSF: SGD 3.61
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2024q4,ura_rental,17,2024Q4,2024,4,14,3.29,"URA Rental Median — District 17 | 2024Q4
+Properties tracked: 14
+Median rental PSF/month: SGD 3.29
+25th percentile rental PSF: SGD 3.06
+75th percentile rental PSF: SGD 3.61
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2025q1,ura_rental,17,2025Q1,2025,1,15,3.44,"URA Rental Median — District 17 | 2025Q1
+Properties tracked: 15
+Median rental PSF/month: SGD 3.44
+25th percentile rental PSF: SGD 3.17
+75th percentile rental PSF: SGD 3.67
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2025q2,ura_rental,17,2025Q2,2025,2,16,3.375,"URA Rental Median — District 17 | 2025Q2
+Properties tracked: 16
+Median rental PSF/month: SGD 3.38
+25th percentile rental PSF: SGD 3.16
+75th percentile rental PSF: SGD 3.68
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2025q3,ura_rental,17,2025Q3,2025,3,14,3.3049999999999997,"URA Rental Median — District 17 | 2025Q3
+Properties tracked: 14
+Median rental PSF/month: SGD 3.30
+25th percentile rental PSF: SGD 3.09
+75th percentile rental PSF: SGD 3.58
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2025q4,ura_rental,17,2025Q4,2025,4,15,3.53,"URA Rental Median — District 17 | 2025Q4
+Properties tracked: 15
+Median rental PSF/month: SGD 3.53
+25th percentile rental PSF: SGD 3.18
+75th percentile rental PSF: SGD 3.88
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d17_2026q1,ura_rental,17,2026Q1,2026,1,15,3.35,"URA Rental Median — District 17 | 2026Q1
+Properties tracked: 15
+Median rental PSF/month: SGD 3.35
+25th percentile rental PSF: SGD 3.19
+75th percentile rental PSF: SGD 3.56
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2023q2,ura_rental,18,2023Q2,2023,2,23,4.48,"URA Rental Median — District 18 | 2023Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 4.48
+25th percentile rental PSF: SGD 3.94
+75th percentile rental PSF: SGD 5.03
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2023q3,ura_rental,18,2023Q3,2023,3,25,4.22,"URA Rental Median — District 18 | 2023Q3
+Properties tracked: 25
+Median rental PSF/month: SGD 4.22
+25th percentile rental PSF: SGD 3.96
+75th percentile rental PSF: SGD 4.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2023q4,ura_rental,18,2023Q4,2023,4,23,4.31,"URA Rental Median — District 18 | 2023Q4
+Properties tracked: 23
+Median rental PSF/month: SGD 4.31
+25th percentile rental PSF: SGD 3.98
+75th percentile rental PSF: SGD 4.93
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2024q1,ura_rental,18,2024Q1,2024,1,24,4.135,"URA Rental Median — District 18 | 2024Q1
+Properties tracked: 24
+Median rental PSF/month: SGD 4.13
+25th percentile rental PSF: SGD 3.91
+75th percentile rental PSF: SGD 4.49
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2024q2,ura_rental,18,2024Q2,2024,2,24,4.22,"URA Rental Median — District 18 | 2024Q2
+Properties tracked: 24
+Median rental PSF/month: SGD 4.22
+25th percentile rental PSF: SGD 3.81
+75th percentile rental PSF: SGD 4.61
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2024q3,ura_rental,18,2024Q3,2024,3,23,4.14,"URA Rental Median — District 18 | 2024Q3
+Properties tracked: 23
+Median rental PSF/month: SGD 4.14
+25th percentile rental PSF: SGD 3.81
+75th percentile rental PSF: SGD 4.39
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2024q4,ura_rental,18,2024Q4,2024,4,23,4.19,"URA Rental Median — District 18 | 2024Q4
+Properties tracked: 23
+Median rental PSF/month: SGD 4.19
+25th percentile rental PSF: SGD 3.84
+75th percentile rental PSF: SGD 4.56
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2025q1,ura_rental,18,2025Q1,2025,1,23,4.19,"URA Rental Median — District 18 | 2025Q1
+Properties tracked: 23
+Median rental PSF/month: SGD 4.19
+25th percentile rental PSF: SGD 3.91
+75th percentile rental PSF: SGD 4.58
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2025q2,ura_rental,18,2025Q2,2025,2,23,4.21,"URA Rental Median — District 18 | 2025Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 4.21
+25th percentile rental PSF: SGD 3.85
+75th percentile rental PSF: SGD 4.65
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2025q3,ura_rental,18,2025Q3,2025,3,27,4.22,"URA Rental Median — District 18 | 2025Q3
+Properties tracked: 27
+Median rental PSF/month: SGD 4.22
+25th percentile rental PSF: SGD 3.91
+75th percentile rental PSF: SGD 4.56
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2025q4,ura_rental,18,2025Q4,2025,4,24,4.255,"URA Rental Median — District 18 | 2025Q4
+Properties tracked: 24
+Median rental PSF/month: SGD 4.25
+25th percentile rental PSF: SGD 3.97
+75th percentile rental PSF: SGD 4.67
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d18_2026q1,ura_rental,18,2026Q1,2026,1,25,4.22,"URA Rental Median — District 18 | 2026Q1
+Properties tracked: 25
+Median rental PSF/month: SGD 4.22
+25th percentile rental PSF: SGD 4.02
+75th percentile rental PSF: SGD 4.58
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2023q2,ura_rental,19,2023Q2,2023,2,38,4.970000000000001,"URA Rental Median — District 19 | 2023Q2
+Properties tracked: 38
+Median rental PSF/month: SGD 4.97
+25th percentile rental PSF: SGD 4.32
+75th percentile rental PSF: SGD 5.31
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2023q3,ura_rental,19,2023Q3,2023,3,47,4.58,"URA Rental Median — District 19 | 2023Q3
+Properties tracked: 47
+Median rental PSF/month: SGD 4.58
+25th percentile rental PSF: SGD 4.14
+75th percentile rental PSF: SGD 5.11
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2023q4,ura_rental,19,2023Q4,2023,4,42,4.68,"URA Rental Median — District 19 | 2023Q4
+Properties tracked: 42
+Median rental PSF/month: SGD 4.68
+25th percentile rental PSF: SGD 4.32
+75th percentile rental PSF: SGD 5.08
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2024q1,ura_rental,19,2024Q1,2024,1,45,4.83,"URA Rental Median — District 19 | 2024Q1
+Properties tracked: 45
+Median rental PSF/month: SGD 4.83
+25th percentile rental PSF: SGD 4.37
+75th percentile rental PSF: SGD 5.48
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2024q2,ura_rental,19,2024Q2,2024,2,38,4.62,"URA Rental Median — District 19 | 2024Q2
+Properties tracked: 38
+Median rental PSF/month: SGD 4.62
+25th percentile rental PSF: SGD 4.08
+75th percentile rental PSF: SGD 5.16
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2024q3,ura_rental,19,2024Q3,2024,3,47,4.51,"URA Rental Median — District 19 | 2024Q3
+Properties tracked: 47
+Median rental PSF/month: SGD 4.51
+25th percentile rental PSF: SGD 4.03
+75th percentile rental PSF: SGD 4.94
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2024q4,ura_rental,19,2024Q4,2024,4,48,4.550000000000001,"URA Rental Median — District 19 | 2024Q4
+Properties tracked: 48
+Median rental PSF/month: SGD 4.55
+25th percentile rental PSF: SGD 4.17
+75th percentile rental PSF: SGD 5.26
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2025q1,ura_rental,19,2025Q1,2025,1,45,4.78,"URA Rental Median — District 19 | 2025Q1
+Properties tracked: 45
+Median rental PSF/month: SGD 4.78
+25th percentile rental PSF: SGD 4.45
+75th percentile rental PSF: SGD 5.19
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2025q2,ura_rental,19,2025Q2,2025,2,43,4.74,"URA Rental Median — District 19 | 2025Q2
+Properties tracked: 43
+Median rental PSF/month: SGD 4.74
+25th percentile rental PSF: SGD 4.40
+75th percentile rental PSF: SGD 5.24
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2025q3,ura_rental,19,2025Q3,2025,3,55,4.78,"URA Rental Median — District 19 | 2025Q3
+Properties tracked: 55
+Median rental PSF/month: SGD 4.78
+25th percentile rental PSF: SGD 4.20
+75th percentile rental PSF: SGD 5.11
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2025q4,ura_rental,19,2025Q4,2025,4,43,4.78,"URA Rental Median — District 19 | 2025Q4
+Properties tracked: 43
+Median rental PSF/month: SGD 4.78
+25th percentile rental PSF: SGD 4.44
+75th percentile rental PSF: SGD 5.19
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d19_2026q1,ura_rental,19,2026Q1,2026,1,45,4.78,"URA Rental Median — District 19 | 2026Q1
+Properties tracked: 45
+Median rental PSF/month: SGD 4.78
+25th percentile rental PSF: SGD 4.42
+75th percentile rental PSF: SGD 5.28
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2023q2,ura_rental,20,2023Q2,2023,2,13,4.84,"URA Rental Median — District 20 | 2023Q2
+Properties tracked: 13
+Median rental PSF/month: SGD 4.84
+25th percentile rental PSF: SGD 4.35
+75th percentile rental PSF: SGD 5.56
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2023q3,ura_rental,20,2023Q3,2023,3,16,4.66,"URA Rental Median — District 20 | 2023Q3
+Properties tracked: 16
+Median rental PSF/month: SGD 4.66
+25th percentile rental PSF: SGD 4.37
+75th percentile rental PSF: SGD 5.09
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2023q4,ura_rental,20,2023Q4,2023,4,13,5.04,"URA Rental Median — District 20 | 2023Q4
+Properties tracked: 13
+Median rental PSF/month: SGD 5.04
+25th percentile rental PSF: SGD 4.47
+75th percentile rental PSF: SGD 5.20
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2024q1,ura_rental,20,2024Q1,2024,1,11,5.09,"URA Rental Median — District 20 | 2024Q1
+Properties tracked: 11
+Median rental PSF/month: SGD 5.09
+25th percentile rental PSF: SGD 4.57
+75th percentile rental PSF: SGD 5.27
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2024q2,ura_rental,20,2024Q2,2024,2,16,4.285,"URA Rental Median — District 20 | 2024Q2
+Properties tracked: 16
+Median rental PSF/month: SGD 4.29
+25th percentile rental PSF: SGD 4.01
+75th percentile rental PSF: SGD 4.83
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2024q3,ura_rental,20,2024Q3,2024,3,15,4.33,"URA Rental Median — District 20 | 2024Q3
+Properties tracked: 15
+Median rental PSF/month: SGD 4.33
+25th percentile rental PSF: SGD 4.01
+75th percentile rental PSF: SGD 4.61
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2024q4,ura_rental,20,2024Q4,2024,4,13,4.38,"URA Rental Median — District 20 | 2024Q4
+Properties tracked: 13
+Median rental PSF/month: SGD 4.38
+25th percentile rental PSF: SGD 4.19
+75th percentile rental PSF: SGD 5.07
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2025q1,ura_rental,20,2025Q1,2025,1,15,4.5,"URA Rental Median — District 20 | 2025Q1
+Properties tracked: 15
+Median rental PSF/month: SGD 4.50
+25th percentile rental PSF: SGD 4.20
+75th percentile rental PSF: SGD 4.69
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2025q2,ura_rental,20,2025Q2,2025,2,15,4.48,"URA Rental Median — District 20 | 2025Q2
+Properties tracked: 15
+Median rental PSF/month: SGD 4.48
+25th percentile rental PSF: SGD 4.36
+75th percentile rental PSF: SGD 5.02
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2025q3,ura_rental,20,2025Q3,2025,3,16,4.4,"URA Rental Median — District 20 | 2025Q3
+Properties tracked: 16
+Median rental PSF/month: SGD 4.40
+25th percentile rental PSF: SGD 4.18
+75th percentile rental PSF: SGD 4.53
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2025q4,ura_rental,20,2025Q4,2025,4,15,4.42,"URA Rental Median — District 20 | 2025Q4
+Properties tracked: 15
+Median rental PSF/month: SGD 4.42
+25th percentile rental PSF: SGD 4.30
+75th percentile rental PSF: SGD 5.02
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d20_2026q1,ura_rental,20,2026Q1,2026,1,14,4.905,"URA Rental Median — District 20 | 2026Q1
+Properties tracked: 14
+Median rental PSF/month: SGD 4.91
+25th percentile rental PSF: SGD 4.61
+75th percentile rental PSF: SGD 5.22
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2023q2,ura_rental,21,2023Q2,2023,2,25,4.28,"URA Rental Median — District 21 | 2023Q2
+Properties tracked: 25
+Median rental PSF/month: SGD 4.28
+25th percentile rental PSF: SGD 4.07
+75th percentile rental PSF: SGD 4.52
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2023q3,ura_rental,21,2023Q3,2023,3,29,4.07,"URA Rental Median — District 21 | 2023Q3
+Properties tracked: 29
+Median rental PSF/month: SGD 4.07
+25th percentile rental PSF: SGD 3.74
+75th percentile rental PSF: SGD 4.26
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2023q4,ura_rental,21,2023Q4,2023,4,20,3.6500000000000004,"URA Rental Median — District 21 | 2023Q4
+Properties tracked: 20
+Median rental PSF/month: SGD 3.65
+25th percentile rental PSF: SGD 3.49
+75th percentile rental PSF: SGD 3.90
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2024q1,ura_rental,21,2024Q1,2024,1,21,4.13,"URA Rental Median — District 21 | 2024Q1
+Properties tracked: 21
+Median rental PSF/month: SGD 4.13
+25th percentile rental PSF: SGD 3.87
+75th percentile rental PSF: SGD 4.20
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2024q2,ura_rental,21,2024Q2,2024,2,23,4.2,"URA Rental Median — District 21 | 2024Q2
+Properties tracked: 23
+Median rental PSF/month: SGD 4.20
+25th percentile rental PSF: SGD 3.93
+75th percentile rental PSF: SGD 4.31
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2024q3,ura_rental,21,2024Q3,2024,3,33,4.07,"URA Rental Median — District 21 | 2024Q3
+Properties tracked: 33
+Median rental PSF/month: SGD 4.07
+25th percentile rental PSF: SGD 3.86
+75th percentile rental PSF: SGD 4.35
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2024q4,ura_rental,21,2024Q4,2024,4,22,3.87,"URA Rental Median — District 21 | 2024Q4
+Properties tracked: 22
+Median rental PSF/month: SGD 3.87
+25th percentile rental PSF: SGD 3.70
+75th percentile rental PSF: SGD 4.02
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2025q1,ura_rental,21,2025Q1,2025,1,25,4.18,"URA Rental Median — District 21 | 2025Q1
+Properties tracked: 25
+Median rental PSF/month: SGD 4.18
+25th percentile rental PSF: SGD 4.03
+75th percentile rental PSF: SGD 4.61
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2025q2,ura_rental,21,2025Q2,2025,2,30,4.31,"URA Rental Median — District 21 | 2025Q2
+Properties tracked: 30
+Median rental PSF/month: SGD 4.31
+25th percentile rental PSF: SGD 4.00
+75th percentile rental PSF: SGD 4.47
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2025q3,ura_rental,21,2025Q3,2025,3,35,4.2,"URA Rental Median — District 21 | 2025Q3
+Properties tracked: 35
+Median rental PSF/month: SGD 4.20
+25th percentile rental PSF: SGD 3.99
+75th percentile rental PSF: SGD 4.67
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2025q4,ura_rental,21,2025Q4,2025,4,20,3.985,"URA Rental Median — District 21 | 2025Q4
+Properties tracked: 20
+Median rental PSF/month: SGD 3.98
+25th percentile rental PSF: SGD 3.85
+75th percentile rental PSF: SGD 4.16
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d21_2026q1,ura_rental,21,2026Q1,2026,1,22,4.38,"URA Rental Median — District 21 | 2026Q1
+Properties tracked: 22
+Median rental PSF/month: SGD 4.38
+25th percentile rental PSF: SGD 4.23
+75th percentile rental PSF: SGD 4.72
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2023q2,ura_rental,22,2023Q2,2023,2,12,4.539999999999999,"URA Rental Median — District 22 | 2023Q2
+Properties tracked: 12
+Median rental PSF/month: SGD 4.54
+25th percentile rental PSF: SGD 4.25
+75th percentile rental PSF: SGD 4.87
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2023q3,ura_rental,22,2023Q3,2023,3,12,4.575,"URA Rental Median — District 22 | 2023Q3
+Properties tracked: 12
+Median rental PSF/month: SGD 4.58
+25th percentile rental PSF: SGD 4.29
+75th percentile rental PSF: SGD 4.84
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2023q4,ura_rental,22,2023Q4,2023,4,11,4.62,"URA Rental Median — District 22 | 2023Q4
+Properties tracked: 11
+Median rental PSF/month: SGD 4.62
+25th percentile rental PSF: SGD 4.32
+75th percentile rental PSF: SGD 4.95
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2024q1,ura_rental,22,2024Q1,2024,1,11,4.72,"URA Rental Median — District 22 | 2024Q1
+Properties tracked: 11
+Median rental PSF/month: SGD 4.72
+25th percentile rental PSF: SGD 4.22
+75th percentile rental PSF: SGD 5.02
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2024q2,ura_rental,22,2024Q2,2024,2,10,4.615,"URA Rental Median — District 22 | 2024Q2
+Properties tracked: 10
+Median rental PSF/month: SGD 4.62
+25th percentile rental PSF: SGD 4.33
+75th percentile rental PSF: SGD 4.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2024q3,ura_rental,22,2024Q3,2024,3,11,4.49,"URA Rental Median — District 22 | 2024Q3
+Properties tracked: 11
+Median rental PSF/month: SGD 4.49
+25th percentile rental PSF: SGD 4.29
+75th percentile rental PSF: SGD 4.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2024q4,ura_rental,22,2024Q4,2024,4,11,4.41,"URA Rental Median — District 22 | 2024Q4
+Properties tracked: 11
+Median rental PSF/month: SGD 4.41
+25th percentile rental PSF: SGD 4.18
+75th percentile rental PSF: SGD 4.72
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2025q1,ura_rental,22,2025Q1,2025,1,11,4.59,"URA Rental Median — District 22 | 2025Q1
+Properties tracked: 11
+Median rental PSF/month: SGD 4.59
+25th percentile rental PSF: SGD 4.28
+75th percentile rental PSF: SGD 4.81
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2025q2,ura_rental,22,2025Q2,2025,2,10,4.595000000000001,"URA Rental Median — District 22 | 2025Q2
+Properties tracked: 10
+Median rental PSF/month: SGD 4.60
+25th percentile rental PSF: SGD 4.38
+75th percentile rental PSF: SGD 4.74
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2025q3,ura_rental,22,2025Q3,2025,3,12,4.545,"URA Rental Median — District 22 | 2025Q3
+Properties tracked: 12
+Median rental PSF/month: SGD 4.54
+25th percentile rental PSF: SGD 4.33
+75th percentile rental PSF: SGD 4.79
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2025q4,ura_rental,22,2025Q4,2025,4,11,4.7,"URA Rental Median — District 22 | 2025Q4
+Properties tracked: 11
+Median rental PSF/month: SGD 4.70
+25th percentile rental PSF: SGD 4.33
+75th percentile rental PSF: SGD 4.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d22_2026q1,ura_rental,22,2026Q1,2026,1,11,4.7,"URA Rental Median — District 22 | 2026Q1
+Properties tracked: 11
+Median rental PSF/month: SGD 4.70
+25th percentile rental PSF: SGD 4.45
+75th percentile rental PSF: SGD 4.91
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2023q2,ura_rental,23,2023Q2,2023,2,30,3.795,"URA Rental Median — District 23 | 2023Q2
+Properties tracked: 30
+Median rental PSF/month: SGD 3.79
+25th percentile rental PSF: SGD 3.41
+75th percentile rental PSF: SGD 4.12
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2023q3,ura_rental,23,2023Q3,2023,3,35,3.82,"URA Rental Median — District 23 | 2023Q3
+Properties tracked: 35
+Median rental PSF/month: SGD 3.82
+25th percentile rental PSF: SGD 3.43
+75th percentile rental PSF: SGD 4.04
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2023q4,ura_rental,23,2023Q4,2023,4,31,3.77,"URA Rental Median — District 23 | 2023Q4
+Properties tracked: 31
+Median rental PSF/month: SGD 3.77
+25th percentile rental PSF: SGD 3.47
+75th percentile rental PSF: SGD 4.08
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2024q1,ura_rental,23,2024Q1,2024,1,25,3.55,"URA Rental Median — District 23 | 2024Q1
+Properties tracked: 25
+Median rental PSF/month: SGD 3.55
+25th percentile rental PSF: SGD 3.41
+75th percentile rental PSF: SGD 3.89
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2024q2,ura_rental,23,2024Q2,2024,2,32,3.71,"URA Rental Median — District 23 | 2024Q2
+Properties tracked: 32
+Median rental PSF/month: SGD 3.71
+25th percentile rental PSF: SGD 3.47
+75th percentile rental PSF: SGD 3.90
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2024q3,ura_rental,23,2024Q3,2024,3,35,3.7,"URA Rental Median — District 23 | 2024Q3
+Properties tracked: 35
+Median rental PSF/month: SGD 3.70
+25th percentile rental PSF: SGD 3.43
+75th percentile rental PSF: SGD 3.91
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2024q4,ura_rental,23,2024Q4,2024,4,30,3.855,"URA Rental Median — District 23 | 2024Q4
+Properties tracked: 30
+Median rental PSF/month: SGD 3.85
+25th percentile rental PSF: SGD 3.62
+75th percentile rental PSF: SGD 4.00
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2025q1,ura_rental,23,2025Q1,2025,1,30,3.6900000000000004,"URA Rental Median — District 23 | 2025Q1
+Properties tracked: 30
+Median rental PSF/month: SGD 3.69
+25th percentile rental PSF: SGD 3.60
+75th percentile rental PSF: SGD 3.94
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2025q2,ura_rental,23,2025Q2,2025,2,33,3.65,"URA Rental Median — District 23 | 2025Q2
+Properties tracked: 33
+Median rental PSF/month: SGD 3.65
+25th percentile rental PSF: SGD 3.46
+75th percentile rental PSF: SGD 3.89
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2025q3,ura_rental,23,2025Q3,2025,3,34,3.71,"URA Rental Median — District 23 | 2025Q3
+Properties tracked: 34
+Median rental PSF/month: SGD 3.71
+25th percentile rental PSF: SGD 3.52
+75th percentile rental PSF: SGD 4.00
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2025q4,ura_rental,23,2025Q4,2025,4,30,3.785,"URA Rental Median — District 23 | 2025Q4
+Properties tracked: 30
+Median rental PSF/month: SGD 3.79
+25th percentile rental PSF: SGD 3.68
+75th percentile rental PSF: SGD 4.00
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d23_2026q1,ura_rental,23,2026Q1,2026,1,31,3.68,"URA Rental Median — District 23 | 2026Q1
+Properties tracked: 31
+Median rental PSF/month: SGD 3.68
+25th percentile rental PSF: SGD 3.52
+75th percentile rental PSF: SGD 3.95
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2023q2,ura_rental,25,2023Q2,2023,2,5,3.77,"URA Rental Median — District 25 | 2023Q2
+Properties tracked: 5
+Median rental PSF/month: SGD 3.77
+25th percentile rental PSF: SGD 3.33
+75th percentile rental PSF: SGD 3.91
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2023q3,ura_rental,25,2023Q3,2023,3,4,3.985,"URA Rental Median — District 25 | 2023Q3
+Properties tracked: 4
+Median rental PSF/month: SGD 3.98
+25th percentile rental PSF: SGD 3.62
+75th percentile rental PSF: SGD 4.39
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2023q4,ura_rental,25,2023Q4,2023,4,3,4.43,"URA Rental Median — District 25 | 2023Q4
+Properties tracked: 3
+Median rental PSF/month: SGD 4.43
+25th percentile rental PSF: SGD 4.07
+75th percentile rental PSF: SGD 4.77
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2024q1,ura_rental,25,2024Q1,2024,1,4,4.045,"URA Rental Median — District 25 | 2024Q1
+Properties tracked: 4
+Median rental PSF/month: SGD 4.04
+25th percentile rental PSF: SGD 3.87
+75th percentile rental PSF: SGD 4.19
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2024q2,ura_rental,25,2024Q2,2024,2,5,3.57,"URA Rental Median — District 25 | 2024Q2
+Properties tracked: 5
+Median rental PSF/month: SGD 3.57
+25th percentile rental PSF: SGD 3.43
+75th percentile rental PSF: SGD 3.68
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2024q3,ura_rental,25,2024Q3,2024,3,5,3.57,"URA Rental Median — District 25 | 2024Q3
+Properties tracked: 5
+Median rental PSF/month: SGD 3.57
+25th percentile rental PSF: SGD 3.39
+75th percentile rental PSF: SGD 3.75
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2024q4,ura_rental,25,2024Q4,2024,4,3,4.59,"URA Rental Median — District 25 | 2024Q4
+Properties tracked: 3
+Median rental PSF/month: SGD 4.59
+25th percentile rental PSF: SGD 4.36
+75th percentile rental PSF: SGD 4.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2025q1,ura_rental,25,2025Q1,2025,1,4,4.05,"URA Rental Median — District 25 | 2025Q1
+Properties tracked: 4
+Median rental PSF/month: SGD 4.05
+25th percentile rental PSF: SGD 3.62
+75th percentile rental PSF: SGD 4.24
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2025q2,ura_rental,25,2025Q2,2025,2,5,3.67,"URA Rental Median — District 25 | 2025Q2
+Properties tracked: 5
+Median rental PSF/month: SGD 3.67
+25th percentile rental PSF: SGD 3.46
+75th percentile rental PSF: SGD 3.76
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2025q3,ura_rental,25,2025Q3,2025,3,5,3.74,"URA Rental Median — District 25 | 2025Q3
+Properties tracked: 5
+Median rental PSF/month: SGD 3.74
+25th percentile rental PSF: SGD 3.59
+75th percentile rental PSF: SGD 3.87
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d25_2025q4,ura_rental,25,2025Q4,2025,4,4,4.035,"URA Rental Median — District 25 | 2025Q4
+Properties tracked: 4
+Median rental PSF/month: SGD 4.04
+25th percentile rental PSF: SGD 3.89
+75th percentile rental PSF: SGD 4.24
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2023q2,ura_rental,26,2023Q2,2023,2,4,3.705,"URA Rental Median — District 26 | 2023Q2
+Properties tracked: 4
+Median rental PSF/month: SGD 3.71
+25th percentile rental PSF: SGD 3.38
+75th percentile rental PSF: SGD 4.06
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2023q3,ura_rental,26,2023Q3,2023,3,4,3.55,"URA Rental Median — District 26 | 2023Q3
+Properties tracked: 4
+Median rental PSF/month: SGD 3.55
+25th percentile rental PSF: SGD 3.00
+75th percentile rental PSF: SGD 3.75
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2023q4,ura_rental,26,2023Q4,2023,4,5,3.46,"URA Rental Median — District 26 | 2023Q4
+Properties tracked: 5
+Median rental PSF/month: SGD 3.46
+25th percentile rental PSF: SGD 3.17
+75th percentile rental PSF: SGD 3.66
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2024q1,ura_rental,26,2024Q1,2024,1,5,3.59,"URA Rental Median — District 26 | 2024Q1
+Properties tracked: 5
+Median rental PSF/month: SGD 3.59
+25th percentile rental PSF: SGD 3.25
+75th percentile rental PSF: SGD 3.73
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2024q2,ura_rental,26,2024Q2,2024,2,4,3.6950000000000003,"URA Rental Median — District 26 | 2024Q2
+Properties tracked: 4
+Median rental PSF/month: SGD 3.70
+25th percentile rental PSF: SGD 3.39
+75th percentile rental PSF: SGD 3.91
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2024q3,ura_rental,26,2024Q3,2024,3,5,3.53,"URA Rental Median — District 26 | 2024Q3
+Properties tracked: 5
+Median rental PSF/month: SGD 3.53
+25th percentile rental PSF: SGD 3.35
+75th percentile rental PSF: SGD 3.82
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2024q4,ura_rental,26,2024Q4,2024,4,4,3.62,"URA Rental Median — District 26 | 2024Q4
+Properties tracked: 4
+Median rental PSF/month: SGD 3.62
+25th percentile rental PSF: SGD 3.35
+75th percentile rental PSF: SGD 3.90
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2025q1,ura_rental,26,2025Q1,2025,1,5,3.47,"URA Rental Median — District 26 | 2025Q1
+Properties tracked: 5
+Median rental PSF/month: SGD 3.47
+25th percentile rental PSF: SGD 3.21
+75th percentile rental PSF: SGD 3.79
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2025q2,ura_rental,26,2025Q2,2025,2,4,3.605,"URA Rental Median — District 26 | 2025Q2
+Properties tracked: 4
+Median rental PSF/month: SGD 3.60
+25th percentile rental PSF: SGD 3.41
+75th percentile rental PSF: SGD 3.98
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2025q3,ura_rental,26,2025Q3,2025,3,5,3.53,"URA Rental Median — District 26 | 2025Q3
+Properties tracked: 5
+Median rental PSF/month: SGD 3.53
+25th percentile rental PSF: SGD 3.27
+75th percentile rental PSF: SGD 3.81
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2025q4,ura_rental,26,2025Q4,2025,4,5,3.59,"URA Rental Median — District 26 | 2025Q4
+Properties tracked: 5
+Median rental PSF/month: SGD 3.59
+25th percentile rental PSF: SGD 3.30
+75th percentile rental PSF: SGD 3.78
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d26_2026q1,ura_rental,26,2026Q1,2026,1,6,3.555,"URA Rental Median — District 26 | 2026Q1
+Properties tracked: 6
+Median rental PSF/month: SGD 3.56
+25th percentile rental PSF: SGD 3.29
+75th percentile rental PSF: SGD 3.94
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2023q2,ura_rental,27,2023Q2,2023,2,11,3.89,"URA Rental Median — District 27 | 2023Q2
+Properties tracked: 11
+Median rental PSF/month: SGD 3.89
+25th percentile rental PSF: SGD 3.46
+75th percentile rental PSF: SGD 4.36
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2023q3,ura_rental,27,2023Q3,2023,3,10,4.405,"URA Rental Median — District 27 | 2023Q3
+Properties tracked: 10
+Median rental PSF/month: SGD 4.41
+25th percentile rental PSF: SGD 3.81
+75th percentile rental PSF: SGD 4.71
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2023q4,ura_rental,27,2023Q4,2023,4,10,4.275,"URA Rental Median — District 27 | 2023Q4
+Properties tracked: 10
+Median rental PSF/month: SGD 4.28
+25th percentile rental PSF: SGD 3.82
+75th percentile rental PSF: SGD 4.72
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2024q1,ura_rental,27,2024Q1,2024,1,10,4.35,"URA Rental Median — District 27 | 2024Q1
+Properties tracked: 10
+Median rental PSF/month: SGD 4.35
+25th percentile rental PSF: SGD 3.83
+75th percentile rental PSF: SGD 4.64
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2024q2,ura_rental,27,2024Q2,2024,2,12,3.925,"URA Rental Median — District 27 | 2024Q2
+Properties tracked: 12
+Median rental PSF/month: SGD 3.92
+25th percentile rental PSF: SGD 3.67
+75th percentile rental PSF: SGD 4.47
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2024q3,ura_rental,27,2024Q3,2024,3,13,3.76,"URA Rental Median — District 27 | 2024Q3
+Properties tracked: 13
+Median rental PSF/month: SGD 3.76
+25th percentile rental PSF: SGD 3.57
+75th percentile rental PSF: SGD 4.12
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2024q4,ura_rental,27,2024Q4,2024,4,10,4.055,"URA Rental Median — District 27 | 2024Q4
+Properties tracked: 10
+Median rental PSF/month: SGD 4.05
+25th percentile rental PSF: SGD 3.73
+75th percentile rental PSF: SGD 4.45
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2025q1,ura_rental,27,2025Q1,2025,1,12,3.87,"URA Rental Median — District 27 | 2025Q1
+Properties tracked: 12
+Median rental PSF/month: SGD 3.87
+25th percentile rental PSF: SGD 3.59
+75th percentile rental PSF: SGD 4.18
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2025q2,ura_rental,27,2025Q2,2025,2,12,3.915,"URA Rental Median — District 27 | 2025Q2
+Properties tracked: 12
+Median rental PSF/month: SGD 3.92
+25th percentile rental PSF: SGD 3.72
+75th percentile rental PSF: SGD 4.21
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2025q3,ura_rental,27,2025Q3,2025,3,14,4.025,"URA Rental Median — District 27 | 2025Q3
+Properties tracked: 14
+Median rental PSF/month: SGD 4.03
+25th percentile rental PSF: SGD 3.70
+75th percentile rental PSF: SGD 4.29
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2025q4,ura_rental,27,2025Q4,2025,4,13,4.07,"URA Rental Median — District 27 | 2025Q4
+Properties tracked: 13
+Median rental PSF/month: SGD 4.07
+25th percentile rental PSF: SGD 3.71
+75th percentile rental PSF: SGD 4.50
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d27_2026q1,ura_rental,27,2026Q1,2026,1,15,3.87,"URA Rental Median — District 27 | 2026Q1
+Properties tracked: 15
+Median rental PSF/month: SGD 3.87
+25th percentile rental PSF: SGD 3.66
+75th percentile rental PSF: SGD 4.04
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2023q2,ura_rental,28,2023Q2,2023,2,8,4.535,"URA Rental Median — District 28 | 2023Q2
+Properties tracked: 8
+Median rental PSF/month: SGD 4.54
+25th percentile rental PSF: SGD 4.27
+75th percentile rental PSF: SGD 5.12
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2023q3,ura_rental,28,2023Q3,2023,3,7,5.0,"URA Rental Median — District 28 | 2023Q3
+Properties tracked: 7
+Median rental PSF/month: SGD 5.00
+25th percentile rental PSF: SGD 4.33
+75th percentile rental PSF: SGD 5.12
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2023q4,ura_rental,28,2023Q4,2023,4,6,4.17,"URA Rental Median — District 28 | 2023Q4
+Properties tracked: 6
+Median rental PSF/month: SGD 4.17
+25th percentile rental PSF: SGD 3.91
+75th percentile rental PSF: SGD 4.74
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2024q1,ura_rental,28,2024Q1,2024,1,6,4.470000000000001,"URA Rental Median — District 28 | 2024Q1
+Properties tracked: 6
+Median rental PSF/month: SGD 4.47
+25th percentile rental PSF: SGD 4.14
+75th percentile rental PSF: SGD 4.86
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2024q2,ura_rental,28,2024Q2,2024,2,6,4.220000000000001,"URA Rental Median — District 28 | 2024Q2
+Properties tracked: 6
+Median rental PSF/month: SGD 4.22
+25th percentile rental PSF: SGD 3.95
+75th percentile rental PSF: SGD 4.74
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2024q3,ura_rental,28,2024Q3,2024,3,7,4.5,"URA Rental Median — District 28 | 2024Q3
+Properties tracked: 7
+Median rental PSF/month: SGD 4.50
+25th percentile rental PSF: SGD 3.87
+75th percentile rental PSF: SGD 4.83
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2024q4,ura_rental,28,2024Q4,2024,4,6,4.365,"URA Rental Median — District 28 | 2024Q4
+Properties tracked: 6
+Median rental PSF/month: SGD 4.37
+25th percentile rental PSF: SGD 3.97
+75th percentile rental PSF: SGD 4.70
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2025q1,ura_rental,28,2025Q1,2025,1,6,4.485,"URA Rental Median — District 28 | 2025Q1
+Properties tracked: 6
+Median rental PSF/month: SGD 4.49
+25th percentile rental PSF: SGD 4.08
+75th percentile rental PSF: SGD 4.96
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2025q2,ura_rental,28,2025Q2,2025,2,8,4.365,"URA Rental Median — District 28 | 2025Q2
+Properties tracked: 8
+Median rental PSF/month: SGD 4.37
+25th percentile rental PSF: SGD 4.04
+75th percentile rental PSF: SGD 4.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2025q3,ura_rental,28,2025Q3,2025,3,7,4.5,"URA Rental Median — District 28 | 2025Q3
+Properties tracked: 7
+Median rental PSF/month: SGD 4.50
+25th percentile rental PSF: SGD 4.22
+75th percentile rental PSF: SGD 4.99
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2025q4,ura_rental,28,2025Q4,2025,4,8,4.335,"URA Rental Median — District 28 | 2025Q4
+Properties tracked: 8
+Median rental PSF/month: SGD 4.33
+25th percentile rental PSF: SGD 3.91
+75th percentile rental PSF: SGD 4.50
+Note: Based on properties with >= 10 rental contracts for this period.
+"
+ura_rent_d28_2026q1,ura_rental,28,2026Q1,2026,1,6,4.51,"URA Rental Median — District 28 | 2026Q1
+Properties tracked: 6
+Median rental PSF/month: SGD 4.51
+25th percentile rental PSF: SGD 4.11
+75th percentile rental PSF: SGD 4.80
+Note: Based on properties with >= 10 rental contracts for this period.
+"
