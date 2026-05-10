@@ -360,6 +360,7 @@ Rules:
 - CRITICAL: "planning to live there for X years" / "X year horizon" / "stay X years" = holding_years NOT loan_tenure
 - loan_tenure = only explicit loan/mortgage period. Default is 25 years — do NOT set it from living duration
 - If savings/cash mentioned without specifying CPF, put in "cash"
+- If user says "no CPF", "0 CPF", "no cpf savings", set cpf_oa to 0 explicitly
 - Only include fields you are confident about
 - Return {} if nothing extractable"""
 
@@ -617,69 +618,58 @@ def _svy21_to_wgs84(easting: float, northing: float) -> tuple[float, float]:
     return round(math.degrees(lat), 6), round(math.degrees(lon), 6)
 
 
+_PROJECT_LOC_CSV = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "project_locations.csv")
+_project_loc_df: "pd.DataFrame | None" = None
+
+def _load_project_locations() -> pd.DataFrame:
+    global _project_loc_df
+    if _project_loc_df is None:
+        _project_loc_df = pd.read_csv(_PROJECT_LOC_CSV)
+    return _project_loc_df
+
+
 @app.get("/projects-geo")
 async def projects_geo(
     planning_area: str = Query(...),
     _: None = Depends(verify_token),
 ):
-    """
-    Return project-level markers for a planning area (private condo resale only).
-    Resale transactions carry SVY21 coordinates → converted to WGS84 for Leaflet.
-    """
-    planning_area = planning_area.strip().upper()
-    districts = _AREA_TO_DISTRICTS.get(planning_area, [])
+    """Return pre-computed project-level markers for a planning area."""
+    planning_area_upper = planning_area.strip().upper()
+    resolved = _SUBAREA_TO_PLANNING_AREA.get(planning_area_upper, planning_area_upper)
+    districts = _AREA_TO_DISTRICTS.get(resolved, [])
     if not districts:
         return {"projects": [], "note": "No district mapping for this planning area"}
 
     try:
-        ura = _load_ura()
+        df = _load_project_locations()
     except FileNotFoundError:
-        raise HTTPException(status_code=503, detail="URA data not available")
+        return {"projects": [], "note": "Project location data not available"}
 
-    CONDO_TYPES = {"Condominium", "Apartment", "Executive Condominium"}
-    resale = ura[
-        ura["district"].isin(districts) &
-        ura["propertyType"].isin(CONDO_TYPES) &
-        ura["x"].notna() &
-        ura["year"].ge(2021)
-    ].copy()
+    subset = df[df["district"].isin(districts)].copy()
+    if subset.empty:
+        return {"projects": [], "note": "No project data for this area"}
 
-    if resale.empty:
-        return {"projects": [], "note": "No resale coordinate data for this area"}
-
-    # Aggregate per project
+    subset = subset.nlargest(80, "txn_count")
     projects = []
-    for (proj, street), grp in resale.groupby(["project", "street"]):
-        x_med = grp["x"].median()
-        y_med = grp["y"].median()
-        if pd.isna(x_med) or pd.isna(y_med):
-            continue
-        lat, lng = _svy21_to_wgs84(float(x_med), float(y_med))
-        # Only include if within Singapore bounding box
-        if not (1.15 <= lat <= 1.50 and 103.55 <= lng <= 104.10):
-            continue
-
-        recent = grp[grp["year"] >= 2024]
-        all_txns = grp
+    for _, row in subset.iterrows():
         projects.append({
-            "project": str(proj),
-            "street": str(street),
-            "lat": lat,
-            "lng": lng,
-            "median_psf_2024_26": int(recent["price_psf"].median()) if len(recent) > 0 else None,
-            "median_psf_all": int(all_txns["price_psf"].median()),
-            "txn_count_2024_26": int(len(recent)),
-            "txn_count_all": int(len(all_txns)),
-            "latest_year": int(grp["year"].max()),
-            "property_type": grp["propertyType"].mode().iloc[0] if len(grp) > 0 else "",
+            "project": str(row["project"]),
+            "street": str(row["street"]),
+            "lat": float(row["lat"]),
+            "lng": float(row["lng"]),
+            "median_psf_2024_26": int(row["median_psf"]) if pd.notna(row["median_psf"]) else None,
+            "median_psf_all": int(row["median_psf"]) if pd.notna(row["median_psf"]) else None,
+            "txn_count_2024_26": int(row["txn_count"]),
+            "txn_count_all": int(row["txn_count"]),
+            "latest_year": 2026,
+            "property_type": str(row["property_type"]),
         })
 
-    projects.sort(key=lambda p: p["txn_count_all"], reverse=True)
     return {
-        "projects": projects[:80],  # cap at 80 markers per area
+        "projects": projects,
         "area": planning_area.title(),
         "districts": districts,
-        "note": "Resale transactions only — new launches not included (no coordinates in URA data)",
+        "note": "Resale transactions only — new launches not included",
     }
 
 
