@@ -683,50 +683,34 @@ async def projects_geo(
     }
 
 
+_AREA_METRICS_CSV = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "area_metrics.csv")
+_area_metrics_df: "pd.DataFrame | None" = None
+
+def _load_area_metrics() -> pd.DataFrame:
+    global _area_metrics_df
+    if _area_metrics_df is None:
+        _area_metrics_df = pd.read_csv(_AREA_METRICS_CSV)
+    return _area_metrics_df
+
+
 @app.get("/areas-geo")
 async def areas_geo(_: None = Depends(verify_token)):
-    """
-    Return planning areas with real CAGR and PSF from URA + HDB transaction data.
-    Private condo: ura_clean.csv (2022–2026). HDB: hdb_clean.csv (2022–2026).
-    """
+    """Return pre-computed area metrics for the Hot Areas Map."""
     try:
-        ura = _load_ura()
+        df = _load_area_metrics()
     except FileNotFoundError:
-        raise HTTPException(status_code=503, detail="URA data not available")
-
-    CONDO_TYPES = {"Condominium", "Apartment", "Executive Condominium"}
-    condo = ura[ura["propertyType"].isin(CONDO_TYPES)].copy()
-
-    # Invert _AREA_TO_DISTRICTS to get district → planning_area
-    district_to_area: dict[int, str] = {}
-    for area, districts in _AREA_TO_DISTRICTS.items():
-        for d in districts:
-            if d not in district_to_area:
-                district_to_area[d] = area.title()
-
-    base  = condo[condo["year"].between(2022, 2023)]
-    recent = condo[condo["year"] >= 2024]
-
-    base_psf   = base.groupby("district")["price_psf"].median()
-    recent_psf = recent.groupby("district")["price_psf"].median()
-    recent_price = recent.groupby("district")["price"].median()
+        raise HTTPException(status_code=503, detail="Area metrics not available")
 
     areas = []
-    for district, coords_area in district_to_area.items():
-        coords = _AREA_CENTROIDS.get(coords_area)
-        if coords is None or district not in recent_psf:
-            continue
-        b = base_psf.get(district)
-        r = recent_psf[district]
-        cagr = round(((r / b) ** 0.5 - 1) * 100, 1) if b and b > 0 else 0.0
+    for _, row in df.iterrows():
         areas.append({
-            "planning_area": coords_area,
-            "region": "CCR" if district <= 11 else ("RCR" if district <= 20 else "OCR"),
-            "lat": coords[0],
-            "lng": coords[1],
-            "psf_cagr_pct": cagr,
+            "planning_area": str(row["planning_area"]),
+            "region": str(row.get("region", "OCR")),
+            "lat": float(row["lat"]),
+            "lng": float(row["lng"]),
+            "psf_cagr_pct": round(float(row["psf_cagr_pct"]), 1),
             "gross_yield_pct": None,
-            "latest_psf": int(round(r)),
+            "latest_psf": int(round(row["latest_psf"])),
         })
 
     # Deduplicate by planning_area (take highest CAGR if multiple districts map to same area)
