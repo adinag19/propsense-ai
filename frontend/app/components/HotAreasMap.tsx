@@ -65,7 +65,6 @@ function LeafletMap({
   onBack: () => void;
 }) {
   const { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } = require('react-leaflet');
-  require('leaflet/dist/leaflet.css');
 
   const values = areas.map(a => mode === 'cagr' ? a.psf_cagr_pct : a.latest_psf);
   const min = Math.min(...values);
