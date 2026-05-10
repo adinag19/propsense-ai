@@ -437,6 +437,16 @@ _AREA_TO_DISTRICTS: dict[str, list[int]] = {
 }
 
 
+_TXN_SUMMARY_CSV = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "transaction_summary.csv")
+_txn_summary_df: "pd.DataFrame | None" = None
+
+def _load_txn_summary() -> pd.DataFrame:
+    global _txn_summary_df
+    if _txn_summary_df is None:
+        _txn_summary_df = pd.read_csv(_TXN_SUMMARY_CSV)
+    return _txn_summary_df
+
+
 @app.get("/transactions")
 async def recent_transactions(
     planning_area: str = Query(...),
@@ -445,92 +455,74 @@ async def recent_transactions(
     years: int = Query(default=4, ge=1, le=8),
     _: None = Depends(verify_token),
 ):
-    """Return recent transaction summary for a planning area, sorted latest first."""
-    planning_area = planning_area.strip().upper()
+    """Return recent transaction summary using pre-computed data."""
+    planning_area_clean = planning_area.strip().upper()
+    resolved = _SUBAREA_TO_PLANNING_AREA.get(planning_area_clean, planning_area_clean)
+
+    try:
+        df = _load_txn_summary()
+    except FileNotFoundError:
+        raise HTTPException(status_code=503, detail="Transaction data not available")
 
     if property_type == "hdb":
-        try:
-            df = pd.read_csv(_HDB_CSV)
-        except FileNotFoundError:
-            raise HTTPException(status_code=503, detail="HDB data not available")
-
-        # Match town (HDB uses uppercase town names)
-        mask = df["town"].str.upper() == planning_area
+        mask = df["source"] == "hdb"
+        mask &= df["area"].str.upper() == resolved
         if flat_type:
             mask &= df["flat_type"].str.upper() == flat_type.upper().strip()
-        filtered = df[mask]
+        filtered = df[mask].nlargest(years, "year")
 
         if filtered.empty:
-            return {"transactions": [], "note": f"No HDB data found for {planning_area.title()}"}
+            return {"transactions": [], "note": f"No HDB data for {planning_area.title()}"}
 
-        # Aggregate by year — most recent first
-        recent_years = sorted(filtered["year"].unique(), reverse=True)[:years]
         rows = []
-        for yr in recent_years:
-            yr_df = filtered[filtered["year"] == yr]
+        for _, row in filtered.iterrows():
+            yr = int(row["year"])
             rows.append({
-                "year": int(yr),
-                "median_price": int(yr_df["resale_price"].median()),
-                "median_psf": int(yr_df["price_per_sqft"].median()),
-                "transactions": int(len(yr_df)),
-                "min_price": int(yr_df["resale_price"].min()),
-                "max_price": int(yr_df["resale_price"].max()),
+                "year": yr,
+                "median_price": int(row["median_price"]),
+                "median_psf": int(row["median_psf"]),
+                "transactions": int(row["count"]),
+                "min_price": int(row["min_price"]),
+                "max_price": int(row["max_price"]),
+                "note": f"Jan–May {yr} (partial)" if yr == 2026 else "",
             })
 
         flat_label = flat_type.title() if flat_type else "all flat types"
         return {
-            "transactions": rows,
-            "area": planning_area.title(),
-            "property_type": "HDB Resale",
-            "flat_type": flat_label,
+            "transactions": rows, "area": planning_area.title(),
+            "property_type": "HDB Resale", "flat_type": flat_label,
             "source": "HDB Resale Transaction Registry",
         }
 
     else:
-        # Private condo — use ura_clean.csv (118k transactions, 2021–2026)
-        try:
-            ura = _load_ura()
-        except FileNotFoundError:
-            raise HTTPException(status_code=503, detail="URA data not available")
-
-        # Resolve planning area → district(s), or accept raw district number
-        districts: list[int] = []
-        if planning_area.isdigit():
-            districts = [int(planning_area)]
-        else:
-            districts = _AREA_TO_DISTRICTS.get(planning_area, [])
-
+        source_val = "landed" if property_type == "landed" else "private"
+        districts = _AREA_TO_DISTRICTS.get(resolved, [])
         if not districts:
-            return {
-                "transactions": [], "area": planning_area.title(),
-                "property_type": "Private Condo", "flat_type": "", "source": "URA",
-                "note": f"No district mapping for {planning_area.title()} — try entering a district number (e.g. 09)",
-            }
+            return {"transactions": [], "note": f"No district mapping for {planning_area.title()}"}
 
-        filtered = ura[ura["district"].isin(districts)].copy()
-
-        # Property type filter
-        LANDED_TYPES = {"Terrace", "Semi-detached", "Detached", "Strata Terrace", "Strata Semi-detached", "Strata Detached"}
-        CONDO_TYPES  = {"Condominium", "Apartment", "Executive Condominium"}
-        prop_filter = list(LANDED_TYPES) if property_type == "landed" else list(CONDO_TYPES)
-        filtered = filtered[filtered["propertyType"].isin(prop_filter)]
+        mask = (df["source"] == source_val) & (df["district"].isin(districts))
+        filtered = df[mask].groupby("year").agg(
+            median_price=("median_price", "median"),
+            median_psf=("median_psf", "median"),
+            count=("count", "sum"),
+            min_price=("min_price", "min"),
+            max_price=("max_price", "max"),
+        ).reset_index().nlargest(years, "year")
 
         if filtered.empty:
-            return {"transactions": [], "note": f"No URA condo data for {planning_area.title()}"}
+            return {"transactions": [], "note": f"No data for {planning_area.title()}"}
 
-        recent_years = sorted(filtered["year"].unique(), reverse=True)[:years]
         rows = []
-        for yr in recent_years:
-            yr_df = filtered[filtered["year"] == yr]
-            note = f"Jan–May {yr} (partial)" if yr == 2026 else ""
+        for _, row in filtered.iterrows():
+            yr = int(row["year"])
             rows.append({
-                "year": int(yr),
-                "median_price": int(yr_df["price"].median()),
-                "median_psf": int(yr_df["price_psf"].median()),
-                "transactions": int(len(yr_df)),
-                "min_price": int(yr_df["price"].min()),
-                "max_price": int(yr_df["price"].max()),
-                "note": note,
+                "year": yr,
+                "median_price": int(row["median_price"]),
+                "median_psf": int(row["median_psf"]),
+                "transactions": int(row["count"]),
+                "min_price": int(row["min_price"]),
+                "max_price": int(row["max_price"]),
+                "note": f"Jan–May {yr} (partial)" if yr == 2026 else "",
             })
 
         district_label = "/".join(f"D{d:02d}" for d in sorted(districts))
