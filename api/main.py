@@ -37,10 +37,14 @@ load_dotenv()
 BEARER_TOKEN = os.getenv("API_BEARER_TOKEN", "")
 MAX_QUERY_LENGTH = 2000
 
-_HDB_CSV       = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "hdb_clean.csv")
-_AMENITIES_CSV = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "area_amenities.csv")
-_hdb_summary:  "pd.DataFrame | None" = None
-_amenities_df: "pd.DataFrame | None" = None
+_HDB_CSV          = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "hdb_clean.csv")
+_AMENITIES_CSV    = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "area_amenities.csv")
+_HDB_SUMMARY_CSV  = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "hdb_area_summary.csv")
+_URA_SUMMARY_CSV  = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "ura_area_summary.csv")
+_hdb_summary:     "pd.DataFrame | None" = None
+_amenities_df:    "pd.DataFrame | None" = None
+_hdb_summary_pre: "pd.DataFrame | None" = None
+_ura_summary_pre: "pd.DataFrame | None" = None
 
 
 def _load_amenities() -> pd.DataFrame:
@@ -48,6 +52,22 @@ def _load_amenities() -> pd.DataFrame:
     if _amenities_df is None:
         _amenities_df = pd.read_csv(_AMENITIES_CSV)
     return _amenities_df
+
+
+def _load_hdb_area_summary() -> pd.DataFrame:
+    """Pre-computed HDB area summary — small file, always available on Render."""
+    global _hdb_summary_pre
+    if _hdb_summary_pre is None:
+        _hdb_summary_pre = pd.read_csv(_HDB_SUMMARY_CSV)
+    return _hdb_summary_pre
+
+
+def _load_ura_area_summary() -> pd.DataFrame:
+    """Pre-computed URA private condo district summary."""
+    global _ura_summary_pre
+    if _ura_summary_pre is None:
+        _ura_summary_pre = pd.read_csv(_URA_SUMMARY_CSV)
+    return _ura_summary_pre
 
 
 def _load_hdb_summary() -> pd.DataFrame:
@@ -830,9 +850,12 @@ _HDB_TOWN_DISTRICT: dict[str, int] = {
 def _suggest_hdb(property_price: float, top_n: int, flat_type: str | None = None,
                  district_filter: set[int] | None = None) -> dict:
     try:
-        summary = _load_hdb_summary()
+        summary = _load_hdb_area_summary()
     except FileNotFoundError:
-        raise HTTPException(status_code=503, detail="HDB data not available")
+        try:
+            summary = _load_hdb_summary()  # fallback to full CSV if available locally
+        except FileNotFoundError:
+            raise HTTPException(status_code=503, detail="HDB data not available")
 
     if flat_type:
         pool = summary[summary["flat_type"].str.upper() == flat_type]
@@ -895,22 +918,10 @@ def _suggest_hdb(property_price: float, top_n: int, flat_type: str | None = None
 def _suggest_private(property_price: float, top_n: int,
                      region_filter: list[str] | None = None,
                      district_filter: set[int] | None = None) -> dict:
-    """Suggest private condo areas using real URA transaction data (2024–2026)."""
-    try:
-        ura = _load_ura()
-    except FileNotFoundError:
-        raise HTTPException(status_code=503, detail="URA data not available")
-
-    CONDO_TYPES = {"Condominium", "Apartment", "Executive Condominium"}
-    condo = ura[ura["propertyType"].isin(CONDO_TYPES)]
-
-    base   = condo[condo["year"].between(2022, 2023)].groupby("district")["price_psf"].median()
-    recent = condo[condo["year"] >= 2024].groupby("district")["price_psf"].median()
-    prices = condo[condo["year"] >= 2024].groupby("district")["price"].median()
-    # Get correct region from URA data (CCR/RCR/OCR per district)
-    region_map = condo.groupby("district")["marketSegment"].first()
-
-    typical_sqft = 1000
+    """Suggest private condo areas using pre-computed area summary."""
+    # Load pre-computed area metrics (always available on Render)
+    am = _load_area_metrics()  # has planning_area, lat, lng, psf_cagr_pct, latest_psf, region
+    ura_sum = _load_ura_area_summary()  # has district, median_price, median_psf
 
     # Invert district → area mapping
     district_to_area: dict[int, str] = {}
@@ -919,33 +930,42 @@ def _suggest_private(property_price: float, top_n: int,
             if d not in district_to_area:
                 district_to_area[d] = area.title()
 
-    rows = []
-    for district, area_name in district_to_area.items():
-        if district not in recent:
-            continue
-        r = recent[district]
-        b = base.get(district)
-        med_price = int(round(float(prices.get(district, r * typical_sqft)) / 10_000) * 10_000)
+    # Build district→price lookup from ura_area_summary
+    price_by_district = dict(zip(ura_sum["district"], ura_sum["median_price"]))
+    psf_by_district = dict(zip(ura_sum["district"], ura_sum["median_psf"]))
 
-        # Hard budget cap — estimated price must be within budget
+    rows = []
+    for _, am_row in am.iterrows():
+        area_name = str(am_row["planning_area"])
+        districts = _AREA_TO_DISTRICTS.get(area_name.upper(), [])
+        if not districts:
+            continue
+        d = districts[0]
+        med_price = price_by_district.get(d)
+        if not med_price:
+            continue
+        med_price = int(round(float(med_price) / 10_000) * 10_000)
+
+        # Hard budget cap
         if med_price > property_price * 1.15:
             continue
 
-        region = str(region_map.get(district, "OCR"))
+        region = str(am_row.get("region", "OCR"))
 
-        # District-level geo filter (precise: east vs west vs north)
-        if district_filter and district not in district_filter:
+        # District-level geo filter
+        if district_filter and d not in district_filter:
             continue
         # Fallback region filter
         if region_filter and not district_filter and region not in region_filter:
             continue
 
-        cagr = round(((r / b) ** 0.5 - 1) * 100, 1) if b and b > 0 else 0.0
+        cagr = round(float(am_row.get("psf_cagr_pct", 0)), 1)
+        latest_psf = int(round(float(am_row.get("latest_psf", psf_by_district.get(d, 0)))))
         rows.append({
             "planning_area": area_name,
             "flat_type": None,
             "region": region,
-            "latest_psf": int(round(r)),
+            "latest_psf": latest_psf,
             "estimated_price": med_price,
             "psf_cagr_pct": cagr,
             "gross_yield_pct": None,
@@ -1031,13 +1051,13 @@ async def score_endpoint(
         except Exception:
             pass
 
-    # Inject pre-computed area benchmark from real CSVs — bypasses Pinecone for price comparison
+    # Inject pre-computed area benchmark — uses small committed CSVs (works on Render)
     if body.planning_area:
         try:
             if body.is_hdb:
-                hdb_s = _load_hdb_summary()
-                flat_t = (body.model_dump().get("flat_type") or "").upper().strip()
-                mask = hdb_s["town"].str.upper() == body.planning_area.upper()
+                hdb_s = _load_hdb_area_summary()
+                flat_t = (body.flat_type or "").upper().strip()
+                mask = hdb_s["town"].str.upper() == body.planning_area.strip().upper()
                 if flat_t:
                     mask &= hdb_s["flat_type"].str.upper() == flat_t
                 row = hdb_s[mask]
@@ -1045,22 +1065,16 @@ async def score_endpoint(
                     profile["area_median_price_2024_26"] = int(row["median_price"].median())
                     profile["area_median_psf_2024_26"] = int(row["latest_psf"].median())
             else:
-                # Resolve sub-area to parent for district lookup
                 lookup = _SUBAREA_TO_PLANNING_AREA.get(
                     body.planning_area.strip().upper(), body.planning_area.strip()
                 )
                 districts = _AREA_TO_DISTRICTS.get(lookup.upper(), [])
                 if districts:
-                    ura = _load_ura()
-                    CONDO_TYPES = {"Condominium", "Apartment", "Executive Condominium"}
-                    recent = ura[
-                        ura["district"].isin(districts) &
-                        ura["propertyType"].isin(CONDO_TYPES) &
-                        ura["year"].ge(2024)
-                    ]
-                    if len(recent) > 0:
-                        profile["area_median_price_2024_26"] = int(recent["price"].median())
-                        profile["area_median_psf_2024_26"] = int(recent["price_psf"].median())
+                    ura_s = _load_ura_area_summary()
+                    row = ura_s[ura_s["district"].isin(districts)]
+                    if len(row) > 0:
+                        profile["area_median_price_2024_26"] = int(row["median_price"].median())
+                        profile["area_median_psf_2024_26"] = int(row["median_psf"].median())
         except Exception:
             pass
 
