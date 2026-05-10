@@ -2,7 +2,7 @@
 
 **DataExpert.io AI Engineering Bootcamp — Spring 2026 Capstone**  
 **Author:** Nag Aditya Gade  
-**Frontend (Live):** https://propsense-2ivzh2xe6-adinag19s-projects.vercel.app  
+**Frontend (Live):** https://propsense-ai.vercel.app  
 **Backend API:** https://propsense-ai-x0ni.onrender.com  
 **GitHub:** https://github.com/adinag19/propsense-ai
 
